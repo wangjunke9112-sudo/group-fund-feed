@@ -12,8 +12,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: 诊断抓取
-        run: |
+      - name: 真实抓取
+        run: python gz_fund_poc.py --live --pages 1
           mkdir -p data
           python3 -u - <<'PY'
           import urllib.request, re, traceback
