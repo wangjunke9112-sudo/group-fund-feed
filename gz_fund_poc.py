@@ -33,8 +33,37 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
 
-LIST_URL = "https://www.gz.gov.cn/xw/tzgg/"          # page 0 (newest)
-# older pages on this CMS are index_1.html, index_2.html, ... (used by backfill)
+LIST_URL = "https://www.gz.gov.cn/xw/tzgg/"          # the notice column (page 1)
+
+# Pagination, verified 2026-07-18 from the live page's own markup/JS:
+#   page 1  -> https://www.gz.gov.cn/xw/tzgg/        (NOT index_1.html - 404)
+#   page 2  -> .../index_2.html
+#   page N  -> .../index_N.html
+#   last    -> .../index_100.html   (site caps pages_limit=100)
+# The page's JS declares:  var totalPage = Math.ceil(2380/20); pages_limit=100
+# => ~2380 notices exist, at most 2000 reachable by paging. Enough to reach 2024.
+def page_url(n):
+    """n is 1-indexed. Page 1 is the bare column URL, not index_1.html."""
+    return LIST_URL if n <= 1 else LIST_URL + f"index_{n}.html"
+
+
+_TOTALPAGE_RE = re.compile(r"Math\.ceil\((\d+)\s*/\s*(\d+)\)")
+_PAGESLIMIT_RE = re.compile(r"pages_limit\s*=\s*(\d+)")
+
+
+def detect_totals(html_text):
+    """Read the site's own declared totals from its pagination JS.
+    Returns (total_items, per_page, pages_limit) with None where unknown."""
+    total_items = per_page = limit = None
+    m = _TOTALPAGE_RE.search(html_text or "")
+    if m:
+        total_items, per_page = int(m.group(1)), int(m.group(2))
+    m2 = _PAGESLIMIT_RE.search(html_text or "")
+    if m2:
+        limit = int(m2.group(1))
+    return (total_items, per_page, limit)
+
+
 DEPARTMENT = "市科技局"                                # what we tag this source as
 LEVEL = "市"                                          # 国家/省/市/港澳/校内
 SOURCE_ID = "gz_kjj"
@@ -372,37 +401,99 @@ def clean_text(value):
 # ===========================================================================
 # 8. LIVE FETCH  (urllib only; NOT runnable in the sandbox -- no network)
 # ===========================================================================
-def fetch_live(pages=1, sleep=1.0):
+def load_notices():
+    """Load previously stored notices so repeated runs accumulate (resumable
+    backfill) instead of overwriting."""
+    path = os.path.join(DATA_DIR, "notices.json")
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            return json.load(fh).get("notices", [])
+    except Exception:
+        return []
+
+
+# Titles worth opening a detail page for. Kept broad on purpose: cheap to widen,
+# expensive to miss. Everything else is skipped WITHOUT a detail fetch.
+_TITLE_PREFILTER_RE = re.compile(
+    r"科技|科学技术|自然科学|基础研究|研发|创新|人才|实验室|重点领域|产学研|专项")
+
+
+def fetch_live(pages=1, until=None, sleep=1.0, verbose=True):
+    """Walk the notice column from page 1 outward.
+
+    pages : how many list pages to walk this run
+    until : ISO date string; stop once list items are older than this
+            (e.g. '2024-01-01' for the 2-year backfill)
+    Resumable: already-stored notice ids are skipped without a detail fetch,
+    so you can run --pages 10 repeatedly and keep going deeper each time.
+    """
     import time
     import urllib.request
+
+    known = {r["id"] for r in load_notices()}
     records = []
-    for page in range(pages):
-        url = LIST_URL if page == 0 else LIST_URL + f"index_{page}.html"
+    stop = False
+
+    for n in range(1, pages + 1):
+        url = page_url(n)
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            req = urllib.request.Request(url, headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+                "Accept-Language": "zh-CN,zh;q=0.9",
+            })
             listing = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
         except Exception as exc:
             print(f"[list] {url}  ERROR {type(exc).__name__}: {exc}")
             break
+
         items = parse_list(listing)
-        print(f"[list] {url}  {len(items)} links")
+        if n == 1:
+            tot, per, lim = detect_totals(listing)
+            if tot:
+                print(f"[site] 共 {tot} 条 · 每页 {per} 条 · 最多可翻 {lim} 页 "
+                      f"(≈{(lim or 0) * (per or 0)} 条可达)")
+        print(f"[list] p{n} {url}  {len(items)} links")
+        if not items:
+            break
+
         for it in items:
-            # keep only 科技局 notices (title-level pre-filter saves detail fetches)
-            if "科技" not in it["title"] and "科学技术局" not in it["title"]:
-                continue
+            # date cutoff: list is newest-first, so once we pass it we can stop
+            if until and it.get("published") and it["published"] < until:
+                print(f"[stop] 已回溯到 {it['published']} < {until}，停止")
+                stop = True
+                break
+
+            nid = SOURCE_ID + ":" + _post_id(it["url"])
+            if nid in known:
+                continue                        # already have it; no detail fetch
+            if not _TITLE_PREFILTER_RE.search(it["title"]):
+                continue                        # not science/tech related
+
             try:
                 req = urllib.request.Request(it["url"], headers={"User-Agent": USER_AGENT})
                 page_html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
             except Exception as exc:
                 print(f"   [detail] {it['url']}  ERROR {exc}")
                 continue
+
             detail = parse_detail(page_html, url=it["url"])
-            if not detail["published"]:
+            if not detail.get("published"):
                 detail["published"] = it.get("published", "")
+            if not detail.get("title"):
+                detail["title"] = it["title"]
             rec = build_record(detail)
             records.append(rec)
+            known.add(nid)
+            if verbose:
+                tag = rec["tags"][0]
+                print(f"   + [{tag}] {rec['published']} {rec['title'][:38]}")
             time.sleep(sleep)
+
+        if stop:
+            break
         time.sleep(sleep)
+
     return records
 
 
@@ -494,6 +585,18 @@ def _demo_records():
 # ===========================================================================
 def selftest():
     print("Running offline self-test on REAL captured structure...")
+
+    # --- pagination (this is what broke: index_1.html does NOT exist) ---
+    assert page_url(1) == "https://www.gz.gov.cn/xw/tzgg/", page_url(1)
+    assert page_url(2) == "https://www.gz.gov.cn/xw/tzgg/index_2.html", page_url(2)
+    assert page_url(100) == "https://www.gz.gov.cn/xw/tzgg/index_100.html"
+    assert "index_1.html" not in page_url(1)
+
+    # --- totals read from the page's own JS (real snippet) ---
+    real_js = ("// 总页数 var totalPage = Math.ceil(2380/20); var pages_limit=100; "
+               "if(totalPage>pages_limit){ totalPage=pages_limit }")
+    assert detect_totals(real_js) == (2380, 20, 100), detect_totals(real_js)
+    assert detect_totals("no js here") == (None, None, None)
 
     # --- list parsing (against EXACT real markup: comments inside <a>,
     #     target attr between href and title, date in <span class="time">) ---
@@ -598,20 +701,28 @@ if __name__ == "__main__":
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--demo", action="store_true")
     ap.add_argument("--live", action="store_true")
-    ap.add_argument("--pages", type=int, default=1)
+    ap.add_argument("--pages", type=int, default=1,
+                    help="本次抓取翻多少页（第1页=最新）")
+    ap.add_argument("--until", default=None,
+                    help="回溯截止日期，如 2024-01-01；遇到更早的条目即停止")
     args = ap.parse_args()
     if args.selftest:
         selftest()
     elif args.demo:
         demo()
     elif args.live:
-        recs = fetch_live(pages=args.pages)
-        recs = merge([], recs)
+        fresh = fetch_live(pages=args.pages, until=args.until)
+        recs = merge(load_notices(), fresh)
         gen = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         _write("notices.json", {"generated": gen, "source": DEPARTMENT,
                                 "count": len(recs), "notices": recs})
         _write("calendar.json", {"generated": gen, "calendar": derive_calendar(recs)})
-        print(f"\nWrote {len(recs)} notices to {DATA_DIR}/notices.json")
+        opp = sum(1 for r in recs if r.get("is_opportunity"))
+        oldest = min((r.get("published", "") for r in recs if r.get("published")), default="—")
+        print("-" * 60)
+        print(f"本次新增 {len(fresh)} 条 · 库内合计 {len(recs)} 条 "
+              f"（其中申报机会 {opp} 条）· 最早回溯至 {oldest}")
+        print(f"Wrote {DATA_DIR}/notices.json + calendar.json")
     else:
         ap.print_help()
         sys.exit(1)
