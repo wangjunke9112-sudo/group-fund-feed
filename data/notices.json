@@ -1,32 +1,32 @@
 {
- "generated": "2026-07-17 16:27 UTC",
+ "generated": "2026-07-18 05:17 UTC",
  "source": "市科技局",
  "count": 5,
  "notices": [
   {
-   "id": "gz_kjj:10849284",
-   "title": "广州市科学技术局关于组织开展广州市2026年高新技术企业认定工作的通知",
-   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html",
-   "department": "市科技局",
+   "id": "gz_kjj:10864378",
+   "title": "广州市科学技术局关于举办2026年广州科技创新创业大赛全球赛暨香港科大百万奖金创业大赛广州赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10864378.html",
+   "department": "广州市科学技术局",
    "level": "市",
-   "published": "2026-06-10",
-   "deadline": "2026-03-15",
+   "published": "2026-06-22",
+   "deadline": "2026-08-14",
    "deadline_confidence": "explicit",
    "is_opportunity": false,
    "relevant": false,
    "keywords": [],
    "tags": [
-    "verify"
+    "vip"
    ],
-   "status": "closed"
+   "status": "open"
   },
   {
-   "id": "gz_kjj:10230914",
-   "title": "广州市科学技术局关于开展2025年市科技计划项目验收工作的通知",
-   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10230914.html",
-   "department": "市科技局",
+   "id": "gz_kjj:10862753",
+   "title": "【活动预告】解锁海洋药物和功能制品合作新机遇，这场海洋科技产业供需对接会别错过！",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10862753.html",
+   "department": "广州市规划和自然资源局",
    "level": "市",
-   "published": "2025-04-23",
+   "published": "2026-06-18",
    "deadline": null,
    "deadline_confidence": "unknown",
    "is_opportunity": false,
@@ -38,56 +38,53 @@
    "status": "unknown"
   },
   {
-   "id": "gz_kjj:https://www.gz.gov.cn/xw/tzgg/content/post_demo1.html",
-   "title": "广州市基础研究计划2025年度市校院联合资助项目申报指南",
-   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_demo1.html",
-   "department": "市科技局",
+   "id": "gz_kjj:10856568",
+   "title": "广州市科学技术局关于开展2026年科技型中小企业评价工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10856568.html",
+   "department": "广州市科学技术局",
    "level": "市",
-   "published": "2025-03-05",
-   "deadline": "2025-04-20",
-   "deadline_confidence": "explicit",
-   "is_opportunity": true,
-   "relevant": false,
-   "keywords": [],
-   "tags": [
-    "vip"
-   ],
-   "status": "closed"
-  },
-  {
-   "id": "gz_kjj:https://www.gz.gov.cn/xw/tzgg/content/post_demo2.html",
-   "title": "广州市重点领域研发计划2025年度新能源与新材料专题申报指南",
-   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_demo2.html",
-   "department": "市科技局",
-   "level": "市",
-   "published": "2025-02-20",
-   "deadline": "2026-03-15",
-   "deadline_confidence": "explicit",
-   "is_opportunity": true,
-   "relevant": true,
-   "keywords": [
-    "新能源",
-    "材料"
-   ],
-   "tags": [
-    "team"
-   ],
-   "status": "closed"
-  },
-  {
-   "id": "gz_kjj:9600238",
-   "title": "广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知",
-   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600238.html",
-   "department": "市科技局",
-   "level": "市",
-   "published": "2024-04-16",
+   "published": "2026-06-15",
    "deadline": null,
-   "deadline_confidence": "rolling",
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_kjj:10853942",
+   "title": "广州市卫生健康委员会关于印发2027年度广州市卫生健康科技一般引导项目和两新项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10853942.html",
+   "department": "广州市卫生健康委员会",
+   "level": "市",
+   "published": "2026-06-12",
+   "deadline": "2026-07-24",
+   "deadline_confidence": "explicit",
    "is_opportunity": true,
    "relevant": false,
    "keywords": [],
    "tags": [
-    "team"
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_kjj:10849284",
+   "title": "广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2026年高新技术企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html",
+   "department": "广州市科学技术局",
+   "level": "市",
+   "published": "2026-06-10",
+   "deadline": "2026-09-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
    ],
    "status": "open"
   }
