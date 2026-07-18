@@ -1,6 +1,95 @@
 {
- "generated": "2026-07-18 03:38 UTC",
+ "generated": "2026-07-17 16:27 UTC",
  "source": "市科技局",
- "count": 0,
- "notices": []
+ "count": 5,
+ "notices": [
+  {
+   "id": "gz_kjj:10849284",
+   "title": "广州市科学技术局关于组织开展广州市2026年高新技术企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html",
+   "department": "市科技局",
+   "level": "市",
+   "published": "2026-06-10",
+   "deadline": "2026-03-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_kjj:10230914",
+   "title": "广州市科学技术局关于开展2025年市科技计划项目验收工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10230914.html",
+   "department": "市科技局",
+   "level": "市",
+   "published": "2025-04-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_kjj:https://www.gz.gov.cn/xw/tzgg/content/post_demo1.html",
+   "title": "广州市基础研究计划2025年度市校院联合资助项目申报指南",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_demo1.html",
+   "department": "市科技局",
+   "level": "市",
+   "published": "2025-03-05",
+   "deadline": "2025-04-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_kjj:https://www.gz.gov.cn/xw/tzgg/content/post_demo2.html",
+   "title": "广州市重点领域研发计划2025年度新能源与新材料专题申报指南",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_demo2.html",
+   "department": "市科技局",
+   "level": "市",
+   "published": "2025-02-20",
+   "deadline": "2026-03-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "新能源",
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_kjj:9600238",
+   "title": "广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600238.html",
+   "department": "市科技局",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  }
+ ]
 }
