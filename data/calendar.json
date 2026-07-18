@@ -1,4 +1,25 @@
 {
- "generated": "2026-07-18 03:38 UTC",
- "calendar": []
+ "generated": "2026-07-17 16:27 UTC",
+ "calendar": [
+  {
+   "call_type": "基础研究计划",
+   "months": [
+    "03"
+   ],
+   "counts": {
+    "03": 1
+   }
+  },
+  {
+   "call_type": "重点领域研发",
+   "months": [
+    "02",
+    "04"
+   ],
+   "counts": {
+    "02": 1,
+    "04": 1
+   }
+  }
+ ]
 }
