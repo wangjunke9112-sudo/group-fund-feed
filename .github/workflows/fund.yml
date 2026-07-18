@@ -15,8 +15,8 @@ jobs:
           python-version: '3.12'
       - name: 离线自测
         run: python gz_fund_poc.py --selftest
-      - name: 真实抓取（这一步就是境外IP测试）
-        run: python gz_fund_poc.py --live --pages 1
+      - name: dump原始HTML
+        run: python dump.py
       - name: 把结果写回仓库
         if: always()
         run: |
