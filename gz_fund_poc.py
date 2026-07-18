@@ -49,26 +49,55 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 # title="..">TITLE</a> followed by a YYYY-MM-DD date. We stay tolerant: pull
 # every post_*.html link on the page and the date nearest after it.
 # ===========================================================================
-_POST_HREF_RE = re.compile(
-    r'href="(?P<url>https?://[^"]*?/xw/tzgg/content/post_\d+\.html)"'
-    r'[^>]*?(?:title="(?P<title>[^"]*)")?\s*>(?P<text>[^<]*)</a>',
-    re.I | re.S)
-_DATE_RE = re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
+# Real markup (verified 2026-07-18 on a live GitHub Actions fetch):
+#   <li>
+#     <i></i>
+#     <a href="https://www.gz.gov.cn/xw/tzgg/content/post_N.html"
+#        target="_blank" title="TITLE">
+#         <!-- 规章文件 -->            <-- HTML COMMENTS live inside the anchor
+#         TITLE</a>
+#     <span class="time">2026-07-17</span>
+#   </li>
+# Lessons encoded below: (a) never assume attribute order, (b) never assume the
+# anchor's inner text is comment-free, (c) the date is in a following
+# <span class="time">, not bare text.
+_ANCHOR_RE = re.compile(
+    r'<a\b(?P<attrs>[^>]*href="(?P<url>https?://[^"]*?/content/post_\d+\.html)"[^>]*)>',
+    re.I)
+_TITLE_ATTR_RE = re.compile(r'title="([^"]*)"', re.I)
+_TIME_SPAN_RE = re.compile(
+    r'<span[^>]*class="[^"]*time[^"]*"[^>]*>\s*(20\d{2})-(\d{1,2})-(\d{1,2})', re.I)
+_DATE_RE = re.compile(r"(20\d{2})-(\d{1,2})-(\d{1,2})")
+_COMMENT_RE_HTML = re.compile(r"<!--.*?-->", re.S)
 
 
 def parse_list(html_text):
     """Return [{'title','url','published'}] from a notice list page's HTML.
-    Robust to minor markup changes: anchor to post_*.html links, then take the
-    first YYYY-MM-DD that appears after each link."""
+
+    Order-independent on attributes; tolerates HTML comments inside the anchor;
+    reads the date from the following <span class="time"> (falling back to any
+    nearby YYYY-MM-DD)."""
     items = []
-    for m in _POST_HREF_RE.finditer(html_text):
+    for m in _ANCHOR_RE.finditer(html_text):
         url = m.group("url")
-        title = clean_text(m.group("title") or m.group("text"))
+        # 1) prefer the title="" attribute (authoritative, comment-free)
+        tm = _TITLE_ATTR_RE.search(m.group("attrs"))
+        title = clean_text(tm.group(1)) if tm else ""
+        # 2) fall back to anchor inner text with comments stripped
+        if not title:
+            close = html_text.find("</a>", m.end())
+            if close > 0:
+                inner = _COMMENT_RE_HTML.sub(" ", html_text[m.end():close])
+                title = clean_text(inner)
         if not title:
             continue
-        tail = html_text[m.end():m.end() + 120]      # date sits just after the link
-        dm = _DATE_RE.search(tail)
-        published = f"{dm.group(1)}-{dm.group(2)}-{dm.group(3)}" if dm else ""
+        # 3) date: the <span class="time"> right after the link
+        tail = html_text[m.end():m.end() + 600]
+        sm = _TIME_SPAN_RE.search(tail) or _DATE_RE.search(tail)
+        published = ""
+        if sm:
+            y, mo, d = sm.group(1), sm.group(2), sm.group(3)
+            published = f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
         items.append({"title": title, "url": url, "published": published})
     # de-dup by url, keep first (newest) occurrence
     seen, out = set(), []
@@ -392,13 +421,38 @@ FIX_DETAIL = '''<html><head>
 <p>六、申报时间 本项目常年申报。申报单位网上申报开始时间为2024年5月10日9:00。</p>
 </body></html>'''
 
-# real list-page rows (three real科技局-relevant items + noise from other bureaus)
+# EXACT real list markup, captured 2026-07-18 from a live GitHub Actions fetch
+# (HTTP 200, 74601 bytes). Note the comments inside <a> and the <span class="time">.
 FIX_LIST = '''
-<ul>
-<li><a href="https://www.gz.gov.cn/xw/tzgg/content/post_10854029.html" title="广州市教育局关于公布市属学校校服款式的通知">广州市教育局关于公布市属学校校服款式的通知</a> 2026-06-12</li>
-<li><a href="https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html" title="广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2026年高新技术企业认定工作的通知">广州市科学技术局 广州市财政局 关于组织开展广州市2026年高新技术企业认定工作的通知</a> 2026-06-10</li>
-<li><a href="https://www.gz.gov.cn/xw/tzgg/content/post_9600238.html" title="广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知">广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知</a> 2024-04-16</li>
-</ul>'''
+    <div class="main_border">
+      <ul class="news_list">
+                <li>
+            <i></i>
+            <a href="https://www.gz.gov.cn/xw/tzgg/content/post_10905933.html" target="_blank" title="致市民的一封信">
+              <!-- 规章文件 -->
+                        <!-- 规范性文件 -->
+
+                        <!-- 其他文件 -->
+
+                致市民的一封信</a>
+            <span class="time">2026-07-17</span>
+          </li>
+                <li>
+            <i></i>
+            <a href="https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html" target="_blank" title="广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2026年高新技术企业认定工作的通知">
+              <!-- 规章文件 -->
+                广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2026年高新技术企业认定工作的通知</a>
+            <span class="time">2026-06-10</span>
+          </li>
+                <li>
+            <i></i>
+            <a href="https://www.gz.gov.cn/xw/tzgg/content/post_9600238.html" target="_blank" title="广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知">
+              <!-- 其他文件 -->
+                广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知</a>
+            <span class="time">2024-04-16</span>
+          </li>
+      </ul>
+    </div>'''
 
 # real body sentences (deadline forms) observed on this portal
 FIX_BODIES = {
@@ -441,12 +495,19 @@ def _demo_records():
 def selftest():
     print("Running offline self-test on REAL captured structure...")
 
-    # --- list parsing ---
+    # --- list parsing (against EXACT real markup: comments inside <a>,
+    #     target attr between href and title, date in <span class="time">) ---
     items = parse_list(FIX_LIST)
     assert len(items) == 3, items
-    assert items[0]["url"].endswith("post_10854029.html")
-    assert items[0]["published"] == "2026-06-12", items[0]
-    assert "校服" in items[0]["title"]
+    assert items[0]["url"].endswith("post_10905933.html"), items[0]
+    assert items[0]["title"] == "致市民的一封信", items[0]
+    assert items[0]["published"] == "2026-07-17", items[0]
+    assert items[1]["published"] == "2026-06-10", items[1]
+    assert "高新技术企业认定" in items[1]["title"], items[1]
+    assert items[2]["published"] == "2024-04-16", items[2]
+    # comments inside the anchor must not leak into the title
+    assert all("规章文件" not in it["title"] for it in items), items
+    assert all("<!--" not in it["title"] for it in items), items
 
     # --- detail meta parsing (authoritative) ---
     d = parse_detail(FIX_DETAIL)
