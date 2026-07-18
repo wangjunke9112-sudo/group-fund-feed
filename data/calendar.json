@@ -1,41 +1,179 @@
 {
- "generated": "2026-07-18 05:54 UTC",
- "calendar": [
-  {
-   "call_type": "其他",
-   "months": [
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "10",
-    "12"
-   ],
-   "counts": {
-    "06": 4,
-    "04": 8,
-    "03": 1,
-    "02": 3,
-    "12": 1,
-    "10": 1,
-    "08": 2,
-    "07": 2,
-    "05": 3,
-    "01": 2
-   }
-  },
-  {
-   "call_type": "粤港澳",
-   "months": [
-    "08"
-   ],
-   "counts": {
-    "08": 1
-   }
-  }
- ]
+  "_readme": [
+    "手工维护的日历锚点 + 人工巡检清单。",
+    "凡是不能/不宜自动抓取的来源（如 robots 限制的省科技厅），其时间规律写在这里，",
+    "与从历史通知自动派生的季节性合并显示。",
+    "confidence 字段：",
+    "  verified  = 来自已核实的真实通知发布记录",
+    "  estimated = 依据经验或往年惯例，需以当年官方指南为准",
+    "所有条目在正式申报前，都请向科研院/袁老师核实当年官方口径。"
+  ],
+
+  "anchors": [
+    {
+      "name": "NSFC 面上项目",
+      "org": "国家自然科学基金委",
+      "level": "国家",
+      "months": [1, 2, 3],
+      "peak": 3,
+      "window": "1月发布指南 · 3月20日前后依托单位集中提交截止",
+      "tag": "vip",
+      "confidence": "estimated",
+      "note": "全年最硬的时间锚点；海优在研占用限项名额，同年再报第2项NSFC需权衡",
+      "url": "https://www.nsfc.gov.cn/"
+    },
+    {
+      "name": "NSFC 青年科学基金 / 优青",
+      "org": "国家自然科学基金委",
+      "level": "国家",
+      "months": [1, 2, 3],
+      "peak": 3,
+      "window": "与面上同期",
+      "tag": "red",
+      "confidence": "estimated",
+      "note": "已主持海外优青，此类同级青年人才个人项目一般不可再申（仍以当年限项规定为准）",
+      "url": "https://www.nsfc.gov.cn/"
+    },
+    {
+      "name": "NSFC 结果公布",
+      "org": "国家自然科学基金委",
+      "level": "国家",
+      "months": [8],
+      "peak": 8,
+      "window": "8月前后公布",
+      "tag": "info",
+      "confidence": "estimated",
+      "note": "用于规划下一轮申报",
+      "url": "https://www.nsfc.gov.cn/"
+    },
+    {
+      "name": "广东省基础与应用基础研究基金（面上/青年/联合基金）",
+      "org": "广东省基础与应用基础研究基金委员会",
+      "level": "省",
+      "months": [4, 5],
+      "peak": 4,
+      "window": "2026年度通知于 2026-04-30 前后发布",
+      "tag": "vip",
+      "confidence": "verified",
+      "note": "已核实：2026年度申报通知发布于4月底。经阳光政务平台申报，需先注册依托单位",
+      "url": "http://gdstc.gd.gov.cn/zwgk_n/tzgg/"
+    },
+    {
+      "name": "粤穗联合基金（省市联合基金）",
+      "org": "广东省基础与应用基础研究基金委员会",
+      "level": "省",
+      "months": [9, 10],
+      "peak": 9,
+      "window": "2025年度通知于 2025-09-28 发布",
+      "tag": "vip",
+      "confidence": "verified",
+      "note": "已核实：省市联合基金秋季发布。作为广州单位，这条与你高度相关",
+      "url": "http://gdstc.gd.gov.cn/pro/tzgg/"
+    },
+    {
+      "name": "广东省重点领域研发计划（各专项）",
+      "org": "广东省科学技术厅",
+      "level": "省",
+      "months": [5, 9],
+      "peak": 5,
+      "window": "各专项滚动发布，2025年集中在 5月 与 9月",
+      "tag": "team",
+      "confidence": "verified",
+      "note": "已核实：精密仪器设备/通信与网络专项5月，激光与增材制造专项9月。大团队项目，宜争取进入校内团队",
+      "url": "http://gdstc.gd.gov.cn/zwgk_n/zdly/sbzn/"
+    },
+    {
+      "name": "广东省基金拟立项公示",
+      "org": "广东省基础与应用基础研究基金委员会",
+      "level": "省",
+      "months": [11],
+      "peak": 11,
+      "window": "11月前后公示",
+      "tag": "info",
+      "confidence": "verified",
+      "note": "已核实：2026年度公示期为2025-11-11至11-18",
+      "url": "http://gdstc.gd.gov.cn/zwgk_n/tzgg/"
+    },
+    {
+      "name": "NSFC/RGC 联合科研资助基金 (JRS)",
+      "org": "NSFC × 香港研资局",
+      "level": "港澳",
+      "months": [12, 1],
+      "peak": 1,
+      "window": "约12月发布指南 · 次年1月申报",
+      "tag": "vip",
+      "confidence": "estimated",
+      "note": "需港方合作者；参与前确认合作者与自身是否触发限项",
+      "url": "https://www.nsfc.gov.cn/"
+    },
+    {
+      "name": "ITF 内地-香港科技合作资助计划 (MHKTCFS, 粤港轨)",
+      "org": "香港创新科技署 × 广东",
+      "level": "港澳",
+      "months": [6, 7, 8],
+      "peak": 7,
+      "window": "历史窗口约 6–8月",
+      "tag": "vip",
+      "confidence": "estimated",
+      "note": "粤方PI资格有在职年限要求，需向科研院核实；亦可由资深教授任PI、本人任实质Co-I",
+      "url": "https://www.itf.gov.hk/"
+    },
+    {
+      "name": "科技部 国家重点研发计划（含青年科学家项目）",
+      "org": "科学技术部",
+      "level": "国家",
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "peak": null,
+      "window": "全年滚动发布，窗口常仅1–2个月",
+      "tag": "team",
+      "confidence": "estimated",
+      "note": "无固定节奏，主要靠学校通知与巡检接住；青年科学家项目可留意自身资格",
+      "url": "https://service.most.gov.cn/"
+    }
+  ],
+
+  "manual_sources": [
+    {
+      "name": "广东省科技厅 · 申报指南专栏",
+      "url": "http://gdstc.gd.gov.cn/zwgk_n/zdly/sbzn/",
+      "freq": "每周",
+      "why": "纯申报指南栏目，信噪比最高；该站 robots 限制自动访问，改为人工查看"
+    },
+    {
+      "name": "广东省科技厅 · 通知公告",
+      "url": "http://gdstc.gd.gov.cn/zwgk_n/tzgg/",
+      "freq": "每周",
+      "why": "省基金申报通知发布于此；robots 限制，人工查看"
+    },
+    {
+      "name": "广东省基础与应用基础研究基金委员会",
+      "url": "http://gdstc.gd.gov.cn/pro/tzgg/",
+      "freq": "每周",
+      "why": "省基金/联合基金专区"
+    },
+    {
+      "name": "广东省科技业务管理阳光政务平台",
+      "url": "http://pro.gdstc.gd.gov.cn/egrantweb/",
+      "freq": "申报季",
+      "why": "实际申报入口，登录后可见；不可抓取"
+    },
+    {
+      "name": "国家自然科学基金委",
+      "url": "https://www.nsfc.gov.cn/",
+      "freq": "每周（1–3月每日）",
+      "why": "面上/国际合作/联合基金指南"
+    },
+    {
+      "name": "国家科技管理信息系统公共服务平台",
+      "url": "https://service.most.gov.cn/",
+      "freq": "每周",
+      "why": "国家重点研发计划专项指南，窗口短"
+    },
+    {
+      "name": "学校科研院 OA / 学院通知群",
+      "url": "",
+      "freq": "每日留意",
+      "why": "定向邀请、企业联合、短窗口项目只走内部渠道，任何爬虫都抓不到。确保已在材料学院与重点实验室的通知分发名单内（可找袁老师/郑凯文确认）"
+    }
+  ]
 }
