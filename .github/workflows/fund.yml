@@ -1,8 +1,6 @@
 name: fund-feed
 on:
-  workflow_dispatch:          # 手动"Run workflow"按钮
-  # schedule:                 # 想每天自动跑再取消注释
-  #   - cron: '0 22 * * *'    # UTC 22:00 = 北京时间 06:00
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -13,16 +11,46 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 离线自测
-        run: python gz_fund_poc.py --selftest
-      - name: dump原始HTML
-        run: python dump.py
-      - name: 把结果写回仓库
-        if: always()
+
+      - name: 诊断抓取
         run: |
           mkdir -p data
+          python3 -u - <<'PY'
+          import urllib.request, re, traceback
+          url = "https://www.gz.gov.cn/xw/tzgg/"
+          try:
+              req = urllib.request.Request(url, headers={
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                  "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+                  "Accept-Language": "zh-CN,zh;q=0.9",
+              })
+              resp = urllib.request.urlopen(req, timeout=30)
+              raw = resp.read()
+              print("HTTP STATUS:", resp.status)
+              print("BYTES:", len(raw))
+              text = raw.decode("utf-8", "replace")
+              open("data/list_raw.html", "w", encoding="utf-8").write(text)
+              print("post_ 出现次数:", text.count("post_"))
+              # 宽松匹配：不管属性顺序，只找 post_*.html 链接
+              loose = re.findall(r'<a[^>]*href="([^"]*post_\d+\.html)"[^>]*>', text)
+              print("宽松匹配到链接数:", len(loose))
+              i = text.find("post_")
+              print("=== 第一个 post_ 附近 800 字符 ===")
+              print(text[max(0,i-400): i+400] if i > 0 else text[:1200])
+          except Exception:
+              traceback.print_exc()
+              raise
+          PY
+
+      - name: 看看文件在不在
+        if: always()
+        run: ls -la data/ || echo "data 目录不存在"
+
+      - name: 写回仓库
+        if: always()
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add data
-          git commit -m "update notices $(date -u +%F)" || echo "无变化"
+          git add -A data
+          git commit -m "diagnostic dump" || echo "无变化"
           git push || echo "无需推送"
