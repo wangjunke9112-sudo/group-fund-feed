@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-18 05:54 UTC",
+ "generated": "2026-07-18 08:28 UTC",
  "source": "市科技局",
- "count": 139,
+ "count": 141,
  "notices": [
   {
    "id": "gz_kjj:10870535",
@@ -712,6 +712,40 @@
    "department": "广州市科学技术局",
    "level": "市",
    "published": "2025-12-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_kjj:10583172",
+   "title": "十五运会和残特奥会科技创新融合优秀案例和示范案例（第二批）名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10583172.html",
+   "department": "广州市科学技术局",
+   "level": "市",
+   "published": "2025-12-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_kjj:10567976",
+   "title": "广州市科学技术局关于2025年广州科技创新创业大赛行业赛决赛阶段部分赛道优化调整的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10567976.html",
+   "department": "广州市科学技术局",
+   "level": "市",
+   "published": "2025-11-26",
    "deadline": null,
    "deadline_confidence": "unknown",
    "is_opportunity": false,
