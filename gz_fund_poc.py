@@ -361,6 +361,43 @@ def merge(existing, fresh):
 # ===========================================================================
 # 7. DERIVE SEASONAL CALENDAR from history (what months each call-type recurs)
 # ===========================================================================
+def load_seed():
+    """Manual calendar anchors + human-inspection checklist for sources we do
+    not scrape (e.g. robots-restricted provincial sites)."""
+    path = os.path.join(DATA_DIR, "calendar_seed.json")
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {"anchors": [], "manual_sources": []}
+
+
+def build_calendar(records):
+    """Combine (a) seasonality DERIVED from scraped history with (b) MANUAL
+    anchors for un-scrapable sources. Both are marked with their origin so the
+    page can show which is evidence and which is prior knowledge."""
+    seed = load_seed()
+    derived = []
+    for c in derive_calendar(records):
+        derived.append({
+            "name": c["call_type"],
+            "org": DEPARTMENT,
+            "level": LEVEL,
+            "months": [int(m) for m in c["months"]],
+            "counts": c["counts"],
+            "source": "derived",
+            "confidence": "observed",
+            "note": f"由已抓取的 {sum(c['counts'].values())} 条历史通知自动统计",
+        })
+    anchors = []
+    for a in seed.get("anchors", []):
+        a = dict(a)
+        a["source"] = "manual"
+        anchors.append(a)
+    return {"derived": derived, "anchors": anchors,
+            "manual_sources": seed.get("manual_sources", [])}
+
+
 def derive_calendar(records):
     """Group opportunity records by a coarse call-type and list the months in
     which they were PUBLISHED across years -> reveals the annual rhythm."""
@@ -679,7 +716,7 @@ def demo():
     gen = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     _write("notices.json", {"generated": gen, "source": DEPARTMENT,
                             "count": len(recs), "notices": recs})
-    _write("calendar.json", {"generated": gen, "calendar": derive_calendar(recs)})
+    _write("calendar.json", dict(generated=gen, **build_calendar(recs)))
     print(f"Wrote {DATA_DIR}/notices.json ({len(recs)} notices) + calendar.json\n")
     # console preview
     order = {"vip": 0, "team": 1, "verify": 2, "red": 3}
@@ -716,7 +753,7 @@ if __name__ == "__main__":
         gen = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         _write("notices.json", {"generated": gen, "source": DEPARTMENT,
                                 "count": len(recs), "notices": recs})
-        _write("calendar.json", {"generated": gen, "calendar": derive_calendar(recs)})
+        _write("calendar.json", dict(generated=gen, **build_calendar(recs)))
         opp = sum(1 for r in recs if r.get("is_opportunity"))
         oldest = min((r.get("published", "") for r in recs if r.get("published")), default="—")
         print("-" * 60)
