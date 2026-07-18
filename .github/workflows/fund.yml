@@ -24,8 +24,8 @@ jobs:
         run: python -u gz_fund_poc.py --selftest
 
       - name: 真实抓取
-        run: python -u gz_fund_poc.py --live --pages 1
-
+        run: python -u gz_fund_poc.py --live --pages 3
+        
       - name: 查看生成的文件
         if: always()
         run: ls -la data/ || echo "data 目录不存在"
