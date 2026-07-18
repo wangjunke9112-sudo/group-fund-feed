@@ -42,7 +42,7 @@ jobs:
           PY
           
       - name: 真实抓取
-        run: python -u gz_fund_poc.py --live --pages 3
+        run: python -u gz_fund_poc.py --live --pages 25 --until 2024-01-01
         
       - name: 查看生成的文件
         if: always()
