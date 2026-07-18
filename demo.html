@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>基金通知 · POC</title>
+<style>
+  :root{
+    --ink:#15181d; --soft:#5a626e; --line:#e3e6ea; --bg:#f7f8fa; --card:#fff;
+    --navy:#003A6A; --gold:#C8922A;                 /* LENS brand */
+    --vip:#8a5a00; --vip-bg:#fdf3d6; --vip-bd:#f0dca0;
+    --team:#1a4d8f; --team-bg:#e8f0fb; --team-bd:#c5d8f2;
+    --verify:#5a626e; --verify-bg:#eef0f3;
+    --red:#9b2335; --red-bg:#fbeaec;
+    --warn:#b4451d; --warn-bg:#fbeee7;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+  header{background:var(--card);border-bottom:1px solid var(--line);padding:16px 22px}
+  h1{margin:0;font-size:19px;color:var(--navy)}
+  .sub{color:var(--soft);font-size:12px;font-family:var(--mono);margin-top:5px}
+  .poc{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;color:#fff;background:var(--gold);padding:1px 6px;border-radius:4px;vertical-align:middle;margin-left:6px}
+  main{max-width:960px;margin:16px auto 60px;padding:0 22px}
+  .status{font-family:var(--mono);font-size:12px;color:var(--warn);background:var(--warn-bg);border:1px solid #f0d9cd;border-radius:8px;padding:9px 12px;margin-bottom:14px}
+  .cal{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:16px}
+  .cal h2{margin:0 0 10px;font-size:14px;color:var(--navy)}
+  .calrow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:13px}
+  .calname{width:120px;color:var(--soft);font-size:12px;flex:none}
+  .months{display:flex;gap:2px}
+  .mo{width:26px;text-align:center;font-family:var(--mono);font-size:10px;color:#b8bcc4;padding:3px 0;border-radius:3px;background:#f1f2f4}
+  .mo.on{background:var(--navy);color:#fff;font-weight:700}
+  .count{font-family:var(--mono);font-size:12px;color:var(--soft);margin:2px 0 12px}
+  .card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--edge,var(--line));border-radius:8px;padding:12px 15px;margin-top:10px}
+  .card.admin{opacity:.55}
+  .card.red{opacity:.5;order:99}
+  .badges{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+  .badge{font-family:var(--mono);font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.02em}
+  .b-vip{color:var(--vip);background:var(--vip-bg);border:1px solid var(--vip-bd)}
+  .b-team{color:var(--team);background:var(--team-bg);border:1px solid var(--team-bd)}
+  .b-verify{color:var(--verify);background:var(--verify-bg)}
+  .b-red{color:var(--red);background:#fbeaec}
+  .due{font-family:var(--mono);font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px}
+  .due-soon{color:#fff;background:var(--warn)} .due-ok{color:var(--warn);background:var(--warn-bg)}
+  .due-roll{color:#0a7d54;background:#e6f3ec} .due-unk{color:var(--soft);background:#eef0f3}
+  .t{font-size:15px;font-weight:600;line-height:1.35;margin:0}
+  .t a{color:var(--ink);text-decoration:none} .t a:hover{color:var(--navy);text-decoration:underline}
+  .meta{font-family:var(--mono);font-size:11.5px;color:var(--soft);margin-top:6px;display:flex;flex-wrap:wrap;gap:3px 12px}
+  .kw{margin-top:7px;display:flex;flex-wrap:wrap;gap:4px}
+  .kw span{font-family:var(--mono);font-size:10px;background:#eef0f3;color:#3a4250;padding:1px 6px;border-radius:4px}
+  .note{margin-top:9px;font-size:12px;color:var(--soft)}
+  .join{color:var(--team);font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <h1>基金通知 · 广州市科技局<span class="poc">POC</span></h1>
+  <div class="sub" id="sub">加载中…</div>
+</header>
+<main>
+  <div class="status">这是单一数据源的可行性原型：只演示"抓取→解析→中文截止→四态标签→日历"整条链。所有资格/时间仍以当年官方指南为准。</div>
+  <div class="cal" id="cal"></div>
+  <div class="count" id="count"></div>
+  <div id="feed"></div>
+</main>
+<script>
+const MONTHS=["01","02","03","04","05","06","07","08","09","10","11","12"];
+const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const todayISO=new Date().toISOString().slice(0,10);
+function daysLeft(d){ if(!d) return null; return Math.round((new Date(d)-new Date(todayISO))/864e5); }
+
+function dueChip(r){
+  if(r.deadline_confidence==="rolling") return '<span class="due due-roll">常年申报</span>';
+  if(r.deadline_confidence==="unknown"||!r.deadline) return '<span class="due due-unk">截止待确认</span>';
+  const n=daysLeft(r.deadline);
+  if(n<0) return '<span class="due due-unk">已截止</span>';
+  const cls=n<=14?"due-soon":"due-ok";
+  return '<span class="due '+cls+'">剩 '+n+' 天 · '+r.deadline+'</span>';
+}
+const TAG={vip:["b-vip","⭐ VIP · 可牵头"],team:["b-team","🟦 团队参与"],
+           verify:["b-verify","⚪ 待核实"],red:["b-red","🔴 暂不可报"]};
+const EDGE={vip:"var(--gold)",team:"var(--team)",verify:"var(--line)",red:"var(--red)"};
+const RANK={vip:0,team:1,verify:2,red:9};
+
+function sortKey(r){
+  const t=r.tags[0]||"verify";
+  const n=r.deadline&&r.deadline_confidence==="explicit"?(daysLeft(r.deadline)):9999;
+  return [RANK[t], n<0?9998:n];
+}
+
+function card(r){
+  const t=r.tags[0]||"verify", tg=TAG[t];
+  const cls="card"+(t==="red"?" red":"")+((!r.is_opportunity&&t!=="red")?" admin":"");
+  const badges='<span class="badge '+tg[0]+'">'+tg[1]+'</span>'+dueChip(r)+
+    (r.is_opportunity?'':'<span class="badge b-verify">事务性通知</span>');
+  const kw=(r.keywords&&r.keywords.length)?'<div class="kw">'+r.keywords.map(k=>'<span>'+esc(k)+'</span>').join('')+'</div>':'';
+  const join=(t==="team")?'<div class="note join">↳ 大团队项目：确认校内是否组队、能否作为骨干加入</div>':'';
+  return '<article class="'+cls+'" style="--edge:'+EDGE[t]+'">'+
+    '<div class="badges">'+badges+'</div>'+
+    '<p class="t"><a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.title)+'</a></p>'+
+    '<div class="meta"><span>'+esc(r.department)+'</span><span>发布 '+esc(r.published||'—')+'</span>'+
+      '<span>'+esc(r.deadline_confidence)+'</span></div>'+kw+join+'</article>';
+}
+
+function renderCal(cal){
+  if(!cal||!cal.length){el("cal").style.display="none";return;}
+  el("cal").innerHTML='<h2>申报日历 · 季节性（由历史派生）</h2>'+cal.map(c=>{
+    const on=new Set(c.months);
+    return '<div class="calrow"><div class="calname">'+esc(c.call_type)+'</div><div class="months">'+
+      MONTHS.map(m=>'<div class="mo'+(on.has(m)?' on':'')+'">'+(+m)+'</div>').join('')+'</div></div>';
+  }).join('');
+}
+const el=id=>document.getElementById(id);
+
+Promise.all([
+  fetch("data/notices.json").then(r=>r.json()),
+  fetch("data/calendar.json").then(r=>r.json()).catch(()=>({calendar:[]}))
+]).then(([nd,cd])=>{
+  el("sub").textContent="更新 "+(nd.generated||"—")+" · "+nd.count+" 条 · 来源 "+nd.source;
+  renderCal(cd.calendar);
+  const recs=(nd.notices||[]).slice().sort((a,b)=>{
+    const ka=sortKey(a),kb=sortKey(b);
+    return ka[0]-kb[0]||ka[1]-kb[1];
+  });
+  const opp=recs.filter(r=>r.is_opportunity).length;
+  el("count").textContent="共 "+recs.length+" 条 · 其中申报机会 "+opp+" 条 · 其余为事务性通知（灰显置底）";
+  el("feed").innerHTML=recs.map(card).join("");
+}).catch(e=>{
+  el("feed").innerHTML='<div class="status">无法加载 data/*.json。若直接双击打开本文件会被浏览器 CORS 拦截——请在 poc/ 目录运行 <code>python3 -m http.server</code> 再打开 localhost 地址。</div>';
+});
+</script>
+</body>
+</html>
