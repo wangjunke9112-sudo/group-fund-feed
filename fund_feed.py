@@ -480,7 +480,7 @@ _MIN_DERIVED = 2
 
 
 def derive_calendar(records):
-    buckets = {}
+    buckets, orgs = {}, {}
     for r in records:
         if not r.get("is_opportunity"):
             continue
@@ -494,13 +494,23 @@ def derive_calendar(records):
         key = (ct, r.get("level", ""))
         buckets.setdefault(key, {}).setdefault(mo, 0)
         buckets[key][mo] += 1
+        orgs.setdefault(key, {})
+        dep = r.get("department") or r.get("source_name") or ""
+        if dep:
+            orgs[key][dep] = orgs[key].get(dep, 0) + 1
     out = []
     for (ct, lvl), months in sorted(buckets.items()):
         total = sum(months.values())
         if total < _MIN_DERIVED:
             continue                      # one-off, not a pattern
         span = sorted(int(m) for m in months)
-        out.append({"name": ct, "org": "历史统计", "level": lvl,
+        # name the issuing body: a row called just "合作研究项目" tells the
+        # reader nothing about who runs it.
+        dep_counts = orgs.get((ct, lvl), {})
+        org = max(dep_counts, key=dep_counts.get) if dep_counts else "来源不明"
+        if len(dep_counts) > 1:
+            org += f"等{len(dep_counts)}个来源"
+        out.append({"name": ct, "org": org, "level": lvl,
                     "months": span, "counts": months, "source": "derived",
                     "confidence": "observed",
                     "window": "历年集中在 " + "、".join(f"{m}月" for m in span),
