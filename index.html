@@ -35,11 +35,13 @@
   .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 
   /* ---- calendar ---- */
-  .monthhead{display:grid;grid-template-columns:190px repeat(12,1fr);gap:3px;align-items:end;margin-bottom:6px}
+  .calscroll{overflow-x:auto}
+  .monthhead{display:grid;grid-template-columns:250px repeat(12,minmax(26px,1fr));gap:3px;align-items:end;margin-bottom:6px;min-width:620px}
   .monthhead div{font-family:var(--mono);font-size:10px;color:var(--faint);text-align:center}
   .monthhead div:first-child{text-align:left}
-  .calrow{display:grid;grid-template-columns:190px repeat(12,1fr);gap:3px;align-items:center;margin:4px 0}
-  .rowname{font-size:12.5px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right:8px}
+  .calrow{display:grid;grid-template-columns:250px repeat(12,minmax(26px,1fr));gap:3px;align-items:center;margin:6px 0;min-width:620px}
+  .rowname{font-size:12.5px;color:var(--ink);padding-right:10px;line-height:1.35;
+           display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .rowname small{color:var(--faint);font-family:var(--mono);font-size:10px}
   .cell{height:22px;border-radius:4px;background:#f1f2f4;position:relative}
   .cell.on{background:var(--navy)}
@@ -51,7 +53,9 @@
   .cell.now{outline:2px solid var(--warn);outline-offset:1px}
   .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-family:var(--mono);font-size:10.5px;color:var(--soft)}
   .legend i{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:4px}
-  .rownote{grid-column:1/-1;font-size:11.5px;color:var(--faint);padding:0 0 6px 2px;border-bottom:1px dashed var(--line);margin-bottom:4px}
+  .rownote{font-size:11.5px;color:var(--faint);padding:0 0 8px 2px;border-bottom:1px dashed var(--line);
+           margin:0 0 6px;line-height:1.5;min-width:620px}
+  .rownote b{color:var(--soft);font-weight:600}
   .conf{font-family:var(--mono);font-size:9.5px;padding:1px 5px;border-radius:3px;margin-left:6px}
   .c-verified{background:var(--info-bg);color:var(--info)}
   .c-estimated{background:var(--verify-bg);color:var(--soft)}
@@ -104,7 +108,7 @@
   <section id="v-cal">
     <h2>全年申报节奏</h2>
     <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。</p>
-    <div class="panel" id="calpanel"></div>
+    <div class="panel"><div class="calscroll" id="calpanel"></div></div>
   </section>
 
   <section id="v-open" hidden>
@@ -183,7 +187,8 @@ function calRow(r){
   }
   const org=r.org?'<small> · '+esc(r.org)+'</small>':"";
   return '<div class="calrow"><div class="rowname" title="'+esc(r.name)+'">'+esc(r.name)+org+conf+'</div>'+cells+'</div>'+
-    (r.window||r.note?'<div class="rownote">'+esc(r.window||"")+(r.note?' — '+esc(r.note):"")+'</div>':"");
+    (r.window||r.note?'<div class="rownote">'+(r.window?'<b>'+esc(r.window)+'</b>':"")+
+      (r.note?(r.window?' · ':'')+esc(r.note):"")+'</div>':"");
 }
 
 function renderCal(c){
@@ -212,7 +217,8 @@ function renderChk(list){
 }
 
 Promise.all([
-  fetch("data/notices.json").then(r=>r.json()).catch(()=>({notices:[]})),
+  fetch("data/notices.json").then(r=>{if(!r.ok)throw new Error("notices.json HTTP "+r.status);return r.json();})
+    .catch(e=>{window.__nerr=String(e.message||e);return {notices:[]};}),
   fetch("data/calendar.json").then(r=>r.json()).catch(()=>({}))
 ]).then(([nd,cd])=>{
   const recs=nd.notices||[];
@@ -223,8 +229,12 @@ Promise.all([
   renderCal(cd);
   renderChk(cd.manual_sources);
   const open=sortRecs(opp.filter(r=>r.status==="open"||(r.deadline&&r.deadline>=TODAY)));
-  el("openlist").innerHTML=open.length?open.map(card).join(""):'<div class="empty">当前没有在招项目（或截止日期待确认）</div>';
-  el("alllist").innerHTML=sortRecs(recs).map(card).join("")||'<div class="empty">暂无数据</div>';
+  const diag=window.__nerr
+    ? '<div class="empty">无法加载 <code>data/notices.json</code>：'+esc(window.__nerr)+
+      '<br>请确认该文件已部署到 <code>'+location.pathname+'data/notices.json</code></div>'
+    : '';
+  el("openlist").innerHTML=diag||(open.length?open.map(card).join(""):'<div class="empty">当前没有在招项目（或截止日期待确认）</div>');
+  el("alllist").innerHTML=diag||(sortRecs(recs).map(card).join("")||'<div class="empty">暂无数据</div>');
 }).catch(()=>{
   el("calpanel").innerHTML='<div class="empty">无法加载 data/*.json。若直接双击打开本文件会被 CORS 拦截，请通过 GitHub Pages 访问。</div>';
 });
