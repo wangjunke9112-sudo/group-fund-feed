@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19 15:15 UTC",
+ "generated": "2026-07-19 15:26 UTC",
  "count": 200,
  "notices": [
   {
@@ -284,7 +284,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_zn:137674",
@@ -358,7 +360,9 @@
    "tags": [
     "vip"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_portal:10862753",
@@ -394,7 +398,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_zn:137504",
@@ -449,7 +455,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_portal:10853942",
@@ -485,7 +493,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_zn:137067",
@@ -563,7 +573,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_zn:137024",
@@ -825,7 +837,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_portal:10897527",
@@ -884,7 +898,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10830088",
@@ -901,7 +917,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_portal:10824386",
@@ -937,7 +955,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:123515",
@@ -996,7 +1016,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:123512",
@@ -1053,7 +1075,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:123187",
@@ -1110,7 +1134,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_portal:10801571",
@@ -1148,7 +1174,9 @@
    "tags": [
     "verify"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:122642",
@@ -1207,7 +1235,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10781820",
@@ -1224,7 +1254,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:122217",
@@ -1300,7 +1332,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10730342",
@@ -1317,7 +1351,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10725969",
@@ -1334,7 +1370,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10710899",
@@ -1351,7 +1389,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10705125",
@@ -1368,7 +1408,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10701722",
@@ -1385,7 +1427,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10701713",
@@ -1402,7 +1446,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10697575",
@@ -1419,7 +1465,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10692692",
@@ -1436,7 +1484,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:101114",
@@ -1476,7 +1526,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10685999",
@@ -1493,7 +1545,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:100469",
@@ -1532,7 +1586,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10670361",
@@ -1549,7 +1605,9 @@
    "tags": [
     "vip"
    ],
-   "status": "open"
+   "status": "open",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:100214",
@@ -1656,7 +1714,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_zn:99667",
@@ -1692,7 +1752,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10643018",
@@ -1709,7 +1771,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10634858",
@@ -1726,7 +1790,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10634861",
@@ -1743,7 +1809,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10617763",
@@ -1760,7 +1828,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10608294",
@@ -1777,7 +1847,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10605304",
@@ -1794,7 +1866,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:98808",
@@ -1835,7 +1909,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10597626",
@@ -1852,7 +1928,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10597618",
@@ -1869,7 +1947,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10593845",
@@ -1886,7 +1966,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10597616",
@@ -1903,7 +1985,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10583172",
@@ -1920,7 +2004,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "nsfc_tzgg:98215",
@@ -1958,7 +2044,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10567969",
@@ -1975,7 +2063,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10567944",
@@ -1992,7 +2082,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10564541",
@@ -2009,7 +2101,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10559769",
@@ -2026,7 +2120,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10551074",
@@ -2043,7 +2139,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10550968",
@@ -2060,7 +2158,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10527772",
@@ -2077,7 +2177,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10506755",
@@ -2094,7 +2196,9 @@
    "tags": [
     "team"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10496317",
@@ -2111,7 +2215,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10496272",
@@ -2128,7 +2234,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10496265",
@@ -2145,7 +2253,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10496262",
@@ -2162,7 +2272,9 @@
    "tags": [
     "team"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10486136",
@@ -2179,7 +2291,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10477991",
@@ -2196,7 +2310,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10471525",
@@ -2213,7 +2329,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10455546",
@@ -2230,7 +2348,9 @@
    "tags": [
     "team"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10443996",
@@ -2247,7 +2367,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10443983",
@@ -2264,7 +2386,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10443924",
@@ -2281,7 +2405,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10433211",
@@ -2300,7 +2426,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10433202",
@@ -2317,7 +2445,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10426022",
@@ -2334,7 +2464,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10426017",
@@ -2351,7 +2483,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10426013",
@@ -2368,7 +2502,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10426009",
@@ -2385,7 +2521,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10423942",
@@ -2402,7 +2540,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10414827",
@@ -2419,7 +2559,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10410378",
@@ -2436,7 +2578,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10410368",
@@ -2453,7 +2597,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10400486",
@@ -2470,7 +2616,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10400479",
@@ -2489,7 +2637,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10400474",
@@ -2506,7 +2656,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10400470",
@@ -2523,7 +2675,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10400466",
@@ -2540,7 +2694,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10391417",
@@ -2557,7 +2713,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10387794",
@@ -2574,7 +2732,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10387776",
@@ -2591,7 +2751,9 @@
    "tags": [
     "team"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10367404",
@@ -2608,7 +2770,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361301",
@@ -2625,7 +2789,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361273",
@@ -2644,7 +2810,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361271",
@@ -2661,7 +2829,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361267",
@@ -2678,7 +2848,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361263",
@@ -2695,7 +2867,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10361261",
@@ -2712,7 +2886,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10356600",
@@ -2729,7 +2905,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10352117",
@@ -2746,7 +2924,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10351994",
@@ -2763,7 +2943,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10351862",
@@ -2780,7 +2962,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10348752",
@@ -2797,7 +2981,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10384526",
@@ -2814,7 +3000,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10340726",
@@ -2831,7 +3019,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10334184",
@@ -2848,7 +3038,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10330305",
@@ -2867,7 +3059,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10330296",
@@ -2884,7 +3078,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10320571",
@@ -2901,7 +3097,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10316066",
@@ -2918,7 +3116,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10311418",
@@ -2935,7 +3135,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10300519",
@@ -2952,7 +3154,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10300521",
@@ -2969,7 +3173,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10295234",
@@ -2986,7 +3192,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10292748",
@@ -3003,7 +3211,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10292722",
@@ -3020,7 +3230,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10288754",
@@ -3039,7 +3251,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10288750",
@@ -3056,7 +3270,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10288727",
@@ -3073,7 +3289,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10280280",
@@ -3090,7 +3308,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10280235",
@@ -3107,7 +3327,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10280216",
@@ -3124,7 +3346,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10277776",
@@ -3141,7 +3365,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10275606",
@@ -3158,7 +3384,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10275596",
@@ -3175,7 +3403,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10263281",
@@ -3192,7 +3422,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10259430",
@@ -3209,7 +3441,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10246445",
@@ -3226,7 +3460,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10240592",
@@ -3243,7 +3479,9 @@
    "tags": [
     "team"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10230914",
@@ -3260,7 +3498,9 @@
    "tags": [
     "team"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10226043",
@@ -3277,7 +3517,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10215950",
@@ -3294,7 +3536,9 @@
    "tags": [
     "vip"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10211035",
@@ -3311,7 +3555,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10210231",
@@ -3328,7 +3574,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10207419",
@@ -3345,7 +3593,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10164486",
@@ -3362,7 +3612,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10160408",
@@ -3379,7 +3631,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10153397",
@@ -3396,7 +3650,9 @@
    "tags": [
     "vip"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10151560",
@@ -3413,7 +3669,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10135311",
@@ -3430,7 +3688,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10128135",
@@ -3447,7 +3707,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10123873",
@@ -3464,7 +3726,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10123417",
@@ -3481,7 +3745,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10115958",
@@ -3498,7 +3764,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10106408",
@@ -3515,7 +3783,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10096444",
@@ -3532,7 +3802,9 @@
    "tags": [
     "verify"
    ],
-   "status": "closed"
+   "status": "closed",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10087620",
@@ -3549,7 +3821,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10087471",
@@ -3566,7 +3840,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10086315",
@@ -3583,7 +3859,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10077384",
@@ -3600,7 +3878,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   },
   {
    "id": "gz_kjj:10066082",
@@ -3617,7 +3897,9 @@
    "tags": [
     "verify"
    ],
-   "status": "unknown"
+   "status": "unknown",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告"
   }
  ]
 }
