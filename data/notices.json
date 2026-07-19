@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-19 15:59 UTC",
- "count": 200,
+ "generated": "2026-07-19 17:47 UTC",
+ "count": 427,
  "notices": [
   {
    "id": "nsfc_zn:138937",
@@ -1240,6 +1240,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10781820",
+   "title": "广州市卫生健康委关于征集“广州创新药械真实世界研究‘揭榜挂帅’项目”（第一期）发榜需求的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10781820.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-04-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10781820",
    "title": "广州市卫生健康委关于征集“广州创新药械真实世界研究‘揭榜挂帅’项目”（第一期）发榜需求的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10781820.html",
@@ -1318,6 +1337,46 @@
    "status": "open"
   },
   {
+   "id": "gz_portal:10731611",
+   "title": "广州市住房和城乡建设局关于印发《广州市危险性较大的分部分项工程专项施工方案论证专家管理办法及论证工作指引》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10731611.html",
+   "department": "广州市住房和城乡建设局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-03-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10730342",
+   "title": "广州市科学技术局关于开展2026年广州市科技计划项目验收工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10730342.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-03-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10731611",
    "title": "广州市住房和城乡建设局关于印发《广州市危险性较大的分部分项工程专项施工方案论证专家管理办法及论证工作指引》的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10731611.html",
@@ -1356,6 +1415,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10725969",
+   "title": "广州市科学技术局关于征集2026全国颠覆性技术创新大赛参赛项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10725969.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-03-12",
+   "deadline": "2026-03-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10725969",
    "title": "广州市科学技术局关于征集2026全国颠覆性技术创新大赛参赛项目的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10725969.html",
@@ -1375,6 +1453,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10710899",
+   "title": "广州市教育局关于开展“科技向新·绿色未来”粤韵杯2026年湾区中小学生文学与艺术素养大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10710899.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-03-05",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10710899",
    "title": "广州市教育局关于开展“科技向新·绿色未来”粤韵杯2026年湾区中小学生文学与艺术素养大赛的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10710899.html",
@@ -1392,6 +1489,63 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10705125",
+   "title": "广州市住房和城乡建设局关于执行《广州市绿色建筑发展专项规划（2021-2035年）》中期目标要求的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10705125.html",
+   "department": "​广州市住房和城乡建设局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-27",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10701722",
+   "title": "广州市科学技术局关于简易修改广州市概念验证中心资助管理办法（试行）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10701722.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-27",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10701713",
+   "title": "广州市科学技术局 佛山市科学技术局关于印发深化广佛同城促进外国人才来华工作便利化若干措施的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10701713.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-27",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10705125",
@@ -1451,6 +1605,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10697575",
+   "title": "广州市科学技术局关于开展广州市科技成果转化“补改投”资金受托管理机构遴选的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10697575.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-24",
+   "deadline": "2026-03-03",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10697575",
    "title": "广州市科学技术局关于开展广州市科技成果转化“补改投”资金受托管理机构遴选的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10697575.html",
@@ -1468,6 +1641,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10692692",
+   "title": "广州市科学技术局关于征集2026年度广东省基础与应用基础研究基金广州市联合基金（粤穗联合基金）指南建议的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10692692.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-12",
+   "deadline": "2026-03-12",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10692692",
@@ -1512,6 +1704,25 @@
    "status": "unknown"
   },
   {
+   "id": "gz_portal:10692690",
+   "title": "广州市科学技术局关于领取2025年度广州市科技型中小企业技术创新专题“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10692690.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-11",
+   "deadline": "2026-03-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10692690",
    "title": "广州市科学技术局关于领取2025年度广州市科技型中小企业技术创新专题“免申即享”补助资金的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10692690.html",
@@ -1529,6 +1740,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10685999",
+   "title": "广州市科学技术局关于公布广州市2025年高新技术企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10685999.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-02-10",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10685999",
@@ -1570,6 +1800,46 @@
     "vip"
    ],
    "status": "closed"
+  },
+  {
+   "id": "gz_portal:10676655",
+   "title": "广州市科学技术局关于举办2025年度广州市工程系列技术经纪工程专业职称申报宣贯会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10676655.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10670361",
+   "title": "广州市规划和自然资源局所属事业单位2026年第一次引进急需人才公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10670361.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-30",
+   "deadline": "2026-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
   },
   {
    "id": "gz_kjj:10676655",
@@ -1700,6 +1970,27 @@
    "status": "unknown"
   },
   {
+   "id": "gz_portal:10650359",
+   "title": "广州市科学技术局关于2025年度广东省科学技术奖拟提名项目补充公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10650359.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-16",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10650359",
    "title": "广州市科学技术局关于2025年度广东省科学技术奖拟提名项目补充公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10650359.html",
@@ -1738,6 +2029,25 @@
    "status": "closed"
   },
   {
+   "id": "gz_portal:10634593",
+   "title": "广州市规划和自然资源局关于推荐广州市工程系列国土空间规划专业技术人才职称评审委员会专家候选人的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10634593.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10634593",
    "title": "广州市规划和自然资源局关于推荐广州市工程系列国土空间规划专业技术人才职称评审委员会专家候选人的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10634593.html",
@@ -1755,6 +2065,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10643018",
+   "title": "广州市科学技术局关于生物医药产业临床试验研究者视同立项项目公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10643018.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-07",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10634858",
+   "title": "十五运会和残特奥会广州赛区科技工作专班办公室 十五运会和残特奥会广州赛区执委会数字技术部 十五运会和残特奥会广州赛区执委会新闻广电宣传部 十五运会和残特奥会广州赛区执委会大型活动部关于公布十五运会和残特奥会科技创新融合优秀案例和示范案例（第二批）名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10634858.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-07",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10643018",
@@ -1795,6 +2145,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10634861",
+   "title": "广州市科学技术局关于2025年度广东省科学技术奖拟提名项目公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10634861.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-01-06",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10634861",
    "title": "广州市科学技术局关于2025年度广东省科学技术奖拟提名项目公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10634861.html",
@@ -1812,6 +2183,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10617763",
+   "title": "广州市科学技术局关于预征集广州科技创新基金参股子基金合作机构的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10617763.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-26",
+   "deadline": "2026-03-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10617763",
@@ -1833,6 +2223,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10608294",
+   "title": "广州市科学技术局关于提交2025年度有关工作情况报告的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10608294.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-24",
+   "deadline": "2026-06-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10608294",
    "title": "广州市科学技术局关于提交2025年度有关工作情况报告的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10608294.html",
@@ -1850,6 +2259,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10605304",
+   "title": "广州市司法局关于聘请专业团队协助开展法治领域改革创新项目培育工作的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10605304.html",
+   "department": "广州市司法局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-23",
+   "deadline": "2025-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10605304",
@@ -1890,6 +2318,47 @@
     "vip"
    ],
    "status": "closed"
+  },
+  {
+   "id": "gz_portal:10597628",
+   "title": "广州市2025年第十五期科技成果登记公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597628.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-16",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料",
+    "电池"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10597626",
+   "title": "广州市科学技术局转发广东省科学技术厅 广东省财政厅 国家税务总局广东省税务局关于取消广州德谷个人护理用品有限公司等45家企业高新技术企业资格的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597626.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-16",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10597628",
@@ -1933,6 +2402,44 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10597618",
+   "title": "广州市科学技术局关于邀请参加“智汇广州，科创远航”—2025广州科技企业出海交流会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597618.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10593845",
+   "title": "广州市科学技术局关于调整广州科技创新创业大赛2025总决赛暨INNO+大湾区科创嘉年华活动有关安排的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10593845.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10597618",
    "title": "广州市科学技术局关于邀请参加“智汇广州，科创远航”—2025广州科技企业出海交流会的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597618.html",
@@ -1971,6 +2478,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10597616",
+   "title": "广州市科学技术局关于印发“广州科技GI”用户单位账号分级管理工作指引的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597616.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10597616",
    "title": "广州市科学技术局关于印发“广州科技GI”用户单位账号分级管理工作指引的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597616.html",
@@ -1988,6 +2514,27 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10583172",
+   "title": "十五运会和残特奥会科技创新融合优秀案例和示范案例（第二批）名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10583172.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-12-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10583172",
@@ -2028,6 +2575,63 @@
     "vip"
    ],
    "status": "closed"
+  },
+  {
+   "id": "gz_portal:10567976",
+   "title": "广州市科学技术局关于2025年广州科技创新创业大赛行业赛决赛阶段部分赛道优化调整的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10567976.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-26",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10567969",
+   "title": "广州市科学技术局关于发动相关企业参加大湾区企业出海需求调查的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10567969.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-26",
+   "deadline": "2025-11-28",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10567944",
+   "title": "广州市科学技术局关于“汽车动力节能器的开发与应用”等3个科技计划项目终止信息公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10567944.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-26",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10567976",
@@ -2087,6 +2691,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10564541",
+   "title": "第十四届中国创新创业大赛（广东·广州赛区）暨2025年广州科技创新创业大赛行业赛海洋科技与装备赛道企业赛初赛成绩及决赛晋级名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10564541.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-25",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10564541",
    "title": "第十四届中国创新创业大赛（广东·广州赛区）暨2025年广州科技创新创业大赛行业赛海洋科技与装备赛道企业赛初赛成绩及决赛晋级名单公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10564541.html",
@@ -2106,6 +2729,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10559769",
+   "title": "广州市科学技术局关于直属事业单位2025年引进急需人才资格复审结果及考核评价有关事项的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10559769.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10559769",
    "title": "广州市科学技术局关于直属事业单位2025年引进急需人才资格复审结果及考核评价有关事项的公告",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10559769.html",
@@ -2123,6 +2765,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10551074",
+   "title": "广州市科学技术局关于邀请参加广州科技创新创业大赛2025总决赛暨INNOPLUS大湾区科创嘉年华项目展示的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10551074.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10550968",
+   "title": "广州市科学技术局关于直属事业单位2025年引进急需人才资格复审的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10550968.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10551074",
@@ -2163,6 +2845,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10527772",
+   "title": "2025广州科技创新创业大赛港澳台赛暨香港科技大学百万奖金创业大赛广州赛获奖项目名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10527772.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-11-05",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10527772",
    "title": "2025广州科技创新创业大赛港澳台赛暨香港科技大学百万奖金创业大赛广州赛获奖项目名单公开",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10527772.html",
@@ -2182,6 +2883,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10506755",
+   "title": "广州市地质调查院（广州市海洋发展促进中心）关于延长2025年广州科技创新创业大赛行业赛海洋科技与装备赛道报名时间的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10506755.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-24",
+   "deadline": "2025-11-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10506755",
    "title": "广州市地质调查院（广州市海洋发展促进中心）关于延长2025年广州科技创新创业大赛行业赛海洋科技与装备赛道报名时间的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10506755.html",
@@ -2199,6 +2921,85 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10496317",
+   "title": "“智汇湾区 才聚广州”2025年产业人才校园招聘活动邀请函",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10496317.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10496272",
+   "title": "广州市科学技术局关于征集2026年广州市创新主体研发活动规范化支撑服务机构的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10496272.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-17",
+   "deadline": "2025-10-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10496265",
+   "title": "十五运会和残特奥会广州赛区科技工作专班办公室关于开展十五运会和残特奥会科技创新融合优秀案例（第二批）申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10496265.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-17",
+   "deadline": "2025-11-13",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "新能源",
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10496262",
+   "title": "广州市科学技术局关于组织参加第八届中国国际进口博览会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10496262.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-17",
+   "deadline": "2025-10-21",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10496317",
@@ -2277,6 +3078,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10486136",
+   "title": "十五运会和残特奥会广州赛区科技工作专班办公室 十五运会和残特奥会广州赛区执委会数字技术部 十五运会和残特奥会广州赛区执委会新闻广电宣传部 十五运会和残特奥会广州赛区执委会大型活动部关于公布十五运会和残特奥会科技创新融合优秀案例和示范案例（第一批）名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10486136.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10486136",
    "title": "十五运会和残特奥会广州赛区科技工作专班办公室 十五运会和残特奥会广州赛区执委会数字技术部 十五运会和残特奥会广州赛区执委会新闻广电宣传部 十五运会和残特奥会广州赛区执委会大型活动部关于公布十五运会和残特奥会科技创新融合优秀案例和示范案例（第一批）名单的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10486136.html",
@@ -2294,6 +3114,27 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10477991",
+   "title": "广州市科学技术局关于组织参加第二十七届中国国际高新技术成果交易会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10477991.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-10-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "能源"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10477991",
@@ -2315,6 +3156,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10471525",
+   "title": "广州市科学技术局关于延长2025年广州科技创新创业大赛行业赛报名时间的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10471525.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-30",
+   "deadline": "2025-10-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10471525",
    "title": "广州市科学技术局关于延长2025年广州科技创新创业大赛行业赛报名时间的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10471525.html",
@@ -2334,6 +3194,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10455546",
+   "title": "第十四届中国创新创业大赛（广东·广州赛区）暨2025年广州科技创新创业大赛行业赛海洋科技与装备赛道赛事安排",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10455546.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-19",
+   "deadline": "2025-10-14",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10455546",
    "title": "第十四届中国创新创业大赛（广东·广州赛区）暨2025年广州科技创新创业大赛行业赛海洋科技与装备赛道赛事安排",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10455546.html",
@@ -2351,6 +3230,65 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10443996",
+   "title": "十五运会和残特奥会科技创新融合优秀案例和示范案例（第一批）名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10443996.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10443983",
+   "title": "广州市科学技术局 广州市教育局关于公布2025年广州地区科普讲解大赛获奖名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10443983.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10443924",
+   "title": "广州市科学技术局转发广东省科学技术厅 广东省财政厅 国家税务总局广东省税务局关于取消广州达创协禾科技有限公司等企业高新技术企业资格的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10443924.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10443996",
@@ -2410,6 +3348,48 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10433211",
+   "title": "广州市科技创新决策咨询支撑机构退出机构公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10433211.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-04",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10433202",
+   "title": "广州市科学技术局关于组织参加第22届中国—东盟博览会先进技术展的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10433202.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-04",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10433211",
    "title": "广州市科技创新决策咨询支撑机构退出机构公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10433211.html",
@@ -2448,6 +3428,84 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10426022",
+   "title": "广州市科学技术局关于开展人工智能领域关键技术摸底调查的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10426022.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-01",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10426017",
+   "title": "广州市科学技术局关于举办2025年广州市科技政策精准推送“读懂会”生物医药专场活动的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10426017.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-01",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10426013",
+   "title": "广州市科学技术局关于组织开展2025年广东省技术先进型服务企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10426013.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-01",
+   "deadline": "2025-09-22",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10426009",
+   "title": "广州市科学技术局关于延长2025年第三批高新技术企业认定申报时间的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10426009.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-09-01",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10426022",
@@ -2526,6 +3584,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10423942",
+   "title": "广州市卫生健康委员会关于组织开展2025年广州市托育人才技能大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10423942.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10423942",
    "title": "广州市卫生健康委员会关于组织开展2025年广州市托育人才技能大赛的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10423942.html",
@@ -2545,6 +3622,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10414827",
+   "title": "广州市财政局 广州市科学技术局 广州市人力资源和社会保障局 国家税务总局广州市税务局关于印发广州市2023、2024纳税年度粤港澳大湾区个人所得税优惠政策境外人才财政补贴申报指南（2025年）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10414827.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-22",
+   "deadline": "2025-08-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10414827",
    "title": "广州市财政局 广州市科学技术局 广州市人力资源和社会保障局 国家税务总局广州市税务局关于印发广州市2023、2024纳税年度粤港澳大湾区个人所得税优惠政策境外人才财政补贴申报指南（2025年）的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10414827.html",
@@ -2562,6 +3658,48 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10410378",
+   "title": "广州市科学技术局关于申报2025年度企业创新计划生物医药产业创新补助（第一批）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10410378.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-20",
+   "deadline": "2025-10-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10410368",
+   "title": "广州市科学技术局关于组织申报2025年度广东省工程技术研究中心的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10410368.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-20",
+   "deadline": "2025-09-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10410378",
@@ -2600,6 +3738,106 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10400486",
+   "title": "广州市科学技术局关于征集2025浦江创新论坛—全球技术转移大会参展项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10400486.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-13",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "新能源",
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10400479",
+   "title": "广州市科学技术局关于组织参加2025世界智能产业博览会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10400479.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-13",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "新能源"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10400474",
+   "title": "广州市科学技术局关于组织参加第33届广州博览会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10400474.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-13",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10400470",
+   "title": "广州市科学技术局关于举办2025年广州科技创新创业大赛（行业赛、港澳台赛）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10400470.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-13",
+   "deadline": "2025-10-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10400466",
+   "title": "广州市科学技术局关于开展广州市科技创新“十五五”规划建言献策活动的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10400466.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-13",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10400486",
@@ -2699,6 +3937,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10391417",
+   "title": "广州市商务局关于做好2026年省级促进开放型经济发展水平提升专项资金（口岸建设事项）项目入库申报工作的函",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10391417.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-06",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10391417",
    "title": "广州市商务局关于做好2026年省级促进开放型经济发展水平提升专项资金（口岸建设事项）项目入库申报工作的函",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10391417.html",
@@ -2716,6 +3973,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10387794",
+   "title": "广州市科学技术局关于进一步明确广东省基础与应用基础研究基金依托单位注册申请要求的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10387794.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-04",
+   "deadline": "2025-08-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10387776",
+   "title": "广州市科学技术局关于开展2025年广州市科技计划项目实施期检查的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10387776.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-08-04",
+   "deadline": "2025-08-25",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10387794",
@@ -2756,6 +4053,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10367404",
+   "title": "广州市科学技术局关于加强高新技术企业申报宣传动员工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10367404.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10367404",
    "title": "广州市科学技术局关于加强高新技术企业申报宣传动员工作的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10367404.html",
@@ -2773,6 +4089,128 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10361301",
+   "title": "广州市工业和信息化局关于开展2025年市级制造业创新中心建设申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361301.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "半导体",
+    "新能源",
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10361273",
+   "title": "全运会科技工作专班办公室关于延长十五运会和残特奥会科技融合创新优秀案例（第一批）申报推荐时间的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361273.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": "2025-08-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10361271",
+   "title": "广州市科学技术局关于征集惠企科技政策案例的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361271.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": "2025-08-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10361267",
+   "title": "广州市科学技术局转发广东省科学技术厅关于组织开展2025年度广东省工程技术研究中心动态评估工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361267.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10361263",
+   "title": "广州市科学技术局关于开展2025年科技型中小企业评价工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361263.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10361261",
+   "title": "广州市科学技术局关于下达2024年度第二批次2025年度第一批次广州市重点领域研发专题产学研合作项目认定立项方向项目计划的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10361261.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10361301",
@@ -2891,6 +4329,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10356600",
+   "title": "广州市科学技术局关于领取2023—2024年度科技服务专题技术合同登记服务补助方向“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10356600.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-16",
+   "deadline": "2025-08-14",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10356600",
    "title": "广州市科学技术局关于领取2023—2024年度科技服务专题技术合同登记服务补助方向“免申即享”补助资金的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10356600.html",
@@ -2908,6 +4365,63 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10352117",
+   "title": "广东省2025年考试录用公务员广州市科学技术局职位拟录用人员公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10352117.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10351994",
+   "title": "广州市科学技术局直属事业单位2025年集中公开招聘高校毕业生拟聘用人员公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10351994.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10351862",
+   "title": "广州市科学技术局关于公布第一批广州市科技创新决策咨询支撑机构入选名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10351862.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10352117",
@@ -2967,6 +4481,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10348752",
+   "title": "广州市卫生健康委员会关于印发2026年度广州市卫生健康科技重大项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10348752.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-09",
+   "deadline": "2025-08-22",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10348752",
    "title": "广州市卫生健康委员会关于印发2026年度广州市卫生健康科技重大项目申报指南的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10348752.html",
@@ -2984,6 +4517,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10384526",
+   "title": "广州市规划和自然资源局关于公布实施《天河区环五山创新策源区长湴村、元岗村首期项目及上元岗地块（AT0206、AT0207、AT0210、AT0211、AB3106规划管理单元）控制性详细规划》等8项规划成果的通告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10384526.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-04",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10384526",
@@ -3005,6 +4557,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10340726",
+   "title": "广州市未来网络与量子科技未来产业发展工作专班办公室关于开展量子科技领域摸底调查的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10340726.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-07-03",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10340726",
    "title": "广州市未来网络与量子科技未来产业发展工作专班办公室关于开展量子科技领域摸底调查的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10340726.html",
@@ -3024,6 +4595,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10334184",
+   "title": "广州市科学技术局（广州市外国专家局）转发广东省科学技术厅（广东省外国专家局）关于组织申报2025～2026年外国专家项目（柔性引才）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10334184.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10334184",
    "title": "广州市科学技术局（广州市外国专家局）转发广东省科学技术厅（广东省外国专家局）关于组织申报2025～2026年外国专家项目（柔性引才）的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10334184.html",
@@ -3041,6 +4631,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10330305",
+   "title": "第一批广州市科技创新决策咨询支撑机构拟入选名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10330305.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-27",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10330296",
+   "title": "广州市科学技术局 广州市教育局关于举办2025年广州地区科普讲解大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10330296.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-27",
+   "deadline": "2025-07-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10330305",
@@ -3083,6 +4713,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10320571",
+   "title": "广州市工业和信息化局关于做好2026年绿美广东生态建设重点任务保障专项资金（绿色循环发展）项目入库工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10320571.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10320571",
    "title": "广州市工业和信息化局关于做好2026年绿美广东生态建设重点任务保障专项资金（绿色循环发展）项目入库工作的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10320571.html",
@@ -3100,6 +4751,44 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10316066",
+   "title": "广州市科学技术局关于公布2025年第一批市级科技企业孵化器认定名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10316066.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10311418",
+   "title": "广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2025年高新技术企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10311418.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-18",
+   "deadline": "2025-09-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10316066",
@@ -3140,6 +4829,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10300519",
+   "title": "广州市科学技术局推荐2025年度国家科学技术奖提名项目名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10300519.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-09",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10300519",
    "title": "广州市科学技术局推荐2025年度国家科学技术奖提名项目名单公开",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10300519.html",
@@ -3157,6 +4865,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10300521",
+   "title": "广州市科学技术局关于征集广东省基础与应用基础研究基金项目评审企业技术专家的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10300521.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-06",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10300521",
@@ -3178,6 +4905,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10295234",
+   "title": "广州市科学技术局关于印发2025年广州市科普工作计划的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10295234.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-04",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10295234",
    "title": "广州市科学技术局关于印发2025年广州市科普工作计划的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10295234.html",
@@ -3195,6 +4941,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10292748",
+   "title": "广州市2025年第七期科技成果登记公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10292748.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-03",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10292722",
+   "title": "广州市科学技术局关于开展2025年“创新积分制”企业信息征集工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10292722.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-06-03",
+   "deadline": "2025-06-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10292748",
@@ -3233,6 +5019,65 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10288754",
+   "title": "2025年广州市第一批市级科技企业孵化器拟认定名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10288754.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10288750",
+   "title": "2025年广州市第一批市级科技企业孵化器认定评审专家名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10288750.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10288727",
+   "title": "广州市科学技术局关于直属事业单位2025年集中公开招聘高校毕业生综合成绩与入围体检人员名单的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10288727.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10288754",
@@ -3292,6 +5137,84 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10280280",
+   "title": "广州市科学技术局 中共广州市委宣传部广州市教育局 广州市科学技术协会关于印发2025年广州科技活动周工作方案的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10280280.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10280235",
+   "title": "广州市科学技术局（广州市外国专家局）转发广东省科学技术厅（广东省外国专家局）关于组织申报2025～2026年广东省海外名师项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10280235.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10280216",
+   "title": "广州市科学技术局关于征集2025年度广东省基础与应用基础研究基金广州市联合基金（粤穗联合基金）指南建议的补充通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10280216.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-22",
+   "deadline": "2025-06-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10277776",
+   "title": "广州市教育局关于举办2025年广州市学校科技特色夏令营及招募营员的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10277776.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10280280",
@@ -3370,6 +5293,47 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10275606",
+   "title": "广州市科学技术局转发广东省科学技术厅 广东省财政厅 国家税务总局广东省税务局关于补充公布广东省2024年认定报备的高新技术企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10275606.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-21",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10275596",
+   "title": "全运会科技工作专班办公室关于开展十五运会和残特奥会科技融合创新优秀案例（第一批）申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10275596.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-21",
+   "deadline": "2025-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "新能源",
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10275606",
    "title": "广州市科学技术局转发广东省科学技术厅 广东省财政厅 国家税务总局广东省税务局关于补充公布广东省2024年认定报备的高新技术企业名单的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10275606.html",
@@ -3408,6 +5372,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10263281",
+   "title": "2025年度广州市科技企业培育服务“一区一机构”遴选结果公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10263281.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10263281",
    "title": "2025年度广州市科技企业培育服务“一区一机构”遴选结果公开",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10263281.html",
@@ -3425,6 +5408,27 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10259430",
+   "title": "广州市工业和信息化局关于开展2026年省级制造业当家重点任务保障专项资金（产业创新能力建设）项目入库的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10259430.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-05-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10259430",
@@ -3446,6 +5450,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10246445",
+   "title": "广州市科学技术局关于征集2025年度广东省基础与应用基础研究基金广州市联合基金（粤穗联合基金）指南建议的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10246445.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-30",
+   "deadline": "2025-05-13",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10246445",
    "title": "广州市科学技术局关于征集2025年度广东省基础与应用基础研究基金广州市联合基金（粤穗联合基金）指南建议的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10246445.html",
@@ -3463,6 +5486,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10240592",
+   "title": "广州市科学技术局关于征集2025年广州科技活动周开幕式暨第九届科学嘉年华展示内容的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10240592.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-28",
+   "deadline": "2025-05-12",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10240592",
@@ -3484,6 +5526,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10230914",
+   "title": "广州市科学技术局关于开展2025年市科技计划项目验收工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10230914.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10230914",
    "title": "广州市科学技术局关于开展2025年市科技计划项目验收工作的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10230914.html",
@@ -3501,6 +5564,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10226043",
+   "title": "广州市科学技术局关于征集遴选2025年广州科技创新创业大赛行业赛道主办单位的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10226043.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-21",
+   "deadline": "2025-05-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10226043",
@@ -3522,6 +5604,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10215950",
+   "title": "广州市科学技术局转发广东省科学技术厅关于发布2025年度国际科技合作领域项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10215950.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-15",
+   "deadline": "2025-06-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10215950",
    "title": "广州市科学技术局转发广东省科学技术厅关于发布2025年度国际科技合作领域项目申报指南的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10215950.html",
@@ -3539,6 +5640,46 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10211035",
+   "title": "广州市工业和信息化局关于组织申报2026年省级制造业当家重点任务保障专项资金普惠性制造业投资奖励项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10211035.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10210231",
+   "title": "广州市科学技术局关于开展第一批广州市科技创新决策咨询支撑机构申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10210231.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10211035",
@@ -3579,6 +5720,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10207419",
+   "title": "广州市政务服务和数据管理局关于征集可信数据空间创新发展试点项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10207419.html",
+   "department": "广州市政务服务和数据管理局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-04-09",
+   "deadline": "2025-04-17",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10207419",
    "title": "广州市政务服务和数据管理局关于征集可信数据空间创新发展试点项目的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10207419.html",
@@ -3596,6 +5758,25 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10164486",
+   "title": "广州市科学技术局关于领取2024年科技服务专题（高新技术企业“一区一机构”服务方向）“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10164486.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-03-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10164486",
@@ -3617,6 +5798,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10160408",
+   "title": "广州市农业农村局 广州市人力资源和社会保障局关于做好我市2024年度乡村工匠专业人才职称评审工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10160408.html",
+   "department": "广州市农业农村局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-03-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10160408",
    "title": "广州市农业农村局 广州市人力资源和社会保障局关于做好我市2024年度乡村工匠专业人才职称评审工作的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10160408.html",
@@ -3634,6 +5834,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10153397",
+   "title": "广州市科学技术局关于举办外国人才服务管理政策线上宣讲会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10153397.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-03-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10153397",
@@ -3655,6 +5874,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10151560",
+   "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅 国家税务总局广东省税务局关于取消富利建设集团有限公司等企业高新技术企业资格的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10151560.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-03-10",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10151560",
    "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅 国家税务总局广东省税务局关于取消富利建设集团有限公司等企业高新技术企业资格的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10151560.html",
@@ -3672,6 +5910,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10135311",
+   "title": "广州市商务局关于印发2025年广州市促进商务高质量发展专项资金商业网点建设专题申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10135311.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-27",
+   "deadline": "2025-04-23",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10135311",
@@ -3693,6 +5950,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10128135",
+   "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅 国家税务总局广东省税务局关于公布广东省2024年第三批高新技术企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10128135.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10128135",
    "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅 国家税务总局广东省税务局关于公布广东省2024年第三批高新技术企业名单的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10128135.html",
@@ -3710,6 +5986,46 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10123873",
+   "title": "广州市科学技术局关于领取2024年度广州市科技型中小企业技术创新专题“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10123873.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-20",
+   "deadline": "2024-03-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10123417",
+   "title": "广州市商务局关于印发2025年中央外经贸发展专项资金（服务贸易发展事项）提升公共服务能力事项项目入库工作申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10123417.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-20",
+   "deadline": "2025-02-21",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10123873",
@@ -3750,6 +6066,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10115958",
+   "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅国家税务总局广东省税务局关于公布广东省2024年第二批高新技术企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10115958.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10115958",
    "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅国家税务总局广东省税务局关于公布广东省2024年第二批高新技术企业名单的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10115958.html",
@@ -3767,6 +6102,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10106408",
+   "title": "广州市科学技术局转发广东省科学技术厅广东省财政厅 国家税务总局广东省税务局关于公布广东省2024年第一批高新技术企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10106408.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-02-07",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10106408",
@@ -3788,6 +6142,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10096444",
+   "title": "广州市科学技术局转发广东省科学技术厅关于开展外籍和港澳台高层次人才认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10096444.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-24",
+   "deadline": "2021-06-01",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10096444",
    "title": "广州市科学技术局转发广东省科学技术厅关于开展外籍和港澳台高层次人才认定工作的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10096444.html",
@@ -3805,6 +6178,46 @@
    "status": "closed",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10087620",
+   "title": "广州市商务局关于印发2025年广州市促进商务高质量发展专项资金会展业专题申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10087620.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-21",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10087471",
+   "title": "广州市商务局关于组织申报2025年广州市促进商务高质量发展专项资金居民服务业专题（转型升级项目）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10087471.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-21",
+   "deadline": "2025-03-06",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10087620",
@@ -3845,6 +6258,25 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10086315",
+   "title": "2025年广州市创新主体研发活动规范化支撑服务机构名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10086315.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10086315",
    "title": "2025年广州市创新主体研发活动规范化支撑服务机构名单公开",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10086315.html",
@@ -3862,6 +6294,25 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10077384",
+   "title": "广州市教育局关于公布2023学年广州市中学生“英才计划”科技特训营营员结业论文获奖名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10077384.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
   },
   {
    "id": "gz_kjj:10077384",
@@ -3883,6 +6334,27 @@
    "source_name": "广州市政府门户·通知公告"
   },
   {
+   "id": "gz_portal:10066082",
+   "title": "广州市科学技术局关于2024年度广东省科学技术奖拟提名项目公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10066082.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-07",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10066082",
    "title": "广州市科学技术局关于2024年度广东省科学技术奖拟提名项目公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10066082.html",
@@ -3900,6 +6372,1969 @@
    "status": "unknown",
    "source_id": "gz_portal",
    "source_name": "广州市政府门户·通知公告"
+  },
+  {
+   "id": "gz_portal:10057428",
+   "title": "广州市科学技术局关于2024年度概念验证中心资助专题拟认定名单公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10057428.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-02",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10057423",
+   "title": "广州市科学技术局关于组织赴港参加2025年应用科技高峰会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10057423.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2025-01-02",
+   "deadline": "2025-01-26",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10055297",
+   "title": "广州市科学技术局关于公开第十三届中国创新创业大赛（广东·广州赛区）暨2024年广州科技创新创业大赛决赛成绩及拟获奖企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10055297.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10045826",
+   "title": "广州市科学技术局关于提交2024年度有关工作情况报告的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10045826.html",
+   "department": "广州市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-25",
+   "deadline": "2025-04-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10037857",
+   "title": "广州市科学技术局关于举行2024线上外籍人才招聘会（广州专场）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10037857.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10030907",
+   "title": "面向世界 通关便利海关深化改革创新全力支持广州南沙创新发展",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10030907.html",
+   "department": "广州海关",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10028883",
+   "title": "广州市科学技术局关于领取2024年度科技服务专题（科技型中小企业“一区一机构”服务方向）“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10028883.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-16",
+   "deadline": "2024-12-23",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10026433",
+   "title": "广州市科学技术局关于香港科技大学百万奖金创业大赛广州赛暨2024广州科技创新创业大赛港澳台赛获奖企业名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10026433.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-13",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10023753",
+   "title": "广州市规划和自然资源局关于公开征集推荐广州市工程系列地质勘查工程和自然资源工程海洋专业技术人才职称评审委员会评委库委员的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10023753.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10022681",
+   "title": "广州市科学技术局关于开展2024年度广东省科学技术奖提名工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10022681.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-12",
+   "deadline": "2025-01-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10013203",
+   "title": "广州市规划和自然资源局关于推荐广州市工程系列自然资源工程测绘、国土专业技术人才职称评审委员会专家库更新增补人选的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10013203.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-12-06",
+   "deadline": "2024-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9999685",
+   "title": "广州市工业和信息化局关于开展2024年广州市中小企业数字化转型城市试点专项资金中小企业数字化改造项目入库申报工作的预通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9999685.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-28",
+   "deadline": "2024-12-08",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9992460",
+   "title": "广州市教育局关于公布广州市信息技术赋能教学“十百千万”人才培养项目培养对象（2022-2024年）结业考核结果的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9992460.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-25",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9994092",
+   "title": "广州市文化广电旅游局关于2024年广州市文化和旅游产业发展专项资金“数字文化产业项目”项目评审结果的公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9994092.html",
+   "department": "广州市文化广电旅游局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-21",
+   "deadline": "2024-11-21",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9993080",
+   "title": "广州市政务服务和数据管理局关于遴选产业“实数融合”创新示范平台的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9993080.html",
+   "department": "广州市政务服务和数据管理局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-21",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9982864",
+   "title": "第十三届中国创新创业大赛（广东·广州赛区）暨2024年广州科技创新创业大赛决赛企业名单公开的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9982864.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-19",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9982859",
+   "title": "广州市科学技术局关于领取2024年度科技服务专题（研发活动规范化“一区一机构”服务补助）“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9982859.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9961526",
+   "title": "广州市教育局 广州市科学技术协会 广州市科学技术局 广州市知识产权局关于举办第40届广州市青少年科技创新大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9961526.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-11-06",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9951877",
+   "title": "广州市科学技术局关于征集中国科学院—广东省科技成果对接会技术经理人的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9951877.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-10-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9949982",
+   "title": "香港科技大学百万奖金创业大赛广州赛暨2024广州科技创新创业大赛港澳台赛晋级半决赛项目名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9949982.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-10-30",
+   "deadline": "2024-11-06",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9942607",
+   "title": "广州市科学技术局关于征集广州、湛江科技产业创新发展活动需求的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9942607.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-10-25",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9915260",
+   "title": "广州市教育局关于公布利用各种社会优质资源研发教育课程资源专项课题立项名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9915260.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-10-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9895806",
+   "title": "广州市卫生健康委员会关于下达2025年度广州市卫生健康科技一般引导项目和两新项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9895806.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9895799",
+   "title": "广州市卫生健康委员会关于下达2025年度广州市卫生健康科技重大项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9895799.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9889941",
+   "title": "广州市科学技术局关于开展2023年广州市创业领军团队入选企业房租补贴申领工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9889941.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-26",
+   "deadline": "2024-09-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9875228",
+   "title": "广州市科学技术局关于领取2023年度第八届中国创新挑战赛（广州）奖励后补助专题“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9875228.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-18",
+   "deadline": "2024-09-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9875220",
+   "title": "广州市科学技术局关于领取2023年度科技服务机构大赛奖励后补助专题“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9875220.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-18",
+   "deadline": "2024-09-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9872416",
+   "title": "广州市商务局关于开展2025年省级促进开放型经济发展水平提升专项资金（新型国际贸易事项）申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9872416.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-14",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9846447",
+   "title": "广州市农业农村局转发广东省农业农村厅关于印发《2025年乡村振兴战略专项省级组织实施项目（第二批）入库申报指南》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9846447.html",
+   "department": "广州市农业农村局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-09-04",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9836793",
+   "title": "广州市科学技术局关于举办2024年广州市科普作品大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9836793.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-08-29",
+   "deadline": "2024-10-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9836785",
+   "title": "广州市科学技术局关于延长2024年第三批高新技术企业认定申报时间的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9836785.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-08-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9819821",
+   "title": "广州市科学技术局关于组织参加第32届广州博览会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9819821.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-08-19",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9798435",
+   "title": "广州市科学技术局关于常态化开展市级科技企业孵化器认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9798435.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-08-06",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:9791827",
+   "title": "广州市商务局关于2025年省级促进开放型经济发展水平提升专项资金进口贴息事项申报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9791827.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-08-01",
+   "deadline": "2024-06-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9775307",
+   "title": "广州市规划和自然资源局直属事业单位2024年第一次引进急需专业人才拟聘人员公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9775307.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9765885",
+   "title": "第八届中国创新挑战赛（广东·广州赛区）现场赛获奖名单公开",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9765885.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9762459",
+   "title": "广州市科学技术局 广州市教育局关于公布2024年广州地区科普讲解大赛获奖名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9762459.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9762457",
+   "title": "广州市科学技术局关于举办香港科技大学百万奖金创业大赛广州赛暨2024广州科技创新创业大赛港澳台赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9762457.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-17",
+   "deadline": "2024-11-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9751669",
+   "title": "广州市科学技术局关于开展2024年科技型中小企业评价工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9751669.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-10",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9750016",
+   "title": "广州市工业和信息化局关于征集广州市创新药械产品目录（第一批）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9750016.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-07-09",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9725629",
+   "title": "广州市科学技术局关于印发科学研究和技术服务业有关工作指引的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9725629.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-06-26",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9721307",
+   "title": "关于公布广州市“校园餐”专项整治行动投诉举报电话和邮箱的公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9721307.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-06-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9717456",
+   "title": "广州研究型医院联盟建设专责小组关于开展首批广州研究型医院联盟科技创新成果转化专家遴选工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9717456.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-06-21",
+   "deadline": "2024-06-30",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9689156",
+   "title": "广州市教育局直属事业单位广州科技贸易职业学院2024年第一次引进急需人才公告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9689156.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-06-05",
+   "deadline": "2024-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9681709",
+   "title": "广州市交通运输局关于印发2024年在建城市道路轨道交通工程项目建筑市场违法违规行为专项整治行动工作方案的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9681709.html",
+   "department": "市交通运输局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-31",
+   "deadline": "2024-11-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9681515",
+   "title": "广州市工业和信息化局转发关于做好2025年绿美广东生态建设重点任务保障专项资金（绿色循环发展）项目入库工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9681515.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9673562",
+   "title": "广州市教育局关于举办2024年广州市学校科技特色夏令营及招募营员的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9673562.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9673231",
+   "title": "广州市科学技术局关于征集第十五届全运会和残特奥会高科技企业创新成果的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9673231.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "新能源",
+    "显示",
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9673227",
+   "title": "广州市科学技术局关于印发广州市概念验证中心资助管理办法（试行）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9673227.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9673221",
+   "title": "广州市科学技术局 广州市财政局关于印发进一步完善广州市科技计划项目经费“负面清单＋包干制”工作方案的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9673221.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9670999",
+   "title": "广州市医疗保障局关于购买2024年度广州地区医疗服务价格专项技术服务项目的通告",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9670999.html",
+   "department": "广州市医疗保障局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-27",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9665975",
+   "title": "广州市商务局关于印发2024年广州市促进商务高质量发展专项资金商业网点建设专题申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9665975.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-23",
+   "deadline": "2024-07-12",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9663446",
+   "title": "广州市科学技术局 中共广州市委宣传部 广州市教育局 广州市科学技术协会关于印发2024年广州科技活动周工作方案的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9663446.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9657737",
+   "title": "广州市医疗保障局关于印发广州医保支持创新医药发展若干措施的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9657737.html",
+   "department": "广州市医疗保障局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9681316",
+   "title": "广州市卫生健康委员会关于印发2025年度广州市卫生健康科技一般引导项目和两新项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9681316.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-05-17",
+   "deadline": "2024-07-12",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9629940",
+   "title": "广州市科学技术局印发广州市关于赋予科研人员职务科技成果所有权或长期使用权等工作指引的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9629940.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9629929",
+   "title": "广州市科学技术局关于征集2024年广州科技活动周开幕式暨第八届科学嘉年华展示内容的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9629929.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-30",
+   "deadline": "2024-05-08",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9629035",
+   "title": "广州市工业和信息化局关于发布2024年广州市促进工业和信息化产业高质量发展专项资金（首台（套）重点技术装备研制与推广应用奖励）申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9629035.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-30",
+   "deadline": "2024-06-28",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9627970",
+   "title": "关于广州市国企创新投资基金第六批拟合作机构（子基金管理人）的公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9627970.html",
+   "department": "广州市人民政府国有资产监督管理委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9626561",
+   "title": "广州市卫生健康委员会关于印发2025年度广州市卫生健康科技重大项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9626561.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-29",
+   "deadline": "2024-07-12",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9611535",
+   "title": "广州市工业和信息化局关于落实制造业创新中心扶持政策的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9611535.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-23",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:9607273",
+   "title": "广州市科学技术局关于举办2025年度广州市科技计划项目申报指南线上宣讲会的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9607273.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-19",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9607271",
+   "title": "广州市科学技术局关于领取2021、2022年度高新技术企业培育专题“小升规”方向补助“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9607271.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-19",
+   "deadline": "2024-04-17",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9601576",
+   "title": "广州市商务局关于组织申报2024年广州市促进商务高质量发展专项资金居民服务业专题（扩大规模奖励）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9601576.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-05-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600251",
+   "title": "广州市科学技术局关于开展2024年广州市科技资源库遴选工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600251.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-05-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600249",
+   "title": "广州市科学技术局关于发布基础研究计划2025年度基础与应用基础研究专题项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600249.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-04-22",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600247",
+   "title": "广州市科学技术局关于发布基础研究计划2025年度市校（院）企联合资助专题项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600247.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-07-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600245",
+   "title": "广州市科学技术局关于发布重点研发计划2025年度国家重点研发计划“递补支持”专题重大科技项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600245.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-06-07",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600242",
+   "title": "广州市科学技术局关于征集重点研发计划2025年度广州市产业链创新联合体协同技术攻关专题产业链实施方案的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600242.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-06-17",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600240",
+   "title": "广州市科学技术局关于发布重点研发计划2025年度农业和社会发展科技专题项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600240.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-06-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "碳中和"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600238",
+   "title": "广州市科学技术局关于发布重点研发计划2024年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600238.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:9600236",
+   "title": "广州市科学技术局关于发布创新环境计划2025年度农村科技特派员专题项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600236.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-06-21",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9600234",
+   "title": "广州市科学技术局关于发布创新环境计划2025年度科普专题（科普品牌项目）申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9600234.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-16",
+   "deadline": "2024-06-06",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9593508",
+   "title": "广州市教育局关于举办2024年广州市青少年“家庭化学实验100秒”科技教育竞赛活动的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9593508.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9590212",
+   "title": "广州市商务局关于印发《广州市促进保税物流创新发展若干措施》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9590212.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-10",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9587634",
+   "title": "广州市科学技术局关于举办2024年广州科技活动周的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9587634.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-09",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9587622",
+   "title": "广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2024年高新技术企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9587622.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-09",
+   "deadline": "2024-09-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9587605",
+   "title": "广州市科学技术局关于开展2024年市科技计划项目验收工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9587605.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-09",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9580037",
+   "title": "广州市科学技术局关于领取2023年度广州市科技型中小企业技术创新专题“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9580037.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-05",
+   "deadline": "2024-05-07",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9580035",
+   "title": "广州市科学技术局 广州市教育局关于举办2024年广州地区科普讲解大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9580035.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-05",
+   "deadline": "2024-05-17",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9580033",
+   "title": "广州市科学技术局关于公布2023年度市级科技企业孵化器认定名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9580033.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-04-05",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9568387",
+   "title": "广州市科学技术局关于印发2024年广州市科普工作计划的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9568387.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9568385",
+   "title": "广州市科学技术局关于征集遴选2024年广州科技创新创业大赛行业赛承办单位的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9568385.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-29",
+   "deadline": "2024-04-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9566024",
+   "title": "广州市卫生健康委关于做好2023年度卫生健康专业技术人才职称评审工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9566024.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-28",
+   "deadline": "2024-05-28",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9565007",
+   "title": "广州市工业和信息化局关于组织申报2025年省级制造业当家重点任务保障专项资金（普惠性制造业投资奖励）项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9565007.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9553144",
+   "title": "广州市科学技术局关于领取2023年度广州科技创新创业大赛港澳台赛“免申即享”补助资金（第二批次）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9553144.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-21",
+   "deadline": "2024-04-23",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9530201",
+   "title": "广州市工业和信息化局关于2024年省级促进经济高质量发展专项资金（产业创新能力建设）专项资金支持省级企业技术中心项目（第一批）的公示",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9530201.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-06",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9515297",
+   "title": "广州市科学技术局关于印发产学研合作项目认定为广州市重点领域研发计划项目实施细则（试行）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9515297.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-03-01",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9503353",
+   "title": "广州市科学技术局关于征集2024年“一区一机构”专业科技服务支撑机构的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9503353.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-02-26",
+   "deadline": "2024-03-07",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9497134",
+   "title": "广州市科学技术局关于领取2023年度科技服务专题（高新技术企业“一区一机构”服务方向）“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9497134.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-02-21",
+   "deadline": "2024-02-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9488553",
+   "title": "广州市商务局关于印发2024年广州市促进商务高质量发展专项资金会展业专题（第一批）申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9488553.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-02-08",
+   "deadline": "2024-02-26",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9464385",
+   "title": "广州市商务局关于印发2024年省级促进经济高质量发展专项资金（促进外贸发展方向-重点展会和展会配套体系）项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9464385.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-26",
+   "deadline": "2024-01-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9458260",
+   "title": "广州市科学技术局关于公开第十二届中国创新创业大赛（广东·广州赛区）暨2023年广州科技创新创业大赛常规赛拟获奖企业名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9458260.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9449976",
+   "title": "广州市商务局关于印发2024年中央外经贸发展专项资金（服务贸易发展事项）申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9449976.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-18",
+   "deadline": "2023-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9449013",
+   "title": "广州市农业农村局关于申报2024年广东省现代设施农业创新引领区及创新引领基地的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9449013.html",
+   "department": "广州市农业农村局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9442437",
+   "title": "广州市人力资源和社会保障局关于印发《2024年广州市就业援助月专项活动工作方案》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9442437.html",
+   "department": "广州市人力资源和社会保障局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-15",
+   "deadline": "2024-02-07",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9439576",
+   "title": "广州市规划和自然资源局 广州市住房和城乡建设局关于印发《广州市创新营商环境推进“多测合一”实施方案》和《工程建设项目“多测合一”技术规程》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9439576.html",
+   "department": "广州市住房和城乡建设局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9437302",
+   "title": "广州市工业和信息化局关于发布2024年广州市促进工业和信息化产业高质量发展专项资金集中申报指南（第一批）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9437302.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-11",
+   "deadline": "2024-03-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9437161",
+   "title": "广州市科学技术局关于开展2023年度全市高新技术企业综合统计快报工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9437161.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-11",
+   "deadline": "2024-01-18",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:9437275",
+   "title": "广州市科学技术局关于举办2024年广州市科普资源服务能力建设提升系列活动（第一期）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9437275.html",
+   "department": "市科技局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-09",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:9422322",
+   "title": "广州市商务局关于转发2024年中央外经贸发展专项资金（促进对外投资合作事项）申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_9422322.html",
+   "department": "广州市商务局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2024-01-03",
+   "deadline": "2024-02-20",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
   }
  ]
 }
