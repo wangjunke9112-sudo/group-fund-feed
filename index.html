@@ -51,6 +51,12 @@
   .cell.on.t-info{background:var(--info);opacity:.5}
   .cell.peak::after{content:"";position:absolute;inset:0;border:2px solid rgba(0,0,0,.35);border-radius:4px}
   .cell.now{outline:2px solid var(--warn);outline-offset:1px}
+  .calgroup{margin-bottom:22px}
+  .calgroup h3{font-size:13px;color:var(--navy);margin:0 0 8px;padding-bottom:5px;
+               border-bottom:2px solid var(--line);font-weight:700}
+  .calgroup h3 span{font-family:var(--mono);font-size:10.5px;color:var(--faint);font-weight:400}
+  .ghint{font-size:11.5px;color:var(--faint);margin:-2px 0 9px;line-height:1.5}
+  .monthhead .mnow{color:var(--warn);font-weight:700}
   .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-family:var(--mono);font-size:10.5px;color:var(--soft)}
   .legend i{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:4px}
   .rownote{font-size:11.5px;color:var(--faint);padding:0 0 8px 2px;border-bottom:1px dashed var(--line);
@@ -242,15 +248,40 @@ function calRow(r, recs){
       : (rowLinks(r, recs)?'<div class="rownote">'+rowLinks(r, recs)+'</div>':""));
 }
 
+function monthHead(){
+  let h='<div class="monthhead"><div></div>';
+  for(let m=1;m<=12;m++) h+='<div'+(m===NOWM?' class="mnow"':'')+'>'+m+'</div>';
+  return h+'</div>';
+}
+
 function renderCal(c, recs){
-  let h='<div class="monthhead"><div>项目 / 来源</div>';
-  for(let m=1;m<=12;m++) h+='<div>'+m+'</div>';
-  h+='</div>';
-  const all=(c.anchors||[]).concat(c.derived||[]);
-  if(!all.length) h+='<div class="empty">暂无日历数据</div>';
-  const order={"国家":0,"省":1,"市":2,"港澳":3};
-  all.sort((a,b)=>(order[a.level]??9)-(order[b.level]??9)||(a.peak||13)-(b.peak||13));
-  all.forEach(r=>h+=calRow(r, recs));
+  const anchors=(c.anchors||[]).slice(), derived=(c.derived||[]).slice();
+  if(!anchors.length&&!derived.length){
+    el("calpanel").innerHTML='<div class="empty">暂无日历数据</div>';return;
+  }
+  let h="";
+  const GROUPS=[
+    ["国家","国家级 · NSFC / 科技部"],
+    ["港澳","港澳合作 · JRS / ITF"],
+    ["省","广东省"],
+    ["市","广州市"],
+  ];
+  GROUPS.forEach(([lv,label])=>{
+    const rows=anchors.filter(a=>a.level===lv).sort((a,b)=>(a.peak||13)-(b.peak||13));
+    if(!rows.length) return;
+    h+='<div class="calgroup"><h3>'+esc(label)+' <span>'+rows.length+'</span></h3>';
+    h+=monthHead();
+    rows.forEach(r=>h+=calRow(r, recs));
+    h+='</div>';
+  });
+  if(derived.length){
+    h+='<div class="calgroup"><h3>历史观测 · 由已抓取通知统计 <span>'+derived.length+'</span></h3>'+
+       '<p class="ghint">以下不是官方公布的时间表，而是从库内历史通知中统计出的实际发布月份，'+
+       '用于印证或补充上面的锚点。</p>';
+    h+=monthHead();
+    derived.forEach(r=>h+=calRow(r, recs));
+    h+='</div>';
+  }
   h+='<div class="legend">'+
      '<span><i style="background:var(--gold)"></i>可牵头</span>'+
      '<span><i style="background:var(--team)"></i>团队参与</span>'+
