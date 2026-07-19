@@ -56,6 +56,15 @@
   .rownote{font-size:11.5px;color:var(--faint);padding:0 0 8px 2px;border-bottom:1px dashed var(--line);
            margin:0 0 6px;line-height:1.5;min-width:620px}
   .rownote b{color:var(--soft);font-weight:600}
+  .rowlinks{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:3px}
+  .lk{font-family:var(--mono);font-size:10.5px;text-decoration:none;padding:2px 7px;border-radius:4px;
+      border:1px solid var(--line);color:var(--soft);background:#fbfbfc;white-space:nowrap}
+  .lk:hover{border-color:var(--navy);color:var(--navy)}
+  .lk-live{border-color:var(--gold);color:var(--vip);background:var(--vip-bg);font-weight:700}
+  .lk-live:hover{border-color:var(--vip)}
+  .lk em{font-style:normal;opacity:.75}
+  .rowname a{color:inherit;text-decoration:none}
+  .rowname a:hover{color:var(--navy);text-decoration:underline}
   .conf{font-family:var(--mono);font-size:9.5px;padding:1px 5px;border-radius:3px;margin-left:6px}
   .c-verified{background:var(--info-bg);color:var(--info)}
   .c-estimated{background:var(--verify-bg);color:var(--soft)}
@@ -107,7 +116,7 @@
 
   <section id="v-cal">
     <h2>全年申报节奏</h2>
-    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。</p>
+    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」按钮直达库内最新的该类真实通知。</p>
     <div class="panel"><div class="calscroll" id="calpanel"></div></div>
   </section>
 
@@ -171,7 +180,36 @@ function sortRecs(rs){
   });
 }
 
-function calRow(r){
+function latestFor(r, recs){
+  const keys=(r.match||[]).filter(Boolean);
+  if(!keys.length||!recs||!recs.length) return null;
+  const hits=recs.filter(n=>{
+    const t=n.title||"";
+    if(!keys.some(k=>t.indexOf(k)>=0)) return false;
+    // level must agree when both sides declare one: a 省级 anchor must not
+    // link to a 市级 notice merely because both say "重点领域研发"
+    if(r.level && n.level && r.level!==n.level) return false;
+    return true;
+  });
+  if(!hits.length) return null;
+  hits.sort((a,b)=>(b.published||"").localeCompare(a.published||""));
+  return hits[0];
+}
+
+function rowLinks(r, recs){
+  const out=[];
+  const n=latestFor(r, recs);
+  if(n&&n.url){
+    const d=n.published?'<em> '+esc(n.published)+'</em>':'';
+    const due=(n.deadline&&n.deadline>=TODAY)?' · 剩'+dleft(n.deadline)+'天':'';
+    out.push('<a class="lk lk-live" href="'+esc(n.url)+'" target="_blank" rel="noopener" title="'+
+             esc(n.title)+'">最近一期'+d+due+'</a>');
+  }
+  if(r.url) out.push('<a class="lk" href="'+esc(r.url)+'" target="_blank" rel="noopener">官网栏目 ↗</a>');
+  return out.length?'<div class="rowlinks">'+out.join("")+'</div>':"";
+}
+
+function calRow(r, recs){
   const months=new Set((r.months||[]).map(Number));
   const tag=r.tag||"observed";
   const cls=({vip:"t-vip",team:"t-team",red:"t-red",info:"t-info"})[tag]||"";
@@ -186,12 +224,17 @@ function calRow(r){
     cells+='<div class="cell'+(on?" on "+cls:"")+peak+now+'"></div>';
   }
   const org=r.org?'<small> · '+esc(r.org)+'</small>':"";
-  return '<div class="calrow"><div class="rowname" title="'+esc(r.name)+'">'+esc(r.name)+org+conf+'</div>'+cells+'</div>'+
+  const live=latestFor(r, recs);
+  const nm=(live&&live.url)
+    ? '<a href="'+esc(live.url)+'" target="_blank" rel="noopener">'+esc(r.name)+'</a>'
+    : esc(r.name);
+  return '<div class="calrow"><div class="rowname" title="'+esc(r.name)+'">'+nm+org+conf+'</div>'+cells+'</div>'+
     (r.window||r.note?'<div class="rownote">'+(r.window?'<b>'+esc(r.window)+'</b>':"")+
-      (r.note?(r.window?' · ':'')+esc(r.note):"")+'</div>':"");
+      (r.note?(r.window?' · ':'')+esc(r.note):"")+rowLinks(r, recs)+'</div>'
+      : (rowLinks(r, recs)?'<div class="rownote">'+rowLinks(r, recs)+'</div>':""));
 }
 
-function renderCal(c){
+function renderCal(c, recs){
   let h='<div class="monthhead"><div>项目 / 来源</div>';
   for(let m=1;m<=12;m++) h+='<div>'+m+'</div>';
   h+='</div>';
@@ -199,7 +242,7 @@ function renderCal(c){
   if(!all.length) h+='<div class="empty">暂无日历数据</div>';
   const order={"国家":0,"省":1,"市":2,"港澳":3};
   all.sort((a,b)=>(order[a.level]??9)-(order[b.level]??9)||(a.peak||13)-(b.peak||13));
-  all.forEach(r=>h+=calRow(r));
+  all.forEach(r=>h+=calRow(r, recs));
   h+='<div class="legend">'+
      '<span><i style="background:var(--gold)"></i>可牵头</span>'+
      '<span><i style="background:var(--team)"></i>团队参与</span>'+
@@ -226,7 +269,7 @@ Promise.all([
   const oldest=recs.map(r=>r.published).filter(Boolean).sort()[0]||"—";
   el("sub").textContent="更新 "+(nd.generated||"—")+" · 库内 "+recs.length+" 条 · 申报机会 "
                         +opp.length+" 条 · 回溯至 "+oldest;
-  renderCal(cd);
+  renderCal(cd, recs);
   renderChk(cd.manual_sources);
   const open=sortRecs(opp.filter(r=>r.status==="open"||(r.deadline&&r.deadline>=TODAY)));
   const diag=window.__nerr
