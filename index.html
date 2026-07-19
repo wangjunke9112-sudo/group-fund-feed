@@ -80,6 +80,7 @@
   .b-team{color:var(--team);background:var(--team-bg);border:1px solid var(--team-bd)}
   .b-verify{color:var(--verify);background:var(--verify-bg)}
   .b-red{color:var(--red);background:var(--red-bg)}
+  .b-rel{color:var(--info);background:var(--info-bg)}
   .due{font-family:var(--mono);font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px}
   .due-soon{color:#fff;background:var(--warn)} .due-ok{color:var(--warn);background:var(--warn-bg)}
   .due-roll{color:var(--info);background:var(--info-bg)} .due-unk{color:var(--soft);background:var(--verify-bg)}
@@ -95,6 +96,8 @@
   .chk .nm{flex:0 0 260px;font-size:13.5px;font-weight:600}
   .chk .why{flex:1;font-size:12px;color:var(--soft)}
   .chk .fq{font-family:var(--mono);font-size:10.5px;color:var(--warn);background:var(--warn-bg);padding:1px 6px;border-radius:3px;flex:none}
+  .opt{display:inline-flex;gap:6px;align-items:center;cursor:pointer;font-family:var(--mono);
+       font-size:12px;color:var(--soft);margin-bottom:8px}
   .disclaim{background:var(--warn-bg);border:1px solid #f0d9cd;color:var(--warn);border-radius:9px;
             padding:10px 13px;font-size:12.5px;margin-bottom:16px}
 </style>
@@ -122,7 +125,8 @@
 
   <section id="v-open" hidden>
     <h2>当前在招</h2>
-    <p class="hint">按剩余天数升序；⭐可牵头与🟦团队参与置顶。</p>
+    <p class="hint">按剩余天数升序；⭐可牵头与🟦团队参与置顶，同级内领域相关者优先。</p>
+    <label class="opt"><input type="checkbox" id="relonly"> 仅看领域相关</label>
     <div id="openlist"></div>
   </section>
 
@@ -163,6 +167,7 @@ function card(r){
   const dim=(!r.is_opportunity||t==="red")?" dim":"";
   return '<article class="card'+dim+'" style="--edge:'+EDGE[t]+'">'+
     '<div class="badges"><span class="badge '+tg[0]+'">'+tg[1]+'</span>'+dueChip(r)+
+    (r.relevant?'<span class="badge b-rel">领域相关</span>':'')+
     (r.is_opportunity?'':'<span class="badge b-verify">事务性</span>')+'</div>'+
     '<p class="t"><a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.title)+'</a></p>'+
     '<div class="meta"><span>'+esc(r.department||"")+'</span><span>发布 '+esc(r.published||"—")+'</span></div>'+
@@ -173,6 +178,9 @@ function sortRecs(rs){
   return rs.slice().sort((a,b)=>{
     const ta=(a.tags&&a.tags[0])||"verify", tb=(b.tags&&b.tags[0])||"verify";
     if(RANK[ta]!==RANK[tb]) return RANK[ta]-RANK[tb];
+    // within the same tag, in-field calls come first
+    const ra=a.relevant?0:1, rb=b.relevant?0:1;
+    if(ra!==rb) return ra-rb;
     const da=a.deadline&&a.deadline>=TODAY?dleft(a.deadline):9999;
     const db=b.deadline&&b.deadline>=TODAY?dleft(b.deadline):9999;
     if(da!==db) return da-db;
@@ -271,12 +279,20 @@ Promise.all([
                         +opp.length+" 条 · 回溯至 "+oldest;
   renderCal(cd, recs);
   renderChk(cd.manual_sources);
-  const open=sortRecs(opp.filter(r=>r.status==="open"||(r.deadline&&r.deadline>=TODAY)));
+  const openAll=sortRecs(opp.filter(r=>r.status==="open"||(r.deadline&&r.deadline>=TODAY)));
+  function paintOpen(){
+    const only=el("relonly")&&el("relonly").checked;
+    const open=only?openAll.filter(r=>r.relevant):openAll;
+    el("openlist").innerHTML=diag||(open.length?open.map(card).join("")
+      :'<div class="empty">没有符合条件的在招项目</div>');
+  }
+  const open=openAll;
   const diag=window.__nerr
     ? '<div class="empty">无法加载 <code>data/notices.json</code>：'+esc(window.__nerr)+
       '<br>请确认该文件已部署到 <code>'+location.pathname+'data/notices.json</code></div>'
     : '';
-  el("openlist").innerHTML=diag||(open.length?open.map(card).join(""):'<div class="empty">当前没有在招项目（或截止日期待确认）</div>');
+  paintOpen();
+  if(el("relonly")) el("relonly").addEventListener("change",paintOpen);
   el("alllist").innerHTML=diag||(sortRecs(recs).map(card).join("")||'<div class="empty">暂无数据</div>');
 }).catch(()=>{
   el("calpanel").innerHTML='<div class="empty">无法加载 data/*.json。若直接双击打开本文件会被 CORS 拦截，请通过 GitHub Pages 访问。</div>';
