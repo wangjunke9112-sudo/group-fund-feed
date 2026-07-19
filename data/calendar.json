@@ -1,71 +1,28 @@
 {
- "generated": "2026-07-19 15:26 UTC",
+ "generated": "2026-07-19 15:36 UTC",
  "derived": [
   {
-   "name": "专项项目",
-   "org": "历史统计",
-   "level": "国家",
-   "months": [
-    6,
-    7
-   ],
-   "counts": {
-    "07": 3,
-    "06": 1
-   },
-   "source": "derived",
-   "confidence": "observed",
-   "note": "由已抓取的 4 条历史通知自动统计"
-  },
-  {
-   "name": "合作交流",
+   "name": "合作研究项目",
    "org": "历史统计",
    "level": "国家",
    "months": [
     1,
     2,
-    6
-   ],
-   "counts": {
-    "06": 3,
-    "02": 1,
-    "01": 1
-   },
-   "source": "derived",
-   "confidence": "observed",
-   "note": "由已抓取的 5 条历史通知自动统计"
-  },
-  {
-   "name": "国际合作",
-   "org": "历史统计",
-   "level": "国家",
-   "months": [
-    4,
     5,
-    6
+    6,
+    12
    ],
    "counts": {
-    "06": 4,
-    "05": 1,
-    "04": 1
+    "06": 2,
+    "05": 2,
+    "02": 1,
+    "01": 1,
+    "12": 1
    },
    "source": "derived",
    "confidence": "observed",
-   "note": "由已抓取的 6 条历史通知自动统计"
-  },
-  {
-   "name": "粤港澳",
-   "org": "历史统计",
-   "level": "市",
-   "months": [
-    8
-   ],
-   "counts": {
-    "08": 1
-   },
-   "source": "derived",
-   "confidence": "observed",
-   "note": "由已抓取的 1 条历史通知自动统计"
+   "window": "历年集中在 1月、2月、5月、6月、12月",
+   "note": "由已抓取的 7 条同类历史通知统计得出"
   },
   {
    "name": "联合基金",
@@ -81,10 +38,11 @@
    },
    "source": "derived",
    "confidence": "observed",
-   "note": "由已抓取的 5 条历史通知自动统计"
+   "window": "历年集中在 6月、7月",
+   "note": "由已抓取的 5 条同类历史通知统计得出"
   },
   {
-   "name": "联合基金",
+   "name": "粤穗",
    "org": "历史统计",
    "level": "市",
    "months": [
@@ -93,41 +51,46 @@
     5
    ],
    "counts": {
-    "04": 3,
     "02": 1,
-    "05": 1
+    "05": 1,
+    "04": 1
    },
    "source": "derived",
    "confidence": "observed",
-   "note": "由已抓取的 5 条历史通知自动统计"
+   "window": "历年集中在 2月、4月、5月",
+   "note": "由已抓取的 3 条同类历史通知统计得出"
   },
   {
-   "name": "项目指南",
+   "name": "双边研讨会",
    "org": "历史统计",
    "level": "国家",
    "months": [
     1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    12
+    6
    ],
    "counts": {
-    "07": 1,
-    "06": 9,
-    "05": 2,
-    "04": 2,
-    "03": 1,
-    "02": 1,
-    "01": 3,
-    "12": 2
+    "06": 1,
+    "01": 1
    },
    "source": "derived",
    "confidence": "observed",
-   "note": "由已抓取的 21 条历史通知自动统计"
+   "window": "历年集中在 1月、6月",
+   "note": "由已抓取的 2 条同类历史通知统计得出"
+  },
+  {
+   "name": "联合基金",
+   "org": "历史统计",
+   "level": "市",
+   "months": [
+    4
+   ],
+   "counts": {
+    "04": 2
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "window": "历年集中在 4月",
+   "note": "由已抓取的 2 条同类历史通知统计得出"
   }
  ],
  "anchors": [],
