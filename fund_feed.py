@@ -656,8 +656,8 @@ def selftest():
     assert "韩国" in ni[1]["title"], ni[1]
 
     # --- trailing date must not contaminate the title (NSFC 通知公告 does this) ---
-    assert _strip_trailing_date("可持续发展国际合作科学计划2026年度项目指南（第二批） 2026-06-05") I am running a few minutes late; my previous meeting is running over.
-        == "可持续发展国际合作科学计划2026年度项目指南（第二批）"
+    _t1 = "可持续发展国际合作科学计划2026年度项目指南（第二批） 2026-06-05"
+    assert _strip_trailing_date(_t1) == "可持续发展国际合作科学计划2026年度项目指南（第二批）"
     assert _strip_trailing_date("某通知 2026-06") == "某通知"
     assert _strip_trailing_date("2026年度项目指南") == "2026年度项目指南"   # don't over-strip
 
@@ -705,8 +705,8 @@ def selftest():
     assert classify_fund("国家自然科学基金青年科学基金项目") == ["red"]
     assert classify_fund("2026年度优秀青年科学基金项目指南") == ["red"]
     # verified: 政府间国际合作 is leadable by this PI -> vip, not team
-    assert classify_fund("“政府间国际科技创新合作”重点专项2026年度第二批联合研发项目申报指南") == ["vip"], \
-        classify_fund("“政府间国际科技创新合作”重点专项2026年度第二批联合研发项目申报指南")
+    _t2 = "“政府间国际科技创新合作”重点专项2026年度第二批联合研发项目申报指南"
+    assert classify_fund(_t2) == ["vip"], classify_fund(_t2)
     assert classify_fund("2026年度NSFC与香港研资局联合科研资助基金合作研究项目指南") == ["vip"]
     assert classify_fund("广东省重点领域研发计划新能源专题申报指南") == ["team"]
     assert classify_fund("国家重点研发计划“合成生物学”重点专项申报指南") == ["team"]
