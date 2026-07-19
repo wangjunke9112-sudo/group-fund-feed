@@ -38,7 +38,7 @@ jobs:
         run: python -u fund_feed.py --selftest
 
       - name: harvest
-        run: python -u fund_feed.py --live --pages 45 --until 2024-01-01
+        run: python -u fund_feed.py --live --pages 3
 
       - name: list data
         if: always()
