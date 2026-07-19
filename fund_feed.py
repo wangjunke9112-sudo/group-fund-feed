@@ -273,7 +273,10 @@ def extract_deadline(body):
 _ADMIN_RE = re.compile(
     r"验收|结题|年报|年度.{0,3}报告|公示|拟立项|立项公告|评审结果|获批|"
     r"领取|免申即享|拨付|信用|抽查|绩效|复核|中期检查|变更|撤销|处罚|"
-    r"名单|入库|摸查|统计调查|问卷|征订|讣告|致市民")
+    r"名单|入库|摸查|统计调查|问卷|征订|讣告|致市民|"
+    # 竞赛/展会/解读类不是科研基金申报机会
+    r"大赛|竞赛|技能大赛|创业大赛|展示活动|对接会|图文解读|政策解读|"
+    r"申请与结题|结题等有关事项")
 _OPP_RE = re.compile(
     r"申报指南|申报的通知|征集|组织申报|开始申报|项目申报|受理|指南的通告|"
     r"揭榜|指南的通知|遴选|资助计划|项目指南|申请指南|申报工作|征求意见")
@@ -293,9 +296,27 @@ KEYWORDS = [
 _KW_RE = re.compile("|".join(re.escape(k) for k in KEYWORDS))
 
 
-def is_relevant(text):
+# Field terms that are strong on their own (a title containing these is
+# almost certainly in scope for a perovskite/PV/energy-materials PI).
+_STRONG_KW_RE = re.compile(
+    "|".join(["太阳能", "光伏", "钙钛矿", "叠层", "多结", "光电", "半导体",
+              "薄膜", "新能源", "储能", "电池", "能源", "碳中和", "氢能",
+              "发光", "显示", "量子点", "热电", "工程与材料", "化学科学"]))
+
+
+def is_relevant(text, title=""):
+    """Relevance with a title bias.
+
+    Body-only matches are weak: nearly every government notice contains the
+    word 材料 (as in 申报材料) or 创新, which would mark everything relevant.
+    A strong field term in the TITLE is the reliable signal.
+    """
     hits = sorted(set(m.group(0) for m in _KW_RE.finditer(text or "")))
-    return (bool(hits), hits)
+    strong = bool(_STRONG_KW_RE.search(title or ""))
+    # international-cooperation calls are in scope regardless of field wording
+    intl = bool(re.search("国际合作|合作研究|合作交流|双边研讨会|学术会议|"
+                          "来华交流|外国学者|联合科研资助", title or ""))
+    return (strong or intl, hits)
 
 
 # --- four-state tagging -----------------------------------------------------
@@ -306,10 +327,16 @@ def is_relevant(text):
 # ≤400万 projects are exempt from cross-scheme 限项 with other 重点研发 specials;
 # age requirement 1966-01-01 or later). So it is VIP, not merely "team".
 VIP_FUNDS = [
-    "面上项目", "基础与应用基础研究", "国际合作", "国际科技创新合作",
-    "政府间国际", "战略性科技创新合作", "合作交流", "双边研讨会",
-    "粤港澳", "粤港", "粤澳", "粤穗", "联合研究", "市校院联合",
-    "基础研究计划", "研资局", "澳门科学技术发展基金", "人员交流",
+    # 可牵头的常规科研项目
+    "面上项目", "基础与应用基础研究", "基础研究计划", "市校院联合",
+    "粤港澳", "粤港", "粤澳", "粤穗", "联合研究",
+    # 国际合作类（不受海优限制，且国际网络是本人强项）——2026-07-18 依真实
+    # 抓取结果补齐：站方实际用词是“研究资助局”而非“研资局”，此前漏标
+    "国际合作", "国际科技创新合作", "政府间国际", "战略性科技创新合作",
+    "合作研究项目指南", "合作交流", "双边研讨会", "学术会议项目",
+    "研资局", "研究资助局", "联合科研资助", "澳门科学技术发展基金",
+    "人员交流", "外国学者", "来华交流", "短期讲习班", "海峡两岸",
+    "国际合作科学计划", "可持续发展国际合作",
 ]
 TEAM_FUNDS = [
     "重点研发计划", "重点专项", "重大专项", "重点领域研发", "产学研",
@@ -349,7 +376,7 @@ def build_record(detail, src):
     title = detail.get("title", "")
     body = detail.get("body", "")
     deadline, conf = extract_deadline(body)
-    relevant, hits = is_relevant(title + " " + body[:800])
+    relevant, hits = is_relevant(title + " " + body[:800], title=title)
     today = dt.date.today().isoformat()
     if conf == "explicit" and deadline:
         status = "open" if deadline >= today else "closed"
@@ -376,7 +403,26 @@ def build_record(detail, src):
     }
 
 
+_LEGACY_PREFIX = {"gz_kjj": "gz_portal"}
+
+
+def _migrate(rec):
+    """Backfill fields added after the first release so legacy records from
+    gz_fund_poc.py stop showing up as '?' in the per-source summary."""
+    if rec.get("source_name") and rec.get("level"):
+        return rec
+    sid = rec.get("source_id") or (rec.get("id", "").split(":", 1)[0])
+    sid = _LEGACY_PREFIX.get(sid, sid)
+    src = get_source(sid)
+    if src:
+        rec.setdefault("source_id", src["id"])
+        rec["source_name"] = rec.get("source_name") or src["name"]
+        rec["level"] = rec.get("level") or src["level"]
+    return rec
+
+
 def merge(existing, fresh):
+    existing = [_migrate(dict(r)) for r in existing]
     by_id = {}
     for r in existing + fresh:
         by_id[r["id"]] = r
@@ -711,6 +757,28 @@ def selftest():
     assert classify_fund("广东省重点领域研发计划新能源专题申报指南") == ["team"]
     assert classify_fund("国家重点研发计划“合成生物学”重点专项申报指南") == ["team"]
     assert classify_fund("某某一般性通知") == ["verify"]
+
+    # --- regression: real titles from the 2026-07-18 harvest that were初版误判 ---
+    # 站方用词是“研究资助局”，早期只写了“研资局”，导致 JRS 未置顶
+    assert classify_fund("2026年度国家自然科学基金委员会与香港研究资助局联合科研资助基金合作研究项目指南") == ["vip"]
+    assert classify_fund("2026年度国家自然科学基金外国学者研究基金项目指南") == ["vip"]
+    assert classify_fund("2026年度国家自然科学基金欧洲青年科研人员来华交流项目指南") == ["vip"]
+    assert classify_fund("中德科学中心2026年度中德学生与青年学者短期讲习班") == ["vip"]
+    # 竞赛/解读/结题通告不是申报机会
+    assert not is_opportunity("广州市科学技术局关于举办2026年广州科技创新创业大赛全球赛的通知")
+    assert not is_opportunity("广州市卫生健康委员会关于举办粤港澳大湾区托育人才技能大赛的通知")
+    assert not is_opportunity("关于2026年度国家自然科学基金项目申请与结题等有关事项的通告")
+    assert not is_opportunity("【图文解读】《广州市科技保险补助资金管理办法》解读材料")
+    # 相关性以标题为准：正文出现“申报材料”不应使整条变相关
+    assert is_relevant("申报材料 创新", title="广州市住房和城乡建设局关于商品住房补贴的通知")[0] is False
+    assert is_relevant("", title="广州市重点领域研发计划新能源与新材料专题申报指南")[0] is True
+    assert is_relevant("", title="NSFC与香港研究资助局合作研究项目指南")[0] is True
+
+    # --- legacy record migration (gz_kjj -> gz_portal) ---
+    old = {"id": "gz_kjj:123", "title": "旧记录", "published": "2025-01-07"}
+    mig = merge([old], [])[0]
+    assert mig["source_name"] == "广州市政府门户·通知公告", mig
+    assert mig["level"] == "市", mig
 
     # --- record build + merge ---
     rec = build_record(parse_detail(FIX_MOST_DETAIL, url=".../5824.html"), get_source("most"))
