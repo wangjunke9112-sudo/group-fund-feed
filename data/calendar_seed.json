@@ -26,7 +26,9 @@
    "url": "https://www.nsfc.gov.cn/",
    "match": [
     "面上项目"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "NSFC 青年科学基金 / 优青",
@@ -46,7 +48,9 @@
    "match": [
     "青年科学基金",
     "优秀青年科学基金"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "NSFC 结果公布",
@@ -65,7 +69,9 @@
     "评审结果",
     "资助结果",
     "批准资助"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "广东省基础与应用基础研究基金（面上/青年/联合基金）",
@@ -83,7 +89,9 @@
    "url": "http://gdstc.gd.gov.cn/zwgk_n/tzgg/",
    "match": [
     "基础与应用基础研究基金"
-   ]
+   ],
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "粤穗联合基金（省市联合基金）",
@@ -102,7 +110,9 @@
    "match": [
     "粤穗",
     "省市联合基金"
-   ]
+   ],
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "广东省重点领域研发计划（各专项）",
@@ -120,7 +130,9 @@
    "url": "http://gdstc.gd.gov.cn/zwgk_n/zdly/sbzn/",
    "match": [
     "重点领域研发"
-   ]
+   ],
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "广东省基金拟立项公示",
@@ -138,7 +150,9 @@
    "match": [
     "拟立项",
     "公示"
-   ]
+   ],
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "NSFC/RGC 联合科研资助基金 (JRS)",
@@ -157,7 +171,9 @@
    "match": [
     "研资局",
     "联合科研资助基金"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "ITF 内地-香港科技合作资助计划 (MHKTCFS, 粤港轨)",
@@ -178,7 +194,9 @@
     "内地与香港",
     "粤港",
     "科技合作资助计划"
-   ]
+   ],
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "科技部 政府间国际科技创新合作专项（第一批·联合研发）",
@@ -194,10 +212,12 @@
    "tag": "vip",
    "confidence": "verified",
    "note": "已核实：2026年度第一批2025-10-23发布，申报2025-10-28至12-16。需境外合作单位（你的欧洲网络是强项）；≤400万项目与其他重点研发专项互不限项；负责人须1966-01-01后出生、高级职称或博士",
-   "url": "https://service.most.gov.cn/kjjh_tztg_all/",
+   "url": "https://service.most.gov.cn/",
    "match": [
     "政府间国际科技创新合作"
-   ]
+   ],
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 政府间国际科技创新合作专项（第二批·联合研发）",
@@ -213,10 +233,12 @@
    "tag": "vip",
    "confidence": "verified",
    "note": "已核实：2026年度第二批2026-04-30发布，申报2026-05-07至06-25，推荐截止07-02。政府间/战略性专项负责人申报+在研合计限1项",
-   "url": "https://service.most.gov.cn/kjjh_tztg_all/",
+   "url": "https://service.most.gov.cn/",
    "match": [
     "政府间国际科技创新合作"
-   ]
+   ],
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 政府间专项·人员交流类",
@@ -231,10 +253,12 @@
    "tag": "vip",
    "confidence": "verified",
    "note": "已核实：2026年度第一批人员交流2025-11-14发布。人员交流类不计入限项总数，同一国别申报+在研限1项——对建立国际合作最划算的入口",
-   "url": "https://service.most.gov.cn/kjjh_tztg_all/",
+   "url": "https://service.most.gov.cn/",
    "match": [
     "人员交流"
-   ]
+   ],
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 重点研发专项 指南征求意见",
@@ -252,7 +276,9 @@
    "url": "https://service.most.gov.cn/",
    "match": [
     "征求意见"
-   ]
+   ],
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "NSFC 国际合作类项目指南（双边/合作交流）",
@@ -272,7 +298,9 @@
     "合作研究项目指南",
     "合作交流",
     "双边研讨会"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "NSFC 年度项目指南发布",
@@ -290,7 +318,9 @@
    "match": [
     "国家自然科学基金项目指南",
     "项目申请与结题"
-   ]
+   ],
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   }
  ],
  "manual_sources": [
