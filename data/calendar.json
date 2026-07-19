@@ -1,41 +1,61 @@
 {
- "generated": "2026-07-19 03:24 UTC",
+ "generated": "2026-07-19 15:15 UTC",
  "derived": [
   {
-   "name": "其他",
-   "org": "市科技局",
-   "level": "市",
+   "name": "专项项目",
+   "org": "历史统计",
+   "level": "国家",
    "months": [
-    1,
-    2,
-    3,
-    4,
-    5,
     6,
-    7,
-    8,
-    10,
-    12
+    7
    ],
    "counts": {
-    "06": 4,
-    "04": 8,
-    "03": 1,
-    "02": 3,
-    "12": 1,
-    "10": 1,
-    "08": 2,
-    "07": 2,
-    "05": 3,
-    "01": 2
+    "07": 3,
+    "06": 1
    },
    "source": "derived",
    "confidence": "observed",
-   "note": "由已抓取的 27 条历史通知自动统计"
+   "note": "由已抓取的 4 条历史通知自动统计"
+  },
+  {
+   "name": "合作交流",
+   "org": "历史统计",
+   "level": "国家",
+   "months": [
+    1,
+    2,
+    6
+   ],
+   "counts": {
+    "06": 3,
+    "02": 1,
+    "01": 1
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "note": "由已抓取的 5 条历史通知自动统计"
+  },
+  {
+   "name": "国际合作",
+   "org": "历史统计",
+   "level": "国家",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "counts": {
+    "06": 4,
+    "05": 1,
+    "04": 1
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "note": "由已抓取的 6 条历史通知自动统计"
   },
   {
    "name": "粤港澳",
-   "org": "市科技局",
+   "org": "历史统计",
    "level": "市",
    "months": [
     8
@@ -46,6 +66,68 @@
    "source": "derived",
    "confidence": "observed",
    "note": "由已抓取的 1 条历史通知自动统计"
+  },
+  {
+   "name": "联合基金",
+   "org": "历史统计",
+   "level": "国家",
+   "months": [
+    6,
+    7
+   ],
+   "counts": {
+    "07": 1,
+    "06": 4
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "note": "由已抓取的 5 条历史通知自动统计"
+  },
+  {
+   "name": "联合基金",
+   "org": "历史统计",
+   "level": "市",
+   "months": [
+    2,
+    4,
+    5
+   ],
+   "counts": {
+    "04": 3,
+    "02": 1,
+    "05": 1
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "note": "由已抓取的 5 条历史通知自动统计"
+  },
+  {
+   "name": "项目指南",
+   "org": "历史统计",
+   "level": "国家",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    12
+   ],
+   "counts": {
+    "07": 1,
+    "06": 9,
+    "05": 2,
+    "04": 2,
+    "03": 1,
+    "02": 1,
+    "01": 3,
+    "12": 2
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "note": "由已抓取的 21 条历史通知自动统计"
   }
  ],
  "anchors": [],

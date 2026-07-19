@@ -1,8 +1,274 @@
 {
- "generated": "2026-07-19 03:24 UTC",
- "source": "市科技局",
- "count": 141,
+ "generated": "2026-07-19 15:15 UTC",
+ "count": 200,
  "notices": [
+  {
+   "id": "nsfc_zn:138937",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 ——“变革性手性化学测量方法”项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138937.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:138936",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“高性能有机热电材料的分子基础”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138936.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:138935",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“化工视角下的免疫治疗增效过程与机制”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138935.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:138409",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“极端环境高原工程关键技术及基础科学问题”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138409.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "工程与材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:138249",
+   "title": "2027年度国家自然科学基金委员会与日本学术振兴会 “希望会议”项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138249.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-06",
+   "deadline": "2026-08-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "化学科学"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:138178",
+   "title": "国家自然科学基金湖北人形机器人联合基金重大专项2026年项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/138178.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-03",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "工程与材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137974",
+   "title": "国家自然科学基金委员会与欧洲核子中心（NSFC-CERN） 重大科学基础设施国际合作研究计划专项2026年度项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137974.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137973",
+   "title": "国家自然科学基金锦屏重大科学基础设施 国际合作研究计划专项2026年度项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137973.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137823",
+   "title": "2026年度国家自然科学基金委员会与伊朗国家科学基金会 合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137823.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-29",
+   "deadline": "2026-08-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "储能",
+    "氢能",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:137822",
+   "title": "2026年度国家自然科学基金委员会与韩国国家研究基金会 合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137822.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-29",
+   "deadline": "2026-08-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:137893",
+   "title": "国家自然科学基金委员会化学科学部 2026年度专项项目（科技活动项目）申请通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137893.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-26",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "化学科学"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137830",
+   "title": "关于发布国家自然科学基金委员会管理科学部 2026年第3期应急管理项目“高原地区超级水电工程可持续治理与政策研究”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137830.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-26",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10870535",
+   "title": "广州市工业和信息化局 广州市人民政府国有资产监督管理委员会转发关于联合开展2026年度人形机器人与具身智能实景实训专项行动的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10870535.html",
+   "department": "广州市工业和信息化局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-24",
+   "deadline": "2026-11-05",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
   {
    "id": "gz_kjj:10870535",
    "title": "广州市工业和信息化局 广州市人民政府国有资产监督管理委员会转发关于联合开展2026年度人形机器人与具身智能实景实训专项行动的通知",
@@ -17,6 +283,63 @@
    "keywords": [],
    "tags": [
     "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:137674",
+   "title": "关于发布2026年度国家自然科学基金生态环境联合基金项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137674.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137662",
+   "title": "关于发布2026年度国家自然科学基金委员会-湖北省 “联合基金量子重大专项”项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137662.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10864378",
+   "title": "广州市科学技术局关于举办2026年广州科技创新创业大赛全球赛暨香港科大百万奖金创业大赛广州赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10864378.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-22",
+   "deadline": "2026-08-14",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
    ],
    "status": "open"
   },
@@ -38,12 +361,69 @@
    "status": "open"
   },
   {
+   "id": "gz_portal:10862753",
+   "title": "【活动预告】解锁海洋药物和功能制品合作新机遇，这场海洋科技产业供需对接会别错过！",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10862753.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10862753",
    "title": "【活动预告】解锁海洋药物和功能制品合作新机遇，这场海洋科技产业供需对接会别错过！",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10862753.html",
    "department": "广州市规划和自然资源局",
    "level": "市",
    "published": "2026-06-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:137504",
+   "title": "关于发布国家自然科学基金“十五五”第一批重大项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137504.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10856568",
+   "title": "广州市科学技术局关于开展2026年科技型中小企业评价工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10856568.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-15",
    "deadline": null,
    "deadline_confidence": "unknown",
    "is_opportunity": false,
@@ -72,6 +452,25 @@
    "status": "unknown"
   },
   {
+   "id": "gz_portal:10853942",
+   "title": "广州市卫生健康委员会关于印发2027年度广州市卫生健康科技一般引导项目和两新项目申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10853942.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-12",
+   "deadline": "2026-07-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
    "id": "gz_kjj:10853942",
    "title": "广州市卫生健康委员会关于印发2027年度广州市卫生健康科技一般引导项目和两新项目申报指南的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10853942.html",
@@ -81,6 +480,67 @@
    "deadline": "2026-07-24",
    "deadline_confidence": "explicit",
    "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:137067",
+   "title": "2026年度国家自然科学基金委员会与国际应用系统分析学会 学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137067.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:137067",
+   "title": "2026年度国家自然科学基金委员会与国际应用系统分析学会 学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137067.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-06-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:10849284",
+   "title": "广州市科学技术局 广州市财政局 国家税务总局广州市税务局关于组织开展广州市2026年高新技术企业认定工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10849284.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-06-10",
+   "deadline": "2026-09-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
    "relevant": false,
    "keywords": [],
    "tags": [
@@ -106,6 +566,251 @@
    "status": "open"
   },
   {
+   "id": "nsfc_zn:137024",
+   "title": "关于发布2026年度国家自然科学基金民营企业创新发展 联合基金项目指南（第二批）的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/137024.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-09",
+   "deadline": "2026-07-16",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_zn:136982",
+   "title": "2026年度国家自然科学基金委员会与国际理论物理中心合作交流项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136982.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:136982",
+   "title": "2026年度国家自然科学基金委员会与国际理论物理中心合作交流项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136982.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-06-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:136811",
+   "title": "关于发布2026年度国家自然科学基金 民营企业创新发展联合基金（术理创新）项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136811.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-05",
+   "deadline": "2026-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_zn:136760",
+   "title": "可持续发展国际合作科学计划2026年度项目指南（第二批）",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136760.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-05",
+   "deadline": "2026-07-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_tzgg:136760",
+   "title": "可持续发展国际合作科学计划2026年度项目指南（第二批）",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136760.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-06-05",
+   "deadline": "2026-07-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:136726",
+   "title": "2026年度国家自然科学基金委员会与澳门科学技术发展基金学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136726.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-04",
+   "deadline": "2026-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_tzgg:136726",
+   "title": "2026年度国家自然科学基金委员会与澳门科学技术发展基金学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136726.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-06-04",
+   "deadline": "2026-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_zn:136651",
+   "title": "2026年度赴香港参加NSFC-BHKAEC学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136651.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-03",
+   "deadline": "2026-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_tzgg:136651",
+   "title": "2026年度赴香港参加NSFC-BHKAEC学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136651.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-06-03",
+   "deadline": "2026-07-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_zn:136593",
+   "title": "2027年度国家自然科学基金委员会与日本学术振兴会 合作交流与双边研讨会项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/136593.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-06-02",
+   "deadline": "2026-09-03",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "化学科学",
+    "工程与材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:10830891",
+   "title": "广州市科学技术局关于领取2025年科技服务专题（科技企业培育服务补助）“免申即享”补助资金的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10830891.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-27",
+   "deadline": "2026-06-26",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10830891",
    "title": "广州市科学技术局关于领取2025年科技服务专题（科技企业培育服务补助）“免申即享”补助资金的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10830891.html",
@@ -113,6 +818,46 @@
    "level": "市",
    "published": "2026-05-27",
    "deadline": "2026-06-26",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10897527",
+   "title": "【图文解读】《广州市科技保险补助资金管理办法》解读材料",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10897527.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-26",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": false,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:10830088",
+   "title": "广州市住房和城乡建设局关于商品住房“卖旧买新”专项补贴有关事项的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10830088.html",
+   "department": "​广州市住房和城乡建设局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-26",
+   "deadline": "2026-04-30",
    "deadline_confidence": "explicit",
    "is_opportunity": false,
    "relevant": false,
@@ -159,6 +904,25 @@
    "status": "closed"
   },
   {
+   "id": "gz_portal:10824386",
+   "title": "广州市科学技术局 国家金融监督管理总局广东监管局 广州市地方金融管理局关于印发广州市科技保险补助资金管理办法的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10824386.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-22",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
    "id": "gz_kjj:10824386",
    "title": "广州市科学技术局 国家金融监督管理总局广东监管局 广州市地方金融管理局关于印发广州市科技保险补助资金管理办法的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10824386.html",
@@ -176,6 +940,48 @@
    "status": "open"
   },
   {
+   "id": "nsfc_tzgg:123515",
+   "title": "2026年度国家自然科学基金委员会与金砖国家 科技创新框架计划合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/123515.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-05-20",
+   "deadline": "2026-06-16",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "太阳能",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10820526",
+   "title": "广州市科学技术局 中共广州市委宣传部 广州市教育局 广州市科学技术协会关于举办2026年广州科技活动周和全国科技工作者日活动的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10820526.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10820526",
    "title": "广州市科学技术局 中共广州市委宣传部 广州市教育局 广州市科学技术协会关于举办2026年广州科技活动周和全国科技工作者日活动的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10820526.html",
@@ -189,6 +995,46 @@
    "keywords": [],
    "tags": [
     "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:123512",
+   "title": "可持续发展国际合作科学计划2026年度项目指南（第一批补充）",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/123512.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-05-19",
+   "deadline": "2026-06-22",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10813787",
+   "title": "广州市卫生健康委员会关于举办2026年首届粤港澳大湾区托育人才技能大赛的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10813787.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
    ],
    "status": "unknown"
   },
@@ -210,6 +1056,46 @@
    "status": "unknown"
   },
   {
+   "id": "nsfc_tzgg:123187",
+   "title": "2026年度国家自然科学基金委员会与盖茨基金会 “女性健康创新”合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/123187.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-05-14",
+   "deadline": "2026-07-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "gz_portal:10809446",
+   "title": "广州市科学技术局关于公布广州市市级科技企业孵化器认定名单（2025年第二批、2026年第一批）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10809446.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-12",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10809446",
    "title": "广州市科学技术局关于公布广州市市级科技企业孵化器认定名单（2025年第二批、2026年第一批）的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10809446.html",
@@ -227,6 +1113,27 @@
    "status": "unknown"
   },
   {
+   "id": "gz_portal:10801571",
+   "title": "广州市教育局关于开展广州市第九届中小学德育创新成果展示活动的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10801571.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-05-07",
+   "deadline": "2026-09-10",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
    "id": "gz_kjj:10801571",
    "title": "广州市教育局关于开展广州市第九届中小学德育创新成果展示活动的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10801571.html",
@@ -242,6 +1149,48 @@
     "verify"
    ],
    "status": "open"
+  },
+  {
+   "id": "nsfc_tzgg:122642",
+   "title": "国家自然科学基金委员会中德科学中心 2026年度中德学生与青年学者短期讲习班项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/122642.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-04-29",
+   "deadline": "2027-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "化学科学",
+    "工程与材料",
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:10794723",
+   "title": "广州市科学技术局关于征集2027年度国家自然科学基金区域创新发展联合基金（广州）和广州市参与的国家自然科学基金区域创新发展联合基金（广东）指南建议的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10794723.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-04-29",
+   "deadline": "2026-05-25",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10794723",
@@ -276,6 +1225,65 @@
     "vip"
    ],
    "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:122217",
+   "title": "2026年度国家自然科学基金委员会海峡两岸学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/122217.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-04-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:121525",
+   "title": "可持续发展国际合作科学计划2026年度项目指南（第一批）",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/121525.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-04-01",
+   "deadline": "2026-05-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_tzgg:121239",
+   "title": "2026年度国家自然科学基金欧洲青年科研人员来华交流项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/121239.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-03-24",
+   "deadline": "2026-09-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
   },
   {
    "id": "gz_kjj:10731611",
@@ -431,6 +1439,29 @@
    "status": "unknown"
   },
   {
+   "id": "nsfc_tzgg:101114",
+   "title": "2026年度国家自然科学基金委员会与京港学术交流中心合作交流项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/101114.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-02-11",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "储能",
+    "工程与材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10692690",
    "title": "广州市科学技术局关于领取2025年度广州市科技型中小企业技术创新专题“免申即享”补助资金的通知",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10692690.html",
@@ -463,6 +1494,28 @@
     "verify"
    ],
    "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:100469",
+   "title": "2026年度国家自然科学基金委员会与俄罗斯科学基金会 合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/100469.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-02-02",
+   "deadline": "2026-04-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "工程与材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10676655",
@@ -499,6 +1552,96 @@
    "status": "open"
   },
   {
+   "id": "nsfc_tzgg:100214",
+   "title": "2026年度国家自然科学基金委员会与韩国国家研究基金会合作交流与双边研讨会项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/100214.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-01-23",
+   "deadline": "2026-02-26",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "化学科学",
+    "工程与材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_tzgg:100213",
+   "title": "2026年度国家自然科学基金委员会与“东亚峰会合作研究计划”（e-ASIA）合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/100213.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-01-23",
+   "deadline": "2026-03-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
+   "id": "nsfc_tzgg:100065",
+   "title": "2026年度国家自然科学基金外国学者研究基金项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/100065.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-01-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉",
+    "化学科学",
+    "工程与材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:100064",
+   "title": "2026年度国家自然科学基金合作创新研究团队项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/100064.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-01-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉",
+    "化学科学",
+    "工程与材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
    "id": "gz_kjj:10650359",
    "title": "广州市科学技术局关于2025年度广东省科学技术奖拟提名项目补充公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10650359.html",
@@ -514,6 +1657,25 @@
     "verify"
    ],
    "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:99667",
+   "title": "关于2026年度国家自然科学基金项目申请与结题等有关事项的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-01-14",
+   "deadline": "2026-02-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10634593",
@@ -635,6 +1797,27 @@
    "status": "closed"
   },
   {
+   "id": "nsfc_tzgg:98808",
+   "title": "2026年度国家自然科学基金委员会与澳门科学技术发展基金 联合科研资助基金合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/98808.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2025-12-18",
+   "deadline": "2026-02-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
+  },
+  {
    "id": "gz_kjj:10597628",
    "title": "广州市2025年第十五期科技成果登记公示",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10597628.html",
@@ -738,6 +1921,27 @@
     "verify"
    ],
    "status": "unknown"
+  },
+  {
+   "id": "nsfc_tzgg:98215",
+   "title": "2026年度国家自然科学基金委员会与香港研究资助局 联合科研资助基金合作研究青年项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/98215.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2025-12-01",
+   "deadline": "2026-02-27",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "closed"
   },
   {
    "id": "gz_kjj:10567976",
