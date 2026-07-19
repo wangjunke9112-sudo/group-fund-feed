@@ -442,9 +442,18 @@ def load_seed():
         return {"anchors": [], "manual_sources": []}
 
 
-_CALL_TYPES = ["重点领域研发", "产学研", "基础研究计划", "国际合作", "政府间国际",
-               "粤港澳", "面上项目", "重点研发计划", "联合基金", "合作交流",
-               "项目指南", "专项项目"]
+# Only call types specific enough to be MEANINGFUL as a calendar row.
+# Deliberately excludes generic words like 项目指南 / 专项项目 / 国际合作:
+# nearly every NSFC title contains them, so they produced rows such as
+# "专项项目" that told the reader nothing. A row must name a real scheme.
+_CALL_TYPES = ["重点领域研发", "产学研合作", "基础研究计划", "市校院联合",
+               "政府间国际科技创新合作", "粤港澳", "粤穗", "面上项目",
+               "重点研发计划", "联合基金", "双边研讨会", "合作研究项目",
+               "外国学者", "来华交流", "高新技术企业", "科技型中小企业"]
+
+# A single occurrence is an event, not a pattern. Require this many before a
+# derived row is shown as "seasonality".
+_MIN_DERIVED = 2
 
 
 def derive_calendar(records):
@@ -464,11 +473,16 @@ def derive_calendar(records):
         buckets[key][mo] += 1
     out = []
     for (ct, lvl), months in sorted(buckets.items()):
+        total = sum(months.values())
+        if total < _MIN_DERIVED:
+            continue                      # one-off, not a pattern
+        span = sorted(int(m) for m in months)
         out.append({"name": ct, "org": "历史统计", "level": lvl,
-                    "months": sorted(int(m) for m in months),
-                    "counts": months, "source": "derived",
+                    "months": span, "counts": months, "source": "derived",
                     "confidence": "observed",
-                    "note": f"由已抓取的 {sum(months.values())} 条历史通知自动统计"})
+                    "window": "历年集中在 " + "、".join(f"{m}月" for m in span),
+                    "note": f"由已抓取的 {total} 条同类历史通知统计得出"})
+    out.sort(key=lambda r: -sum(r["counts"].values()))
     return out
 
 
