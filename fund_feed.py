@@ -656,7 +656,7 @@ def selftest():
     assert "韩国" in ni[1]["title"], ni[1]
 
     # --- trailing date must not contaminate the title (NSFC 通知公告 does this) ---
-    assert _strip_trailing_date("可持续发展国际合作科学计划2026年度项目指南（第二批） 2026-06-05") \
+    assert _strip_trailing_date("可持续发展国际合作科学计划2026年度项目指南（第二批） 2026-06-05") I am running a few minutes late; my previous meeting is running over.
         == "可持续发展国际合作科学计划2026年度项目指南（第二批）"
     assert _strip_trailing_date("某通知 2026-06") == "某通知"
     assert _strip_trailing_date("2026年度项目指南") == "2026年度项目指南"   # don't over-strip
