@@ -435,11 +435,34 @@ def merge(existing, fresh):
 # CALENDAR
 # ===========================================================================
 def load_seed():
-    try:
-        with open(os.path.join(DATA_DIR, "calendar_seed.json"), "r", encoding="utf-8") as fh:
-            return json.load(fh)
-    except Exception:
+    """Load the manually maintained calendar anchors.
+
+    Previously this swallowed every error and silently returned an empty seed,
+    so a missing or malformed file showed up only as a mysteriously empty
+    calendar on the website. Now it says exactly what went wrong.
+    """
+    path = os.path.join(DATA_DIR, "calendar_seed.json")
+    if not os.path.exists(path):
+        print(f"  ⚠ 未找到 {path}")
+        print(f"    → 日历将没有手工锚点（anchors 为空）。")
+        print(f"    → 请确认仓库中存在 data/calendar_seed.json（注意在 data/ 目录内）。")
         return {"anchors": [], "manual_sources": []}
+    try:
+        with open(path, "r", encoding="utf-8-sig") as fh:
+            seed = json.load(fh)
+    except json.JSONDecodeError as exc:
+        print(f"  ⚠ {path} 不是合法 JSON：{exc}")
+        print(f"    → 常见原因：复制粘贴时缺了逗号/引号，或混入了非代码文字。")
+        return {"anchors": [], "manual_sources": []}
+    except Exception as exc:
+        print(f"  ⚠ 读取 {path} 失败：{type(exc).__name__}: {exc}")
+        return {"anchors": [], "manual_sources": []}
+    n_a = len(seed.get("anchors", []))
+    n_m = len(seed.get("manual_sources", []))
+    print(f"  ✓ 日历种子：{n_a} 个锚点 · {n_m} 个人工巡检源")
+    if n_a == 0:
+        print("    ⚠ 文件读到了，但 anchors 是空的——请检查文件内容是否完整。")
+    return seed
 
 
 # Only call types specific enough to be MEANINGFUL as a calendar row.
