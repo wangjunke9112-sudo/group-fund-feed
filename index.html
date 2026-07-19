@@ -51,6 +51,8 @@
   .cell.on.t-info{background:var(--info);opacity:.5}
   .cell.peak::after{content:"";position:absolute;inset:0;border:2px solid rgba(0,0,0,.35);border-radius:4px}
   .cell.now{outline:2px solid var(--warn);outline-offset:1px}
+  .calsum{font-family:var(--mono);font-size:11.5px;color:var(--soft);margin-bottom:14px}
+  .calsum b{color:var(--navy)}
   .calgroup{margin-bottom:22px}
   .calgroup h3{font-size:13px;color:var(--navy);margin:0 0 8px;padding-bottom:5px;
                border-bottom:2px solid var(--line);font-weight:700}
@@ -259,21 +261,39 @@ function renderCal(c, recs){
   if(!anchors.length&&!derived.length){
     el("calpanel").innerHTML='<div class="empty">暂无日历数据</div>';return;
   }
-  let h="";
+  let h='<div class="calsum">共 <b>'+anchors.length+'</b> 个日历锚点 · <b>'+
+        derived.length+'</b> 条历史观测</div>';
   const GROUPS=[
     ["国家","国家级 · NSFC / 科技部"],
     ["港澳","港澳合作 · JRS / ITF"],
     ["省","广东省"],
     ["市","广州市"],
   ];
+  // Track what we render so nothing can be silently dropped by an unexpected
+  // or missing `level` value -- anything left over goes into a catch-all group.
+  const placed=new Set();
   GROUPS.forEach(([lv,label])=>{
     const rows=anchors.filter(a=>a.level===lv).sort((a,b)=>(a.peak||13)-(b.peak||13));
     if(!rows.length) return;
+    rows.forEach(r=>placed.add(r));
     h+='<div class="calgroup"><h3>'+esc(label)+' <span>'+rows.length+'</span></h3>';
     h+=monthHead();
     rows.forEach(r=>h+=calRow(r, recs));
     h+='</div>';
   });
+  const rest=anchors.filter(a=>!placed.has(a));
+  if(rest.length){
+    h+='<div class="calgroup"><h3>其他 <span>'+rest.length+'</span></h3>'+
+       '<p class="ghint">这些条目的 level 字段为空或不在 国家/港澳/省/市 之内，'+
+       '已单独列出以免遗漏。可在 data/calendar_seed.json 中补正。</p>'+monthHead();
+    rest.forEach(r=>h+=calRow(r, recs));
+    h+='</div>';
+  }
+  if(!anchors.length){
+    h+='<div class="calgroup"><p class="ghint" style="color:var(--warn)">'+
+       '未读取到任何手工锚点。请确认仓库中存在 <code>data/calendar_seed.json</code>，'+
+       '且已重新运行过一次抓取（calendar.json 由它生成）。</p></div>';
+  }
   if(derived.length){
     h+='<div class="calgroup"><h3>历史观测 · 由已抓取通知统计 <span>'+derived.length+'</span></h3>'+
        '<p class="ghint">以下不是官方公布的时间表，而是从库内历史通知中统计出的实际发布月份，'+
