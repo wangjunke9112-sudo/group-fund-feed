@@ -21,7 +21,9 @@ jobs:
           python-version: '3.12'
 
       - name: 离线自测
-        run: python -u gz_fund_poc.py --selftest
+        run: python -u fund_feed.py --selftest
+      - name: 探测各源
+        run: python -u fund_feed.py --probe
       
       - name: 找翻页格式
         run: |
