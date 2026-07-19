@@ -69,6 +69,7 @@
       border:1px solid var(--line);color:var(--soft);background:#fbfbfc;white-space:nowrap}
   .lk:hover{border-color:var(--navy);color:var(--navy)}
   .lk-live{border-color:var(--gold);color:var(--vip);background:var(--vip-bg);font-weight:700}
+  .lk-apply{border-color:var(--navy);color:var(--navy);background:#eef3f8;font-weight:700}
   .lk-live:hover{border-color:var(--vip)}
   .lk em{font-style:normal;opacity:.75}
   .rowname a{color:inherit;text-decoration:none}
@@ -127,7 +128,7 @@
 
   <section id="v-cal">
     <h2>全年申报节奏</h2>
-    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」按钮直达库内最新的该类真实通知。</p>
+    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」直达库内最新的该类真实通知，深蓝「申报入口」直达申报系统。</p>
     <div class="panel"><div class="calscroll" id="calpanel"></div></div>
   </section>
 
@@ -221,6 +222,8 @@ function rowLinks(r, recs){
     out.push('<a class="lk lk-live" href="'+esc(n.url)+'" target="_blank" rel="noopener" title="'+
              esc(n.title)+'">最近一期'+d+due+'</a>');
   }
+  if(r.apply_url) out.push('<a class="lk lk-apply" href="'+esc(r.apply_url)+
+      '" target="_blank" rel="noopener">'+esc(r.apply_label||"申报入口")+' ↗</a>');
   if(r.url) out.push('<a class="lk" href="'+esc(r.url)+'" target="_blank" rel="noopener">官网栏目 ↗</a>');
   return out.length?'<div class="rowlinks">'+out.join("")+'</div>':"";
 }
