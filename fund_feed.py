@@ -75,12 +75,12 @@ SOURCES = [
     },
     {
         "id": "most", "name": "科技部·国科管平台", "org": "科学技术部",
-        "level": "国家", "enabled": True,
+        "level": "国家", "enabled": False,   # 列表疑似JS/AJAX渲染，见 note
         "list_url": "https://service.most.gov.cn/kjjh_tztg_all/",
         "page_fmt": None,                       # verify with --probe before trusting
-        "detail_re": r"(?:kjjh_tztg_all/)?\d{8}/\d+\.html",
+        "detail_re": r"kjjh_tztg_all/\d{8}/\d+\.html",
         "prefilter": False,
-        "note": "重点研发专项指南；列表结构需 --probe 确认",
+        "note": "2026-07-18 probe: 列表页HTML内无通知链接，疑JS/AJAX渲染 → 暂停用，改由 calendar_seed 的手工锚点+人工巡检覆盖。若 --dump most 显示真实通知链接，把 enabled 改回 True 并修正 detail_re 即可",
     },
 ]
 
@@ -663,10 +663,11 @@ def selftest():
 
     # --- relative hrefs must resolve (MOST lists them relative to the column) ---
     most = get_source("most")
-    rel = ('<ul><li><a href="20260430/5824.html">科技部…“政府间国际科技创新合作”'
+    rel = ('<ul><li><a href="kjjh_tztg_all/20260430/5824.html">科技部…“政府间国际科技创新合作”'
            '重点专项2026年度第二批联合研发项目申报指南的通知</a>'
            '<span>2026-04-30</span></li></ul>')
-    ri = parse_list(rel, most["detail_re"], base=most["list_url"])
+    # base is the column URL; a column-relative href must resolve against the site root
+    ri = parse_list(rel, most["detail_re"], base="https://service.most.gov.cn/")
     assert len(ri) == 1, ri
     assert ri[0]["url"] == "https://service.most.gov.cn/kjjh_tztg_all/20260430/5824.html", ri[0]["url"]
     assert ri[0]["published"] == "2026-04-30", ri[0]
