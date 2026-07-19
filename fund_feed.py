@@ -78,7 +78,7 @@ SOURCES = [
         "level": "国家", "enabled": True,
         "list_url": "https://service.most.gov.cn/kjjh_tztg_all/",
         "page_fmt": None,                       # verify with --probe before trusting
-        "detail_re": r"/kjjh_tztg_all/\d{8}/\d+\.html",
+        "detail_re": r"(?:kjjh_tztg_all/)?\d{8}/\d+\.html",
         "prefilter": False,
         "note": "重点研发专项指南；列表结构需 --probe 确认",
     },
@@ -130,6 +130,19 @@ _DATE_PATTERNS = [
     re.compile(r"(20\d{2})\.(\d{1,2})\.(\d{1,2})"),
 ]
 _TITLE_ATTR_RE = re.compile(r'title="([^"]*)"', re.I)
+# Some columns render "<title text> YYYY-MM-DD" inside the anchor; strip it so
+# the date does not contaminate the stored title.
+_TRAILING_DATE_RE = re.compile(
+    r"[\s\u3000]*(?:20\d{2}[-/.]\d{1,2}(?:[-/.]\d{1,2})?|"
+    r"20\d{2}年\d{1,2}月(?:\d{1,2}日)?)\s*$")
+
+
+def _strip_trailing_date(title):
+    prev = None
+    while prev != title:
+        prev = title
+        title = _TRAILING_DATE_RE.sub("", title).strip()
+    return title
 
 
 def _find_date(text):
@@ -145,15 +158,20 @@ def _find_date(text):
 
 
 def parse_list(html_text, detail_re, base=""):
-    """Return [{'title','url','published'}]. Source-agnostic."""
+    """Return [{'title','url','published'}]. Source-agnostic.
+
+    base should be the LIST PAGE URL so that relative hrefs (e.g. MOST uses
+    '20260430/5824.html') resolve correctly. Absolute, root-relative and
+    directory-relative forms are all handled."""
+    from urllib.parse import urljoin
     anchor_re = re.compile(
         r'<a\b(?P<attrs>[^>]*href="(?P<url>[^"]*?' + detail_re + r')"[^>]*)>',
         re.I)
     items, seen = [], set()
     for m in anchor_re.finditer(html_text or ""):
         url = m.group("url")
-        if url.startswith("/"):
-            url = base.rstrip("/") + url if base else url
+        if base and not url.lower().startswith(("http://", "https://")):
+            url = urljoin(base, url)
         if url in seen:
             continue
         tm = _TITLE_ATTR_RE.search(m.group("attrs"))
@@ -162,6 +180,7 @@ def parse_list(html_text, detail_re, base=""):
             close = html_text.find("</a>", m.end())
             if close > 0:
                 title = clean_text(_HTML_COMMENT_RE.sub(" ", html_text[m.end():close]))
+        title = _strip_trailing_date(title)
         if not title or len(title) < 4:
             continue
         published = _find_date(html_text[m.end():m.end() + 600])
@@ -465,7 +484,7 @@ def probe():
         except Exception as exc:
             print(f"  ✗ 抓取失败 {type(exc).__name__}: {exc}")
             continue
-        base = "/".join(src["list_url"].split("/")[:3])
+        base = src["list_url"]
         items = parse_list(h, src["detail_re"], base=base)
         dated = sum(1 for i in items if i["published"])
         print(f"  ✓ {len(h)} 字节 · 解析到 {len(items)} 条 · 其中 {dated} 条带日期")
@@ -487,9 +506,40 @@ def probe():
     print("\n" + "=" * 66)
 
 
+def dump_links(sid, limit=40):
+    """Show the real hrefs on a source's list page. Use when --probe reports
+    0 links: it reveals the actual URL shape so detail_re can be corrected."""
+    src = get_source(sid)
+    if not src:
+        print("未知源 id:", sid, "| 可用:", ", ".join(s["id"] for s in SOURCES))
+        return
+    print(f"▌{src['name']} 列表页真实链接样本\n  {src['list_url']}\n" + "=" * 66)
+    try:
+        h = fetch(src["list_url"])
+    except Exception as exc:
+        print("抓取失败:", exc)
+        return
+    print(f"页面 {len(h)} 字节")
+    hrefs = re.findall(r'<a\b[^>]*href="([^"]+)"', h, re.I)
+    print(f"页面共 {len(hrefs)} 个链接。前 {limit} 个非导航链接：\n")
+    shown = 0
+    for hf in hrefs:
+        if hf.startswith(("#", "javascript:", "mailto:")):
+            continue
+        print("   ", hf)
+        shown += 1
+        if shown >= limit:
+            break
+    print(f"\n当前 detail_re = {src['detail_re']}")
+    hit = [x for x in hrefs if re.search(src["detail_re"], x)]
+    print(f"其中匹配 detail_re 的: {len(hit)} 个")
+    for x in hit[:5]:
+        print("    ✓", x)
+
+
 def harvest(src, pages=1, until=None, sleep=1.0):
     known = {r["id"] for r in load_notices()}
-    base = "/".join(src["list_url"].split("/")[:3])
+    base = src["list_url"]
     records, stop = [], False
     for n in range(1, pages + 1):
         url = page_url(src, n)
@@ -605,6 +655,26 @@ def selftest():
     assert ni[0]["published"] == "2026-07-15", ni[0]
     assert "韩国" in ni[1]["title"], ni[1]
 
+    # --- trailing date must not contaminate the title (NSFC 通知公告 does this) ---
+    assert _strip_trailing_date("可持续发展国际合作科学计划2026年度项目指南（第二批） 2026-06-05") \
+        == "可持续发展国际合作科学计划2026年度项目指南（第二批）"
+    assert _strip_trailing_date("某通知 2026-06") == "某通知"
+    assert _strip_trailing_date("2026年度项目指南") == "2026年度项目指南"   # don't over-strip
+
+    # --- relative hrefs must resolve (MOST lists them relative to the column) ---
+    most = get_source("most")
+    rel = ('<ul><li><a href="20260430/5824.html">科技部…“政府间国际科技创新合作”'
+           '重点专项2026年度第二批联合研发项目申报指南的通知</a>'
+           '<span>2026-04-30</span></li></ul>')
+    ri = parse_list(rel, most["detail_re"], base=most["list_url"])
+    assert len(ri) == 1, ri
+    assert ri[0]["url"] == "https://service.most.gov.cn/kjjh_tztg_all/20260430/5824.html", ri[0]["url"]
+    assert ri[0]["published"] == "2026-04-30", ri[0]
+    # absolute form must still work
+    ab = '<a href="https://service.most.gov.cn/kjjh_tztg_all/20260430/5824.html">政府间国际科技创新合作专项指南</a><span>2026-04-30</span>'
+    ai = parse_list(ab, most["detail_re"], base=most["list_url"])
+    assert len(ai) == 1 and ai[0]["url"].startswith("https://service.most.gov.cn/"), ai
+
     # --- pagination ---
     assert page_url(gz, 1) == "https://www.gz.gov.cn/xw/tzgg/"
     assert page_url(gz, 2) == "https://www.gz.gov.cn/xw/tzgg/index_2.html"
@@ -661,6 +731,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--probe", action="store_true", help="探测各源结构")
+    ap.add_argument("--dump", default=None, metavar="SOURCE_ID",
+                    help="打印某个源列表页的真实链接样本（--probe 报0条时用）")
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--only", default=None, help="只跑某个源 id")
     ap.add_argument("--pages", type=int, default=1)
@@ -668,6 +740,8 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.selftest:
         selftest()
+    elif a.dump:
+        dump_links(a.dump)
     elif a.probe:
         probe()
     elif a.live:
