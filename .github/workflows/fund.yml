@@ -20,6 +20,20 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: check files
+        run: |
+          echo "--- repo root ---"
+          ls -la
+          echo "--- data/ ---"
+          ls -la data/ 2>/dev/null || echo "!! data/ 目录不存在"
+          echo "--- calendar_seed.json ---"
+          if [ -f data/calendar_seed.json ]; then
+            echo "OK: 存在, $(wc -c < data/calendar_seed.json) 字节"
+            python -c "import json;d=json.load(open('data/calendar_seed.json',encoding='utf-8'));print('anchors:',len(d['anchors']),'manual_sources:',len(d['manual_sources']))"
+          else
+            echo "!! 缺失 data/calendar_seed.json -- 日历将没有手工锚点"
+          fi
+
       - name: selftest
         run: python -u fund_feed.py --selftest
 
