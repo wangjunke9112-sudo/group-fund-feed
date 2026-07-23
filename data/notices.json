@@ -1,7 +1,45 @@
 {
- "generated": "2026-07-22 22:57 UTC",
- "count": 428,
+ "generated": "2026-07-23 22:52 UTC",
+ "count": 430,
  "notices": [
+  {
+   "id": "nsfc_zn:139319",
+   "title": "关于发布2026年度国家自然科学基金 长江水科学研究联合基金项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139319.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-23",
+   "deadline": "2026-08-25",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:139316",
+   "title": "2026年度国家自然科学基金委员会与法国国家科学研究中心合作交流项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139316.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-23",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:139057",
    "title": "关于发布国家重点研发计划“发育编程及其代谢调节”“合成生物学” 重点专项2026年度项目申报指南的通告",
