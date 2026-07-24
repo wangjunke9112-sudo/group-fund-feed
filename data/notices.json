@@ -1,7 +1,66 @@
 {
- "generated": "2026-07-23 22:52 UTC",
- "count": 430,
+ "generated": "2026-07-24 22:57 UTC",
+ "count": 433,
  "notices": [
+  {
+   "id": "nsfc_zn:139416",
+   "title": "国家自然科学基金委员会交叉科学部 关于2026年度专项项目（科技活动项目）申请的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139416.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-24",
+   "deadline": "2026-08-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:10916400",
+   "title": "广州市科学技术局关于领取2025广州科技创新创业大赛港澳台赛暨香港科技大学百万奖金创业大赛广州赛“免申即享”补助资金（第二批次）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10916400.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-07-24",
+   "deadline": "2026-08-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "gz_portal:10916396",
+   "title": "广州市科学技术局关于公布广州市重点领域研发专题产学研合作项目认定立项名单（2026年第一批）的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10916396.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-07-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:139319",
    "title": "关于发布2026年度国家自然科学基金 长江水科学研究联合基金项目指南的通告",
