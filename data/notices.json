@@ -1,7 +1,26 @@
 {
- "generated": "2026-07-28 22:55 UTC",
- "count": 433,
+ "generated": "2026-07-29 22:56 UTC",
+ "count": 434,
  "notices": [
+  {
+   "id": "gz_portal:10944176",
+   "title": "广州市教育局关于公布2026年广州市中小学生科技体育教育竞赛市级总决赛获奖名单的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10944176.html",
+   "department": "广州市教育局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-07-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:139416",
    "title": "国家自然科学基金委员会交叉科学部 关于2026年度专项项目（科技活动项目）申请的通告",
