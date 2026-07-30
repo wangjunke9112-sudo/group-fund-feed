@@ -70,6 +70,10 @@
   .lk:hover{border-color:var(--navy);color:var(--navy)}
   .lk-live{border-color:var(--gold);color:var(--vip);background:var(--vip-bg);font-weight:700}
   .lk-apply{border-color:var(--navy);color:var(--navy);background:#eef3f8;font-weight:700}
+  .lk-lit{border-color:#c5d8f2;color:var(--team);background:#f4f8fd}
+  .lk-lit:hover{border-color:var(--team)}
+  .litnote{font-size:11.5px;color:var(--team);margin-top:4px;line-height:1.5;
+           padding-left:2px}
   .lk-live:hover{border-color:var(--vip)}
   .lk em{font-style:normal;opacity:.75}
   .rowname a{color:inherit;text-decoration:none}
@@ -128,7 +132,8 @@
 
   <section id="v-cal">
     <h2>全年申报节奏</h2>
-    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」直达库内最新的该类真实通知，深蓝「申报入口」直达申报系统。</p>
+    <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」直达库内最新的该类真实通知，深蓝「申报入口」直达申报系统，浅蓝「📚」直达该基金对应的文献切片，
+       用于窗口开启前的文献准备。</p>
     <div class="panel"><div class="calscroll" id="calpanel"></div></div>
   </section>
 
@@ -158,6 +163,24 @@ const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"
 const TODAY=new Date().toISOString().slice(0,10);
 const NOWM=new Date().getMonth()+1;
 const dleft=d=>d?Math.round((new Date(d)-new Date(TODAY))/864e5):null;
+
+// Literature slice labels, mirroring make_plain.py's SLICES table.
+const LIT_BASE="https://lens-laboratory.com/group-lit-feed/";
+const SLICE_LABEL={
+  "wbg-processing":"A1 加工损失","wbg-intrinsic":"A2 本征极限",
+  "wbg-voc":"A3 电压损失归属","wbg-heterogeneity":"A4 组分不均匀",
+  "wbg-segregation":"A5 卤素相分离",
+  "tandem-interface-limit":"B1 哪个界面限制","subcell-selective":"B2 子电池分辨表征",
+  "tandem-coupling":"B3 串联耦合","icl":"B4 互连层","nbg-stability":"B5 Sn-Pb 稳定性",
+  "operando":"C1 原位表征","ion-dynamics":"C2 离子迁移",
+  "stability-mechanism":"C3 衰减机理",
+  "app-detector":"D1 探测器","app-led":"D2 发光器件","app-indoor":"D3 室内光伏",
+  "app-scaleup":"D4 放大与模组","app-reliability":"D5 可靠性认证",
+  "app-flexible":"D6 柔性与空间",
+  "fundamental-formation":"E1 成膜与结晶","new-materials":"E2 新体系",
+  "architecture":"E3 器件构型","metrology":"E4 测试标准",
+  "integration":"E5 自供电与IoT"
+};
 
 const TAG={vip:["b-vip","⭐ 可牵头"],team:["b-team","🟦 团队参与"],
            verify:["b-verify","⚪ 待核实"],red:["b-red","🔴 暂不可报"],info:["b-verify","ℹ 参考"]};
@@ -225,7 +248,14 @@ function rowLinks(r, recs){
   if(r.apply_url) out.push('<a class="lk lk-apply" href="'+esc(r.apply_url)+
       '" target="_blank" rel="noopener">'+esc(r.apply_label||"申报入口")+' ↗</a>');
   if(r.url) out.push('<a class="lk" href="'+esc(r.url)+'" target="_blank" rel="noopener">官网栏目 ↗</a>');
-  return out.length?'<div class="rowlinks">'+out.join("")+'</div>':"";
+  (r.slices||[]).forEach(sl=>{
+    const label=SLICE_LABEL[sl]||sl;
+    out.push('<a class="lk lk-lit" href="'+LIT_BASE+'plain-'+esc(sl)+
+             '.html" target="_blank" rel="noopener">📚 '+esc(label)+'</a>');
+  });
+  let html=out.length?'<div class="rowlinks">'+out.join("")+'</div>':"";
+  if(r.lit_note) html+='<div class="litnote">'+esc(r.lit_note)+'</div>';
+  return html;
 }
 
 function calRow(r, recs){
