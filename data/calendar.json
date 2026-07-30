@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30 10:15 UTC",
+ "generated": "2026-07-30 12:43 UTC",
  "derived": [
   {
    "name": "合作研究项目",
@@ -159,6 +159,13 @@
    ],
    "apply_url": "https://grants.nsfc.gov.cn/",
    "apply_label": "ISIS 申报系统",
+   "slices": [
+    "wbg-voc",
+    "wbg-heterogeneity",
+    "tandem-interface-limit",
+    "subcell-selective"
+   ],
+   "lit_note": "机制归属类问题。A3/A4 支撑“损失究竟在何处”的判据设计；B1/B2 是本人已有发表基础的方向",
    "source": "manual"
   },
   {
@@ -225,6 +232,12 @@
    ],
    "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
    "apply_label": "阳光政务·申报",
+   "slices": [
+    "wbg-processing",
+    "wbg-segregation",
+    "stability-mechanism"
+   ],
+   "lit_note": "省基面上偏基础但需可交付指标，加工-性能关联比纯热力学更易写实",
    "source": "manual"
   },
   {
@@ -247,6 +260,12 @@
    ],
    "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
    "apply_label": "阳光政务·申报",
+   "slices": [
+    "wbg-heterogeneity",
+    "tandem-interface-limit",
+    "operando"
+   ],
+   "lit_note": "体量适中，适合把面上主线的某个子问题独立成题",
    "source": "manual"
   },
   {
@@ -268,6 +287,12 @@
    ],
    "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
    "apply_label": "阳光政务·申报",
+   "slices": [
+    "app-scaleup",
+    "app-reliability",
+    "nbg-stability"
+   ],
+   "lit_note": "任务导向。指标语言是效率/面积/寿命，读 D4/D5 而非机制文献",
    "source": "manual"
   },
   {
@@ -311,6 +336,12 @@
    ],
    "apply_url": "https://grants.nsfc.gov.cn/",
    "apply_label": "ISIS 申报系统",
+   "slices": [
+    "subcell-selective",
+    "operando",
+    "new-materials"
+   ],
+   "lit_note": "需港方实质参与。港方强在表征与器件物理，B2/C1 是天然分工面",
    "source": "manual"
   },
   {
@@ -335,6 +366,12 @@
    ],
    "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
    "apply_label": "阳光政务·申报",
+   "slices": [
+    "app-scaleup",
+    "app-reliability",
+    "integration"
+   ],
+   "lit_note": "产业导向的粤港项目，落点在放大与可靠性，而非机制",
    "source": "manual"
   },
   {
@@ -357,6 +394,12 @@
    ],
    "apply_url": "https://service.most.gov.cn/xmtj/index.html",
    "apply_label": "国科管·项目申报",
+   "slices": [
+    "operando",
+    "new-materials",
+    "fundamental-formation"
+   ],
+   "lit_note": "需境外合作单位。欧洲网络的互补能力在光谱表征（Herz/Rao）与新材料（Kovalenko/Polavarapu）",
    "source": "manual"
   },
   {
@@ -379,6 +422,12 @@
    ],
    "apply_url": "https://service.most.gov.cn/xmtj/index.html",
    "apply_label": "国科管·项目申报",
+   "slices": [
+    "operando",
+    "new-materials",
+    "fundamental-formation"
+   ],
+   "lit_note": "同第一批，窗口不同",
    "source": "manual"
   },
   {
@@ -400,6 +449,11 @@
    ],
    "apply_url": "https://service.most.gov.cn/xmtj/index.html",
    "apply_label": "国科管·项目申报",
+   "slices": [
+    "operando",
+    "fundamental-formation"
+   ],
+   "lit_note": "不计限项，最适合把既有关系正式化。选一个双方都能出人出机时的小问题",
    "source": "manual"
   },
   {
@@ -421,6 +475,11 @@
    ],
    "apply_url": "https://service.most.gov.cn/xmtj/index.html",
    "apply_label": "国科管·项目申报",
+   "slices": [
+    "app-scaleup",
+    "app-reliability"
+   ],
+   "lit_note": "前哨信号。看指南草案的指标语言，判断校内团队能否接住",
    "source": "manual"
   },
   {
@@ -444,6 +503,12 @@
    ],
    "apply_url": "https://grants.nsfc.gov.cn/",
    "apply_label": "ISIS 申报系统",
+   "slices": [
+    "operando",
+    "new-materials",
+    "architecture"
+   ],
+   "lit_note": "不受海优限制。以互补表征或新体系为切入点最自然",
    "source": "manual"
   },
   {
