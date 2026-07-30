@@ -1,7 +1,26 @@
 {
- "generated": "2026-07-29 22:56 UTC",
- "count": 434,
+ "generated": "2026-07-30 10:15 UTC",
+ "count": 435,
  "notices": [
+  {
+   "id": "nsfc_zn:139813",
+   "title": "国家自然科学基金委员会计划与政策局 2026年度专项项目（科技活动项目）申请通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139813.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-30",
+   "deadline": "2026-08-28",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
   {
    "id": "gz_portal:10944176",
    "title": "广州市教育局关于公布2026年广州市中小学生科技体育教育竞赛市级总决赛获奖名单的通知",
