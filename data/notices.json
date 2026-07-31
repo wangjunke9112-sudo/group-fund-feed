@@ -1,7 +1,125 @@
 {
- "generated": "2026-07-30 23:00 UTC",
- "count": 435,
+ "generated": "2026-07-31 22:56 UTC",
+ "count": 441,
  "notices": [
+  {
+   "id": "nsfc_zn:139882",
+   "title": "关于发布国家自然科学基金中国石化基础研究联合基金 重大专项2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139882.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:139878",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 “岩石圈与固体力学：多场多尺度实验观测与物理本构”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139878.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:139877",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 “跨圈层多尺度地球流体动力学：新技术、新理论与新范式”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139877.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:139876",
+   "title": "关于发布2026年度国家自然科学基金气象联合基金 “量子技术气象应用”领域申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139876.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:139818",
+   "title": "关于发布2026年度理论物理专款项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139818.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": "2027-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:139814",
+   "title": "2026年度国家重大科技平台国际开放合作基础研究专项（试点）项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139814.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-07-31",
+   "deadline": "2026-09-11",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "国际合作"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:139813",
    "title": "国家自然科学基金委员会计划与政策局 2026年度专项项目（科技活动项目）申请通告",
