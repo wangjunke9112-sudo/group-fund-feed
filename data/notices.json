@@ -1,7 +1,30 @@
 {
- "generated": "2026-08-02 22:51 UTC",
- "count": 441,
+ "generated": "2026-08-03 22:56 UTC",
+ "count": 442,
  "notices": [
+  {
+   "id": "nsfc_zn:139888",
+   "title": "2026年度国家自然科学基金委员会与埃及科学研究技术院合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139888.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-03",
+   "deadline": "2026-09-11",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:139882",
    "title": "关于发布国家自然科学基金中国石化基础研究联合基金 重大专项2026年度项目指南的通告",
