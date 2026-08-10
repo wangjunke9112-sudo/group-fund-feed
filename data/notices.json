@@ -1,7 +1,28 @@
 {
- "generated": "2026-08-09 22:24 UTC",
- "count": 442,
+ "generated": "2026-08-10 22:31 UTC",
+ "count": 443,
  "notices": [
+  {
+   "id": "nsfc_zn:139889",
+   "title": "2026年度国家自然科学基金委员会与伊朗国家科学基金会双边研讨会项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/139889.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-10",
+   "deadline": "2026-09-28",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:139888",
    "title": "2026年度国家自然科学基金委员会与埃及科学研究技术院合作研究项目指南",
