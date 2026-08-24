@@ -1,7 +1,72 @@
 {
- "generated": "2026-08-23 22:16 UTC",
- "count": 444,
+ "generated": "2026-08-24 22:21 UTC",
+ "count": 447,
  "notices": [
+  {
+   "id": "nsfc_zn:140973",
+   "title": "国家自然科学基金委员会工程与材料科学部 关于2026年第2期专项项目（科技活动项目）申请的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/140973.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-24",
+   "deadline": "2026-09-24",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "工程与材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:140971",
+   "title": "2026年国家自然科学基金指南引导类原创探索计划项目 ——“核聚变堆关键材料基础前沿”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/140971.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:140949",
+   "title": "2026年度国家自然科学基金委员会与塞尔维亚科学基金会合作研究项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/140949.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-24",
+   "deadline": "2026-09-25",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "国际合作",
+    "工程与材料",
+    "材料"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:140189",
    "title": "国家自然科学基金委员会高技术研究发展中心关于征集2026年度第一批战略研究课题承担单位的公告",
