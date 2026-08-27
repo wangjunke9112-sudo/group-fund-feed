@@ -1,7 +1,26 @@
 {
- "generated": "2026-08-25 22:21 UTC",
- "count": 447,
+ "generated": "2026-08-27 02:49 UTC",
+ "count": 448,
  "notices": [
+  {
+   "id": "nsfc_zn:141042",
+   "title": "关于发布未来工业互联网基础理论与关键技术 重大研究计划2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141042.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-26",
+   "deadline": "2026-10-16",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:140973",
    "title": "国家自然科学基金委员会工程与材料科学部 关于2026年第2期专项项目（科技活动项目）申请的通告",
