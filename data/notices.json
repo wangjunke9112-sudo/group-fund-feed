@@ -1,7 +1,26 @@
 {
- "generated": "2026-09-01 00:57 UTC",
- "count": 449,
+ "generated": "2026-09-01 23:44 UTC",
+ "count": 450,
  "notices": [
+  {
+   "id": "nsfc_zn:141370",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“炎症性疾病中细胞焦亡的机制解码与转化医学研究”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141370.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-01",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:141299",
    "title": "关于发布国家自然科学基金委员会数学物理科学部 2026年度第二期专项项目（科技活动项目）申请指南的通告",
