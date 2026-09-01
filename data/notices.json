@@ -1,7 +1,26 @@
 {
- "generated": "2026-08-31 00:09 UTC",
- "count": 448,
+ "generated": "2026-09-01 00:57 UTC",
+ "count": 449,
  "notices": [
+  {
+   "id": "nsfc_zn:141299",
+   "title": "关于发布国家自然科学基金委员会数学物理科学部 2026年度第二期专项项目（科技活动项目）申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141299.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-08-31",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:141042",
    "title": "关于发布未来工业互联网基础理论与关键技术 重大研究计划2026年度项目指南的通告",
