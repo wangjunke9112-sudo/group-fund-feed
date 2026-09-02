@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01 23:44 UTC",
+ "generated": "2026-09-02 23:47 UTC",
  "derived": [
   {
    "name": "合作研究项目",
@@ -32,16 +32,18 @@
    "level": "国家",
    "months": [
     6,
-    7
+    7,
+    9
    ],
    "counts": {
+    "09": 1,
     "07": 4,
     "06": 4
    },
    "source": "derived",
    "confidence": "observed",
-   "window": "历年集中在 6月、7月",
-   "note": "由已抓取的 8 条同类历史通知统计得出"
+   "window": "历年集中在 6月、7月、9月",
+   "note": "由已抓取的 9 条同类历史通知统计得出"
   },
   {
    "name": "粤穗",

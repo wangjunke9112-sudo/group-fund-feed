@@ -1,7 +1,229 @@
 {
- "generated": "2026-09-01 23:44 UTC",
- "count": 450,
+ "generated": "2026-09-02 23:47 UTC",
+ "count": 460,
  "notices": [
+  {
+   "id": "nsfc_zn:141470",
+   "title": "关于发布国家自然科学基金联合基金生命健康 重大专项2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141470.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:141468",
+   "title": "2026年度国家自然科学基金委员会与京港学术交流中心 赴香港参加国际会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141468.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉",
+    "新能源",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:141466",
+   "title": "国家自然科学基金委员会与香港研究资助局青年学者论坛项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141466.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉",
+    "工程与材料",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:141464",
+   "title": "国家自然科学基金委员会与京港学术交流中心学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141464.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉",
+    "工程与材料",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:141462",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 “人工智能经济学”项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141462.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:141461",
+   "title": "关于发布组织器官再生修复的信息解码及有序调控 重大研究计划2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141461.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-08",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_zn:141410",
+   "title": "关于发布冠状病毒-宿主免疫互作的全景动态机制与干预策略 重大研究计划2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141410.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-08",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_tzgg:141468",
+   "title": "2026年度国家自然科学基金委员会与京港学术交流中心 赴香港参加国际会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141468.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉",
+    "新能源",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_tzgg:141466",
+   "title": "国家自然科学基金委员会与香港研究资助局青年学者论坛项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141466.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉",
+    "工程与材料",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
+  {
+   "id": "nsfc_tzgg:141464",
+   "title": "国家自然科学基金委员会与京港学术交流中心学术会议项目指南",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141464.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_tzgg",
+   "source_name": "NSFC·通知公告",
+   "level": "国家",
+   "published": "2026-09-02",
+   "deadline": "2026-10-09",
+   "deadline_confidence": "explicit",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "交叉",
+    "工程与材料",
+    "材料",
+    "能源"
+   ],
+   "tags": [
+    "vip"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:141370",
    "title": "关于发布2026年度国家自然科学基金专项项目 ——“炎症性疾病中细胞焦亡的机制解码与转化医学研究”申请指南的通告",
