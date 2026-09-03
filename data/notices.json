@@ -1,7 +1,28 @@
 {
- "generated": "2026-09-02 23:47 UTC",
- "count": 460,
+ "generated": "2026-09-03 23:45 UTC",
+ "count": 461,
  "notices": [
+  {
+   "id": "nsfc_zn:141478",
+   "title": "关于发布2026年度国家自然科学基金数学天元基金项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141478.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-03",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:141470",
    "title": "关于发布国家自然科学基金联合基金生命健康 重大专项2026年度项目指南的通告",
