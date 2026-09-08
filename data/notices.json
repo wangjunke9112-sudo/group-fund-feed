@@ -1,7 +1,91 @@
 {
- "generated": "2026-09-07 23:54 UTC",
- "count": 461,
+ "generated": "2026-09-08 23:48 UTC",
+ "count": 465,
  "notices": [
+  {
+   "id": "nsfc_zn:141848",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 “量子计算与模拟中的前沿问题探索”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141848.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:141846",
+   "title": "关于发布2026年度国家自然科学基金 “火星生命痕迹探寻的理论与方法”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141846.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:141844",
+   "title": "关于发布2026年度国家自然科学基金 “仿生智能运动与操作”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141844.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:141842",
+   "title": "关于发布2026年度国家自然科学基金 “新型光源、电子源和离子源创制”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/141842.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-08",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "交叉"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:141478",
    "title": "关于发布2026年度国家自然科学基金数学天元基金项目申请指南的通告",
