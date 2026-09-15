@@ -1,7 +1,26 @@
 {
- "generated": "2026-09-15 00:11 UTC",
- "count": 468,
+ "generated": "2026-09-15 23:54 UTC",
+ "count": 469,
  "notices": [
+  {
+   "id": "nsfc_zn:142059",
+   "title": "关于发布医学科学部2026年度指南引导类原创探索计划项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142059.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:142020",
    "title": "关于发布医学科学部2026年度专项项目指南（第二批）的通告",
