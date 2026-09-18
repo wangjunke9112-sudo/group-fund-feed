@@ -1,7 +1,64 @@
 {
- "generated": "2026-09-17 23:51 UTC",
- "count": 469,
+ "generated": "2026-09-18 23:49 UTC",
+ "count": 472,
  "notices": [
+  {
+   "id": "nsfc_zn:142426",
+   "title": "关于发布2026年度国家自然科学基金 “生命过程分子语言的AI解析与场景应用” 指南引导申请类原创探索计划项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142426.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:142425",
+   "title": "关于发布2026年度国家自然科学基金 “空间智能与世界模型”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142425.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:142423",
+   "title": "关于发布2026年度国家自然科学基金 “AI安全”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142423.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-18",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:142059",
    "title": "关于发布医学科学部2026年度指南引导类原创探索计划项目指南的通告",
