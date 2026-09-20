@@ -1,7 +1,26 @@
 {
- "generated": "2026-09-19 23:50 UTC",
- "count": 472,
+ "generated": "2026-09-20 23:47 UTC",
+ "count": 473,
  "notices": [
+  {
+   "id": "gz_portal:11012568",
+   "title": "广州市科学技术局关于印发广州科技创新基金管理办法的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11012568.html",
+   "department": "​广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-09-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:142426",
    "title": "关于发布2026年度国家自然科学基金 “生命过程分子语言的AI解析与场景应用” 指南引导申请类原创探索计划项目指南的通告",
