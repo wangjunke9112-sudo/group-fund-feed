@@ -1,7 +1,26 @@
 {
- "generated": "2026-09-22 00:31 UTC",
- "count": 473,
+ "generated": "2026-09-22 23:57 UTC",
+ "count": 474,
  "notices": [
+  {
+   "id": "nsfc_zn:142654",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“人工智能驱动的疾病相关肠道微生态失衡识别与因果机制研究”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142654.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "gz_portal:11012568",
    "title": "广州市科学技术局关于印发广州科技创新基金管理办法的通知",
