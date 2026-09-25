@@ -1,7 +1,45 @@
 {
- "generated": "2026-09-24 00:11 UTC",
- "count": 474,
+ "generated": "2026-09-25 00:13 UTC",
+ "count": 476,
  "notices": [
+  {
+   "id": "nsfc_zn:142834",
+   "title": "关于发布2026年度国家自然科学基金委员会管理科学部专项项目 “人工智能驱动的质量管理理论与方法创新”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142834.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-24",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:142831",
+   "title": "《2027年度国家自然科学基金项目指南》征订通知",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/142831.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-24",
+   "deadline": "2026-12-15",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:142654",
    "title": "关于发布2026年度国家自然科学基金专项项目 ——“人工智能驱动的疾病相关肠道微生态失衡识别与因果机制研究”申请指南的通告",
