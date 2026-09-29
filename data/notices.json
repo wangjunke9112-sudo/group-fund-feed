@@ -1,7 +1,45 @@
 {
- "generated": "2026-09-28 00:15 UTC",
- "count": 476,
+ "generated": "2026-09-29 01:25 UTC",
+ "count": 478,
  "notices": [
+  {
+   "id": "nsfc_zn:143053",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“生物育种基础研究”青年专项项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143053.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-29",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143051",
+   "title": "关于发布国家自然科学基金委员会生命科学部 2026年度专项项目（科技活动项目）指南（第二批）的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143051.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:142834",
    "title": "关于发布2026年度国家自然科学基金委员会管理科学部专项项目 “人工智能驱动的质量管理理论与方法创新”申请指南的通告",
