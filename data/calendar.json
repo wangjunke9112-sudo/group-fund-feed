@@ -1,6 +1,25 @@
 {
- "generated": "2026-09-29 01:25 UTC",
+ "generated": "2026-09-30 00:58 UTC",
  "derived": [
+  {
+   "name": "联合基金",
+   "org": "国家自然科学基金委",
+   "level": "国家",
+   "months": [
+    6,
+    7,
+    9
+   ],
+   "counts": {
+    "09": 2,
+    "07": 4,
+    "06": 4
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "window": "历年集中在 6月、7月、9月",
+   "note": "由已抓取的 10 条同类历史通知统计得出"
+  },
   {
    "name": "合作研究项目",
    "org": "国家自然科学基金委",
@@ -24,25 +43,6 @@
    "source": "derived",
    "confidence": "observed",
    "window": "历年集中在 1月、2月、5月、6月、8月、12月",
-   "note": "由已抓取的 9 条同类历史通知统计得出"
-  },
-  {
-   "name": "联合基金",
-   "org": "国家自然科学基金委",
-   "level": "国家",
-   "months": [
-    6,
-    7,
-    9
-   ],
-   "counts": {
-    "09": 1,
-    "07": 4,
-    "06": 4
-   },
-   "source": "derived",
-   "confidence": "observed",
-   "window": "历年集中在 6月、7月、9月",
    "note": "由已抓取的 9 条同类历史通知统计得出"
   },
   {
