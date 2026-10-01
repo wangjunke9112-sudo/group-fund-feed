@@ -1,7 +1,164 @@
 {
- "generated": "2026-09-30 00:58 UTC",
- "count": 479,
+ "generated": "2026-10-01 01:01 UTC",
+ "count": 487,
  "notices": [
+  {
+   "id": "nsfc_zn:143182",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“介入式脑机接口跨尺度解析与智能调控”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143182.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143180",
+   "title": "关于发布2026年度国家自然科学基金 “关联量子物质的基础理论”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143180.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143178",
+   "title": "关于发布2026年度国家自然科学基金指南引导类原创探索计划项目 “江门中微子实验MeV能区天体中微子与新物理前沿探索”项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143178.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143176",
+   "title": "关于发布2026年度国家自然科学基金专项项目 “面向空间制造的微重力多相界面流动与相变耦合机制及多场调控”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143176.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143174",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“能源科学与人工智能深度融合前沿创新”青年专项项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143174.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": true,
+   "keywords": [
+    "工程与材料",
+    "能源"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143120",
+   "title": "关于发布2026年度国家自然科学基金 “面向低空经济前沿的基础研究”专项项目申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143120.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "工程与材料"
+   ],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143118",
+   "title": "关于发布国家自然科学基金深圳人工智能联合基金重大专项 2026年度项目指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143118.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "nsfc_zn:143116",
+   "title": "关于发布2026年度国家自然科学基金专项项目 ——“表观基因组调控机制与干预策略”申请指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/143116.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-09-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "nsfc_zn:143111",
    "title": "关于发布2026年度国家自然科学基金 深圳机器人联合基金重大专项项目指南的通告",
