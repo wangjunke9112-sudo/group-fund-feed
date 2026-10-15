@@ -1,7 +1,26 @@
 {
- "generated": "2026-10-14 00:49 UTC",
- "count": 490,
+ "generated": "2026-10-15 00:15 UTC",
+ "count": 491,
  "notices": [
+  {
+   "id": "gz_portal:11024994",
+   "title": "广州市人力资源和社会保障局关于开展2025年度广州市应用型高端人才高级职称评审工作的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11024994.html",
+   "department": "广州市人力资源和社会保障局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-10-14",
+   "deadline": "2025-12-31",
+   "deadline_confidence": "explicit",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "team"
+   ],
+   "status": "closed"
+  },
   {
    "id": "nsfc_zn:143869",
    "title": "关于发布2026年度国家自然科学基金委员会管理科学部专项项目 “面向未来产业的政策体系与治理机制”申请指南的通告",
