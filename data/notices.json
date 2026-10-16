@@ -1,7 +1,28 @@
 {
- "generated": "2026-10-15 00:15 UTC",
- "count": 491,
+ "generated": "2026-10-16 00:01 UTC",
+ "count": 492,
  "notices": [
+  {
+   "id": "nsfc_zn:144015",
+   "title": "关于发布“脑科学与类脑研究”国家科技重大专项 2027年度第一批项目申报指南的通告",
+   "url": "https://www.nsfc.gov.cn/p1/3381/2824/144015.html",
+   "department": "国家自然科学基金委",
+   "source_id": "nsfc_zn",
+   "source_name": "NSFC·项目指南",
+   "level": "国家",
+   "published": "2026-10-15",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "gz_portal:11024994",
    "title": "广州市人力资源和社会保障局关于开展2025年度广州市应用型高端人才高级职称评审工作的通知",
