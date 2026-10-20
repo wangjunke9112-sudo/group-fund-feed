@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-18 23:52 UTC",
- "count": 492,
+ "generated": "2026-10-20 00:52 UTC",
+ "count": 493,
  "notices": [
   {
    "id": "nsfc_zn:144015",
@@ -312,6 +312,25 @@
    "keywords": [],
    "tags": [
     "verify"
+   ],
+   "status": "unknown"
+  },
+  {
+   "id": "gz_portal:11057498",
+   "title": "广州市人力资源和社会保障局关于印发《广州市应用型高端人才高级职称评审办法（试行）》的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11057498.html",
+   "department": "广州市人力资源和社会保障局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-09-28",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "vip"
    ],
    "status": "unknown"
   },
