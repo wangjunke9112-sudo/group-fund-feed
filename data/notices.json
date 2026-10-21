@@ -1,7 +1,28 @@
 {
- "generated": "2026-10-20 00:52 UTC",
- "count": 493,
+ "generated": "2026-10-21 00:20 UTC",
+ "count": 494,
  "notices": [
+  {
+   "id": "gz_portal:11060753",
+   "title": "广州市科学技术局关于发布重点研发计划2026年度重点领域研发专题产学研合作项目认定立项方向申报指南的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11060753.html",
+   "department": "广州市科学技术局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-10-20",
+   "deadline": null,
+   "deadline_confidence": "rolling",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [
+    "材料"
+   ],
+   "tags": [
+    "team"
+   ],
+   "status": "open"
+  },
   {
    "id": "nsfc_zn:144015",
    "title": "关于发布“脑科学与类脑研究”国家科技重大专项 2027年度第一批项目申报指南的通告",

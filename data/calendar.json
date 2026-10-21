@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20 00:52 UTC",
+ "generated": "2026-10-21 00:20 UTC",
  "derived": [
   {
    "name": "联合基金",
@@ -141,6 +141,23 @@
    "source": "derived",
    "confidence": "observed",
    "window": "历年集中在 4月",
+   "note": "由已抓取的 2 条同类历史通知统计得出"
+  },
+  {
+   "name": "重点领域研发",
+   "org": "广州市科学技术局等2个来源",
+   "level": "市",
+   "months": [
+    4,
+    10
+   ],
+   "counts": {
+    "10": 1,
+    "04": 1
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "window": "历年集中在 4月、10月",
    "note": "由已抓取的 2 条同类历史通知统计得出"
   }
  ],
