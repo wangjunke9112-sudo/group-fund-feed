@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 01:23 UTC",
+ "generated": "2026-11-10 03:56 UTC",
  "derived": [
   {
    "name": "联合基金",
@@ -85,6 +85,23 @@
   },
   {
    "name": "重点研发计划",
+   "org": "国家自然科学基金委",
+   "level": "国家",
+   "months": [
+    7,
+    11
+   ],
+   "counts": {
+    "11": 2,
+    "07": 1
+   },
+   "source": "derived",
+   "confidence": "observed",
+   "window": "历年集中在 7月、11月",
+   "note": "由已抓取的 3 条同类历史通知统计得出"
+  },
+  {
+   "name": "重点研发计划",
    "org": "广州市科学技术局",
    "level": "市",
    "months": [
@@ -141,23 +158,6 @@
    "source": "derived",
    "confidence": "observed",
    "window": "历年集中在 4月",
-   "note": "由已抓取的 2 条同类历史通知统计得出"
-  },
-  {
-   "name": "重点研发计划",
-   "org": "国家自然科学基金委",
-   "level": "国家",
-   "months": [
-    7,
-    11
-   ],
-   "counts": {
-    "11": 1,
-    "07": 1
-   },
-   "source": "derived",
-   "confidence": "observed",
-   "window": "历年集中在 7月、11月",
    "note": "由已抓取的 2 条同类历史通知统计得出"
   },
   {
