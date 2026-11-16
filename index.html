@@ -82,6 +82,12 @@
   .c-verified{background:var(--info-bg);color:var(--info)}
   .c-estimated{background:var(--verify-bg);color:var(--soft)}
   .c-observed{background:var(--team-bg);color:var(--team)}
+  .age{font-family:var(--mono);font-size:9.5px;padding:1px 5px;border-radius:3px;margin-left:5px;
+       white-space:nowrap}
+  .age-ok{background:var(--verify-bg);color:var(--soft)}
+  .age-soon{background:var(--warn-bg);color:var(--warn);font-weight:700}
+  .age-last{background:var(--warn);color:#fff;font-weight:700}
+  .age-gone{background:var(--red-bg);color:var(--red)}
 
   /* ---- cards ---- */
   .card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--edge,var(--line));
@@ -133,7 +139,7 @@
   <section id="v-cal">
     <h2>全年申报节奏</h2>
     <p class="hint">深色块＝该月常有申报窗口，粗边框＝高峰月，橙色描边＝当前月。<b>观测</b>来自已抓取的历史通知统计；<b>已核实</b>来自真实发布记录；<b>经验</b>为往年惯例，务必以当年指南为准。金色「最近一期」直达库内最新的该类真实通知，深蓝「申报入口」直达申报系统，浅蓝「📚」直达该基金对应的文献切片，
-       用于窗口开启前的文献准备。</p>
+       用于窗口开启前的文献准备。年龄受限的项目在名称后标出可申报年限。</p>
     <div class="panel"><div class="calscroll" id="calpanel"></div></div>
   </section>
 
@@ -181,6 +187,24 @@ const SLICE_LABEL={
   "architecture":"E3 器件构型","metrology":"E4 测试标准",
   "integration":"E5 自供电与IoT"
 };
+
+// Birth year, for age-limited schemes. Most Chinese calls compute age as of
+// 1 Jan of the nomination year, so "last eligible year" = birth year + limit.
+// Approximate by design: each scheme words it differently, so this is a
+// scheduling prompt, never an eligibility ruling.
+const BIRTH_YEAR=1991;
+const THIS_YEAR=new Date().getFullYear();
+
+function ageBadge(r){
+  if(!r.age_limit) return "";
+  const last=BIRTH_YEAR+r.age_limit;
+  const left=last-THIS_YEAR;
+  let cls="age-ok", txt="≤"+r.age_limit+"岁 · 至"+last+"年";
+  if(left<0){ cls="age-gone"; txt="≤"+r.age_limit+"岁 · 已超龄（待核实）"; }
+  else if(left===0){ cls="age-last"; txt="≤"+r.age_limit+"岁 · 今年为最后一轮"; }
+  else if(left<=2){ cls="age-soon"; txt="≤"+r.age_limit+"岁 · 仅剩约"+left+"年"; }
+  return '<span class="age '+cls+'" title="按'+BIRTH_YEAR+'年出生估算，各家口径不同，以官方文件为准">'+txt+'</span>';
+}
 
 const TAG={vip:["b-vip","⭐ 可牵头"],team:["b-team","🟦 团队参与"],
            verify:["b-verify","⚪ 待核实"],red:["b-red","🔴 暂不可报"],info:["b-verify","ℹ 参考"]};
@@ -277,7 +301,7 @@ function calRow(r, recs){
   const nm=(live&&live.url)
     ? '<a href="'+esc(live.url)+'" target="_blank" rel="noopener">'+esc(r.name)+'</a>'
     : esc(r.name);
-  return '<div class="calrow"><div class="rowname" title="'+esc(r.name)+'">'+nm+org+conf+'</div>'+cells+'</div>'+
+  return '<div class="calrow"><div class="rowname" title="'+esc(r.name)+'">'+nm+org+conf+ageBadge(r)+'</div>'+cells+'</div>'+
     (r.window||r.note?'<div class="rownote">'+(r.window?'<b>'+esc(r.window)+'</b>':"")+
       (r.note?(r.window?' · ':'')+esc(r.note):"")+rowLinks(r, recs)+'</div>'
       : (rowLinks(r, recs)?'<div class="rownote">'+rowLinks(r, recs)+'</div>':""));
@@ -296,17 +320,22 @@ function renderCal(c, recs){
   }
   let h='<div class="calsum">共 <b>'+anchors.length+'</b> 个日历锚点 · <b>'+
         derived.length+'</b> 条历史观测</div>';
+  // Each group may claim several `level` values. Anything unclaimed still
+  // falls through to the catch-all below, so a new level is never lost.
   const GROUPS=[
-    ["国家","国家级 · NSFC / 科技部"],
-    ["港澳","港澳合作 · JRS / ITF"],
-    ["省","广东省"],
-    ["市","广州市"],
+    [["国家"],"国家级 · NSFC / 科技部"],
+    [["港澳"],"港澳合作 · JRS / ITF"],
+    [["省"],"广东省"],
+    [["市"],"广州市"],
+    [["国重","企业/国重"],"全国重点实验室 · 开放课题（体量小，重在合作与机时）"],
+    [["企业","社会/企业"],"企业与社会资助（窗口短，多靠内部渠道与提名）"],
   ];
   // Track what we render so nothing can be silently dropped by an unexpected
   // or missing `level` value -- anything left over goes into a catch-all group.
   const placed=new Set();
-  GROUPS.forEach(([lv,label])=>{
-    const rows=anchors.filter(a=>a.level===lv).sort((a,b)=>(a.peak||13)-(b.peak||13));
+  GROUPS.forEach(([lvs,label])=>{
+    const rows=anchors.filter(a=>lvs.indexOf(a.level)>=0)
+                      .sort((a,b)=>(a.peak||13)-(b.peak||13));
     if(!rows.length) return;
     rows.forEach(r=>placed.add(r));
     h+='<div class="calgroup"><h3>'+esc(label)+' <span>'+rows.length+'</span></h3>';
@@ -340,7 +369,8 @@ function renderCal(c, recs){
      '<span><i style="background:var(--team)"></i>团队参与</span>'+
      '<span><i style="background:var(--red);opacity:.55"></i>暂不可报</span>'+
      '<span><i style="background:var(--info);opacity:.5"></i>参考/结果公布</span>'+
-     '<span><i style="background:var(--navy)"></i>历史观测</span></div>';
+     '<span><i style="background:var(--navy)"></i>历史观测</span>'+
+     '<span>年龄标记按 '+BIRTH_YEAR+' 年出生估算，仅作排期提示</span></div>';
   el("calpanel").innerHTML=h;
 }
 
