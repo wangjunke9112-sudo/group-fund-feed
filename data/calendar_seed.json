@@ -589,9 +589,92 @@
    ],
    "lit_note": "仅在做到器件寿命终期/铅管理时才相关，目前属观察项",
    "source": "manual"
+  },
+  {
+   "name": "硅及先进半导体材料全国重点实验室 开放课题",
+   "org": "浙江大学",
+   "level": "国重",
+   "months": [
+    3,
+    4,
+    5
+   ],
+   "peak": 4,
+   "window": "年度征集，近年约3–5月（2025年度3月通知、5月公布立项）",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：每年发布开放课题通知并公布资助清单（2021/2023/2025年度均可查）。方向为硅材料与先进半导体材料——对硅-钙钛矿叠层的底电池侧、界面与光学耦合有直接交集。另设客座研究人员通道，可作为长期往来方式。具体方向与额度以当年通知为准。",
+   "url": "http://silab.zju.edu.cn/",
+   "match": [
+    "硅及先进半导体",
+    "硅材料"
+   ],
+   "slices": [
+    "tandem-interface-limit",
+    "icl",
+    "architecture"
+   ],
+   "lit_note": "硅侧视角与你的全钙钛矿路线互补；B1/B4 是共同语言",
+   "source": "manual"
+  },
+  {
+   "name": "京东方 技术策源地开放课题",
+   "org": "京东方 BOE",
+   "level": "企业",
+   "months": [],
+   "peak": null,
+   "window": "不定期发布，多经校内/合作方转达",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：2026年度课题正在推进中（钙钛矿光伏稳定性与原位老化分析方向，85°C MPPT 衰减与界面机理）。显示面板企业对钙钛矿光伏与探测器均有布局，是可持续经营的企业入口。此类通知通常不公开挂网。",
+   "url": "",
+   "match": [
+    "京东方",
+    "BOE"
+   ],
+   "slices": [
+    "app-reliability",
+    "operando",
+    "stability-mechanism"
+   ],
+   "lit_note": "企业关注的是老化曲线与失效机理，C1/C3/D5 正对口",
+   "source": "manual"
+  },
+  {
+   "name": "发光材料与器件全国重点实验室 开放课题（本单位，不可申报）",
+   "org": "华南理工大学",
+   "level": "国重",
+   "months": [
+    4,
+    11
+   ],
+   "peak": 11,
+   "window": "年度征集，近年见4月与11月两次通知",
+   "tag": "info",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "本人为实验室内部人员，开放课题面向外单位研究人员，故不可作为申请人。反向用法：可作为外单位申请人的室内合作者——多数开放基金明确优先支持与室内人员有合作基础的申请，这是成本极低的建立国内合作的方式。",
+   "url": "https://www2.scut.edu.cn/skllmd/",
+   "match": [
+    "发光材料与器件"
+   ],
+   "slices": [
+    "app-led",
+    "app-detector"
+   ],
+   "lit_note": "可承接外单位在发光/探测方向的合作申请，D1/D2 是实验室既有强项",
+   "source": "manual"
   }
  ],
  "manual_sources": [
+  {
+   "name": "硅及先进半导体材料全国重点实验室（浙大）",
+   "url": "http://silab.zju.edu.cn/",
+   "freq": "每年3–5月",
+   "why": "硅与半导体材料开放课题，叠层底电池侧的交集；另有客座研究人员通道"
+  },
   {
    "name": "中科院广州能源研究所 通知公告",
    "url": "https://giec.cas.cn/tzgg2016/",
