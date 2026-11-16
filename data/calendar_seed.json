@@ -27,15 +27,15 @@
    "match": [
     "面上项目"
    ],
-   "apply_url": "https://grants.nsfc.gov.cn/",
-   "apply_label": "ISIS 申报系统",
    "slices": [
     "wbg-voc",
     "wbg-heterogeneity",
     "tandem-interface-limit",
     "subcell-selective"
    ],
-   "lit_note": "机制归属类问题。A3/A4 支撑“损失究竟在何处”的判据设计；B1/B2 是本人已有发表基础的方向"
+   "lit_note": "机制归属类问题。A3/A4 支撑“损失究竟在何处”的判据设计；B1/B2 已有发表基础",
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "NSFC 青年科学基金 / 优青",
@@ -97,14 +97,14 @@
    "match": [
     "基础与应用基础研究基金"
    ],
-   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
-   "apply_label": "阳光政务·申报",
    "slices": [
     "wbg-processing",
     "wbg-segregation",
     "stability-mechanism"
    ],
-   "lit_note": "省基面上偏基础但需可交付指标，加工-性能关联比纯热力学更易写实"
+   "lit_note": "省基面上偏基础但需可交付指标，加工-性能关联比纯热力学更易写实",
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "粤穗联合基金（省市联合基金）",
@@ -124,14 +124,14 @@
     "粤穗",
     "省市联合基金"
    ],
-   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
-   "apply_label": "阳光政务·申报",
    "slices": [
     "wbg-heterogeneity",
     "tandem-interface-limit",
     "operando"
    ],
-   "lit_note": "体量适中，适合把面上主线的某个子问题独立成题"
+   "lit_note": "体量适中，适合把面上主线的某个子问题独立成题",
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "广东省重点领域研发计划（各专项）",
@@ -150,14 +150,14 @@
    "match": [
     "重点领域研发"
    ],
-   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
-   "apply_label": "阳光政务·申报",
    "slices": [
     "app-scaleup",
     "app-reliability",
     "nbg-stability"
    ],
-   "lit_note": "任务导向。指标语言是效率/面积/寿命，读 D4/D5 而非机制文献"
+   "lit_note": "任务导向。指标语言是效率/面积/寿命，读 D4/D5 而非机制文献",
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "广东省基金拟立项公示",
@@ -197,14 +197,14 @@
     "研资局",
     "联合科研资助基金"
    ],
-   "apply_url": "https://grants.nsfc.gov.cn/",
-   "apply_label": "ISIS 申报系统",
    "slices": [
     "subcell-selective",
     "operando",
     "new-materials"
    ],
-   "lit_note": "需港方实质参与。港方强在表征与器件物理，B2/C1 是天然分工面"
+   "lit_note": "需港方实质参与。港方强在表征与器件物理，B2/C1 是天然分工面",
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "ITF 内地-香港科技合作资助计划 (MHKTCFS, 粤港轨)",
@@ -226,14 +226,14 @@
     "粤港",
     "科技合作资助计划"
    ],
-   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
-   "apply_label": "阳光政务·申报",
    "slices": [
     "app-scaleup",
     "app-reliability",
     "integration"
    ],
-   "lit_note": "产业导向的粤港项目，落点在放大与可靠性，而非机制"
+   "lit_note": "产业导向的粤港项目，落点在放大与可靠性，而非机制",
+   "apply_url": "https://pro.gdstc.gd.gov.cn/egrantweb/",
+   "apply_label": "阳光政务·申报"
   },
   {
    "name": "科技部 政府间国际科技创新合作专项（第一批·联合研发）",
@@ -253,14 +253,14 @@
    "match": [
     "政府间国际科技创新合作"
    ],
-   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
-   "apply_label": "国科管·项目申报",
    "slices": [
     "operando",
     "new-materials",
     "fundamental-formation"
    ],
-   "lit_note": "需境外合作单位。欧洲网络的互补能力在光谱表征（Herz/Rao）与新材料（Kovalenko/Polavarapu）"
+   "lit_note": "需境外合作单位。欧洲网络的互补能力在光谱表征与新材料体系",
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 政府间国际科技创新合作专项（第二批·联合研发）",
@@ -280,14 +280,14 @@
    "match": [
     "政府间国际科技创新合作"
    ],
-   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
-   "apply_label": "国科管·项目申报",
    "slices": [
     "operando",
     "new-materials",
     "fundamental-formation"
    ],
-   "lit_note": "同第一批，窗口不同"
+   "lit_note": "同第一批，窗口不同",
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 政府间专项·人员交流类",
@@ -306,13 +306,13 @@
    "match": [
     "人员交流"
    ],
-   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
-   "apply_label": "国科管·项目申报",
    "slices": [
     "operando",
     "fundamental-formation"
    ],
-   "lit_note": "不计限项，最适合把既有关系正式化。选一个双方都能出人出机时的小问题"
+   "lit_note": "不计限项，最适合把既有关系正式化。选一个双方都能出人出机时的小问题",
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "科技部 重点研发专项 指南征求意见",
@@ -331,13 +331,13 @@
    "match": [
     "征求意见"
    ],
-   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
-   "apply_label": "国科管·项目申报",
    "slices": [
     "app-scaleup",
     "app-reliability"
    ],
-   "lit_note": "前哨信号。看指南草案的指标语言，判断校内团队能否接住"
+   "lit_note": "前哨信号。看指南草案的指标语言，判断校内团队能否接住",
+   "apply_url": "https://service.most.gov.cn/xmtj/index.html",
+   "apply_label": "国科管·项目申报"
   },
   {
    "name": "NSFC 国际合作类项目指南（双边/合作交流）",
@@ -358,14 +358,14 @@
     "合作交流",
     "双边研讨会"
    ],
-   "apply_url": "https://grants.nsfc.gov.cn/",
-   "apply_label": "ISIS 申报系统",
    "slices": [
     "operando",
     "new-materials",
     "architecture"
    ],
-   "lit_note": "不受海优限制。以互补表征或新体系为切入点最自然"
+   "lit_note": "不受海优限制。以互补表征或新体系为切入点最自然",
+   "apply_url": "https://grants.nsfc.gov.cn/",
+   "apply_label": "ISIS 申报系统"
   },
   {
    "name": "NSFC 年度项目指南发布",
@@ -386,9 +386,242 @@
    ],
    "apply_url": "https://grants.nsfc.gov.cn/",
    "apply_label": "ISIS 申报系统"
+  },
+  {
+   "name": "何享健青年科学家项目",
+   "org": "何享健科学基金（美的创始人出资）",
+   "level": "社会/企业",
+   "months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "peak": 12,
+   "window": "约11月启动提名 · 校内遴选约12月中 · 基金会提交约次年2月初 · 结果约9月",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": 35,
+   "note": "已核实：200万/3年，每年全国不超过20人，面向「医学与生命科学」「能源环境与气候变化」两个领域，首期能源环境方向8人。限额提名制，须经学校推荐（兄弟高校名额约6项）。第二期口径为“35周岁及以下，2025年被提名人1990-01-01及以后出生”。按此递推，1991年12月出生者在本轮大概率仍在线内，而下一轮即出局——这很可能是唯一一次机会。立即与科研院/人事处确认SCUT是否为提名机构及校内截止日。",
+   "url": "https://www.hexiangjianfund.org/",
+   "apply_label": "",
+   "apply_url": "",
+   "match": [
+    "何享健"
+   ],
+   "slices": [
+    "wbg-voc",
+    "tandem-interface-limit",
+    "new-materials"
+   ],
+   "lit_note": "叙事要抬到能源转型与气候挑战层面，而非器件参数改良",
+   "source": "manual"
+  },
+  {
+   "name": "教育部 U40 青年人才项目",
+   "org": "教育部（部省联动试点）",
+   "level": "国家",
+   "months": [],
+   "peak": null,
+   "window": "时间不定；部省联动试点，需确认广东省是否已纳入",
+   "tag": "verify",
+   "confidence": "estimated",
+   "age_limit": 40,
+   "note": "2024年起设立，面向40岁以下高校教师，长周期稳定支持（公开报道称一期4年、最长10年，强度较高并由学校配套）。采部省联动试点推进，已见内蒙古等省落地。广东是否纳入、SCUT有无名额均需向人事处核实。注意：公开信息多为媒体与论坛转述，具体额度与条件以教育部正式文件为准，不可据此规划预算。",
+   "url": "http://www.moe.gov.cn/",
+   "match": [
+    "U40"
+   ],
+   "slices": [
+    "wbg-heterogeneity",
+    "tandem-interface-limit"
+   ],
+   "lit_note": "强调长周期与非共识研究，适合把A轴机制争议写成需要多年积累的问题",
+   "source": "manual"
+  },
+  {
+   "name": "光伏科学与技术全国重点实验室 开放课题",
+   "org": "天合光能（常州）",
+   "level": "企业/国重",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "peak": 5,
+   "window": "年度征集，往年约春季发布",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": 45,
+   "note": "已核实：一般课题≤10万（年龄≤35），重点课题≤30万（副高及以上、年龄≤45），均为2年。方向明确含「钙钛矿太阳电池及其叠层技术」，2025年立项含宽带隙钙钛矿光伏墨水、硅-钙钛矿叠层热稳定性。体量小但门槛低、可独立主持，且直接建立与天合的产业联系。与实验室固定人员有合作基础者优先。",
+   "url": "https://www.sklpvst.com/",
+   "match": [
+    "光伏科学与技术"
+   ],
+   "slices": [
+    "wbg-processing",
+    "app-scaleup",
+    "app-reliability"
+   ],
+   "lit_note": "企业国重看可转化性，读D轴而非纯机制；与BOE那条线互补而不冲突",
+   "source": "manual"
+  },
+  {
+   "name": "太阳能光电转化与利用全国重点实验室 开放基金",
+   "org": "中科院青岛能源所",
+   "level": "国重",
+   "months": [
+    9,
+    10
+   ],
+   "peak": 9,
+   "window": "年度征集，2025年度约9月发布",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：方向含钙钛矿太阳电池、叠层电池技术、光电转化表征新方法、太阳能光电制氢。申请人需副高或博士学位；考核含赴实验室交流≥2次、论文≥2篇。「表征新方法」是明列方向，与你的长期solar-fuels方向亦契合。",
+   "url": "https://qibebt.cas.cn/",
+   "match": [
+    "太阳能光电转化"
+   ],
+   "slices": [
+    "operando",
+    "wbg-voc",
+    "new-materials"
+   ],
+   "lit_note": "B2 子电池分辨表征可直接对应其「光电转化表征新方法」方向",
+   "source": "manual"
+  },
+  {
+   "name": "企业开放课题 / 横向合作",
+   "org": "各企业研究院（BOE、光伏与面板企业等）",
+   "level": "企业",
+   "months": [],
+   "peak": null,
+   "window": "全年不定，窗口常仅2–4周，多由企业定向邀请或经学校转发",
+   "tag": "team",
+   "confidence": "estimated",
+   "age_limit": null,
+   "note": "此类几乎不公开挂网，靠校内转发与既有联系。正在推进的2026年京东方技术策源地开放课题即属此类。值得长期经营的对象：显示面板（BOE、TCL华星）、光伏整机（天合、隆基、晶科、阳光电源）、广州本地新能源与材料企业。窗口太短，无法临时找企业，只能靠平时积累——这是爬虫覆盖不到的盲区。",
+   "url": "",
+   "match": [],
+   "slices": [
+    "app-scaleup",
+    "app-reliability",
+    "app-detector",
+    "integration"
+   ],
+   "lit_note": "企业的共同语言是指标与可靠性，不是机制故事；D4/D5 是对话入口",
+   "source": "manual"
+  },
+  {
+   "name": "光电子材料与器件全国重点实验室 开放基金",
+   "org": "中科院半导体研究所",
+   "level": "国重",
+   "months": [
+    8,
+    9,
+    10
+   ],
+   "peak": 9,
+   "window": "年度征集，2026年度约9月中发布",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：2025与2026年度均发布开放基金课题申请指南（2026年度约2026-09-17）。半导体所方向覆盖光电子材料与器件，与钙钛矿光电器件、探测器方向有交集；具体年度方向以当年指南为准。",
+   "url": "http://www.semi.ac.cn/tzgg/",
+   "match": [
+    "光电子材料与器件"
+   ],
+   "slices": [
+    "app-detector",
+    "new-materials",
+    "architecture"
+   ],
+   "lit_note": "半导体所强在器件物理与探测器，D1/E2 是交集面",
+   "source": "manual"
+  },
+  {
+   "name": "广东省可再生能源重点实验室 开放基金",
+   "org": "中科院广州能源研究所",
+   "level": "省",
+   "months": [
+    10,
+    11
+   ],
+   "peak": 11,
+   "window": "双年度征集（如2025-2026年度），约秋季发布",
+   "tag": "vip",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：中科院广州能源所主办，省级重点实验室开放基金。地理上在广州，是成本最低的本地合作入口之一；方向属可再生能源，需核对当年是否含光伏/钙钛矿。",
+   "url": "https://giec.cas.cn/tzgg2016/",
+   "match": [
+    "可再生能源重点实验室"
+   ],
+   "slices": [
+    "app-scaleup",
+    "integration"
+   ],
+   "lit_note": "本地合作价值高于经费本身；适合与广州能源所建立联系",
+   "source": "manual"
+  },
+  {
+   "name": "广东省退役新能源器件高质循环利用重点实验室 开放基金",
+   "org": "中科院广州能源研究所",
+   "level": "省",
+   "months": [
+    10,
+    11
+   ],
+   "peak": 10,
+   "window": "双年度征集（2026-2027年度于2025-10发布，截止2025-11-15）",
+   "tag": "verify",
+   "confidence": "verified",
+   "age_limit": null,
+   "note": "已核实：2026-2027年度指南于2025年10月发布。方向为新能源器件回收与循环利用，与钙钛矿器件的含铅回收/寿命终期处理有潜在交集，但非你的主线；若未来做器件回收或铅封存方向可考虑。",
+   "url": "https://giec.cas.cn/tzgg2016/",
+   "match": [
+    "退役新能源器件"
+   ],
+   "slices": [
+    "app-reliability"
+   ],
+   "lit_note": "仅在做到器件寿命终期/铅管理时才相关，目前属观察项",
+   "source": "manual"
   }
  ],
  "manual_sources": [
+  {
+   "name": "中科院广州能源研究所 通知公告",
+   "url": "https://giec.cas.cn/tzgg2016/",
+   "freq": "每季度",
+   "why": "两个省级重点实验室开放基金在此发布；广州本地，合作成本最低"
+  },
+  {
+   "name": "光电子材料与器件全国重点实验室（中科院半导体所）",
+   "url": "http://www.semi.ac.cn/tzgg/",
+   "freq": "每年8–10月",
+   "why": "年度开放基金，光电子器件方向"
+  },
+  {
+   "name": "太阳能光电转化与利用全国重点实验室（中科院青岛）",
+   "url": "https://qibebt.cas.cn/",
+   "freq": "每季度",
+   "why": "方向含钙钛矿、叠层、光电制氢与表征新方法"
+  },
+  {
+   "name": "光伏科学与技术全国重点实验室（天合光能）",
+   "url": "https://www.sklpvst.com/",
+   "freq": "每季度",
+   "why": "钙钛矿叠层方向的企业国重开放课题，门槛低、可独立主持"
+  },
+  {
+   "name": "何享健科学基金",
+   "url": "https://www.hexiangjianfund.org/",
+   "freq": "每年10–12月重点关注",
+   "why": "限额提名制，错过校内遴选即无法申报；年龄线已临近"
+  },
   {
    "name": "科技部·国科管平台 通知公告",
    "url": "https://service.most.gov.cn/kjjh_tztg_all/",
@@ -438,5 +671,9 @@
    "why": "定向邀请、企业联合、短窗口项目只走内部渠道，任何爬虫都抓不到。确保已在材料学院与重点实验室的通知分发名单内（可找袁老师/郑凯文确认）"
   }
  ],
- "_lit_base": "https://lens-laboratory.com/group-lit-feed/"
+ "_lit_base": "https://lens-laboratory.com/group-lit-feed/",
+ "_profile": {
+  "birth": "1991-12",
+  "note": "年龄规则多按“提名/申报当年1月1日”或“当年度”计算，各家口径不一；下列 age_limit 仅用于排期提醒，务必以当年官方文件为准"
+ }
 }
