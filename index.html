@@ -117,6 +117,30 @@
   .chk .fq{font-family:var(--mono);font-size:10.5px;color:var(--warn);background:var(--warn-bg);padding:1px 6px;border-radius:3px;flex:none}
   .opt{display:inline-flex;gap:6px;align-items:center;cursor:pointer;font-family:var(--mono);
        font-size:12px;color:var(--soft);margin-bottom:8px}
+  .cogroup{margin-bottom:20px}
+  .cogroup h3{font-size:13px;color:var(--navy);margin:0 0 3px;padding-bottom:5px;
+              border-bottom:2px solid var(--line);font-weight:700}
+  .cogroup h3 span{font-family:var(--mono);font-size:10.5px;color:var(--faint);font-weight:400}
+  .cogroup .ghint{margin:6px 0 10px}
+  .co{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--edge,var(--line));
+      border-radius:9px;padding:12px 15px;margin-top:9px}
+  .co.watch{opacity:.62}
+  .co-h{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+  .co-n{font-size:14.5px;font-weight:650}
+  .co-b{font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+  .w{font-family:var(--mono);font-size:10px;font-weight:700;padding:1px 6px;border-radius:4px}
+  .w-warm{background:var(--vip-bg);color:var(--vip);border:1px solid var(--vip-bd)}
+  .w-lead{background:var(--team-bg);color:var(--team);border:1px solid var(--team-bd)}
+  .w-watch{background:var(--verify-bg);color:var(--soft)}
+  .sz{font-family:var(--mono);font-size:10px;padding:1px 6px;border-radius:4px;
+      background:var(--verify-bg);color:var(--soft)}
+  .co-st{font-family:var(--mono);font-size:10.5px;color:var(--warn);background:var(--warn-bg);
+         padding:1px 6px;border-radius:4px}
+  .co-ev{font-size:12px;color:var(--faint);margin-top:7px;line-height:1.5}
+  .co-of{font-size:12.5px;color:var(--ink);margin-top:7px}
+  .co-of b{color:var(--navy);font-weight:600}
+  .co-nt{font-size:12px;color:var(--team);margin-top:5px;line-height:1.5}
+  .co-via{font-family:var(--mono);font-size:10.5px;color:var(--vip);margin-top:5px}
   .disclaim{background:var(--warn-bg);border:1px solid #f0d9cd;color:var(--warn);border-radius:9px;
             padding:10px 13px;font-size:12.5px;margin-bottom:16px}
 </style>
@@ -129,6 +153,7 @@
     <button class="tab active" data-v="cal">申报日历</button>
     <button class="tab" data-v="open">当前在招</button>
     <button class="tab" data-v="all">全部通知</button>
+    <button class="tab" data-v="co">企业横向</button>
     <button class="tab" data-v="chk">人工巡检</button>
   </div>
 </div></header>
@@ -154,6 +179,14 @@
     <h2>全部通知</h2>
     <p class="hint">含事务性通知（灰显）。红标为规则上不可申报者，仍完整列出、置底。</p>
     <div id="alllist"></div>
+  </section>
+
+  <section id="v-co" hidden>
+    <h2>企业横向合作名录</h2>
+    <p class="hint">企业没有申报窗口，只有关系状态——所以这里按「可推进程度」排列，而非按月份。
+       <b>可对企业承诺的一律是失效分析与机理</b>，不承诺效率记录或产线指标：前者是企业买不到的，
+       后者你无法在设备未定前保证。专利或融资只说明企业有投入，不等于有外部科研预算，接触前请自行确认。</p>
+    <div id="colist"></div>
   </section>
 
   <section id="v-chk" hidden>
@@ -374,6 +407,63 @@ function renderCal(c, recs){
   el("calpanel").innerHTML=h;
 }
 
+const WARM={warm:["w-warm","已有联系"],lead:["w-lead","可主动接触"],watch:["w-watch","暂观察"]};
+const WEDGE={warm:"var(--gold)",lead:"var(--team)",watch:"var(--line)"};
+
+function coCard(c){
+  const w=c.warmth||"watch", lab=WARM[w]||WARM.watch;
+  const lits=(c.slices||[]).map(sl=>'<a class="lk lk-lit" href="'+LIT_BASE+'plain-'+esc(sl)+
+      '.html" target="_blank" rel="noopener">📚 '+esc(SLICE_LABEL[sl]||sl)+'</a>').join("");
+  return '<article class="co'+(w==="watch"?" watch":"")+'" style="--edge:'+WEDGE[w]+'">'+
+    '<div class="co-h"><span class="co-n">'+
+      (c.url?'<a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+esc(c.name)+'</a>':esc(c.name))+
+      '</span><span class="w '+lab[0]+'">'+lab[1]+'</span>'+
+      '<span class="sz">'+esc(c.size||"")+'</span>'+
+      '<span class="co-b">'+esc(c.base||"")+(c.segment?' · '+esc(c.segment):"")+'</span>'+
+      (c.status?'<span class="co-st">'+esc(c.status)+'</span>':"")+'</div>'+
+    (c.evidence?'<div class="co-ev">'+esc(c.evidence)+'</div>':"")+
+    (c.offer?'<div class="co-of"><b>可承诺：</b>'+esc(c.offer)+'</div>':"")+
+    (c.offer_note?'<div class="co-nt">'+esc(c.offer_note)+'</div>':"")+
+    (c.via?'<div class="co-via">↳ 引荐路径：'+esc(c.via)+'</div>':"")+
+    (lits?'<div class="rowlinks">'+lits+'</div>':"")+
+    '</article>';
+}
+
+function renderCompanies(list){
+  if(!list||!list.length){
+    el("colist").innerHTML='<div class="empty">未读取到企业名录。'+
+      '请确认 <code>data/calendar_seed.json</code> 中存在 <code>companies</code> 字段。</div>';
+    return;
+  }
+  // Ordered by how soon you could act, not by company size.
+  const G=[
+    ["warm","已有联系 · 可直接推进",
+     "有现成联络或引荐人，不需要冷启动——优先消耗在这里"],
+    ["lead","可主动接触 · 需冷启动",
+     "有明确切入点但无既有联系；建议在有一个已完成的横向案例后再谈大型企业"],
+    ["watch","暂观察",
+     "有兴趣迹象但未必有外部科研预算，或需引荐、或需先积累信用"],
+  ];
+  let h='<div class="calsum">共 <b>'+list.length+'</b> 家 · '+
+        G.map(([k,lb])=>lb.split(" · ")[0]+" "+list.filter(c=>c.warmth===k).length).join(" · ")+
+        '</div>';
+  const placed=new Set();
+  G.forEach(([k,label,hint])=>{
+    const rows=list.filter(c=>c.warmth===k);
+    if(!rows.length) return;
+    rows.forEach(r=>placed.add(r));
+    h+='<div class="cogroup"><h3>'+esc(label)+' <span>'+rows.length+'</span></h3>'+
+       '<p class="ghint">'+esc(hint)+'</p>'+rows.map(coCard).join("")+'</div>';
+  });
+  const rest=list.filter(c=>!placed.has(c));
+  if(rest.length){
+    h+='<div class="cogroup"><h3>其他 <span>'+rest.length+'</span></h3>'+
+       '<p class="ghint">warmth 字段缺失或不在 warm/lead/watch 之内，已单独列出以免遗漏。</p>'+
+       rest.map(coCard).join("")+'</div>';
+  }
+  el("colist").innerHTML=h;
+}
+
 function renderChk(list){
   el("chklist").innerHTML=(list||[]).map(s=>
     '<div class="chk"><div class="nm">'+(s.url?'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a>':esc(s.name))+'</div>'+
@@ -384,8 +474,9 @@ function renderChk(list){
 Promise.all([
   fetch("data/notices.json").then(r=>{if(!r.ok)throw new Error("notices.json HTTP "+r.status);return r.json();})
     .catch(e=>{window.__nerr=String(e.message||e);return {notices:[]};}),
-  fetch("data/calendar.json").then(r=>r.json()).catch(()=>({}))
-]).then(([nd,cd])=>{
+  fetch("data/calendar.json").then(r=>r.json()).catch(()=>({})),
+  fetch("data/calendar_seed.json").then(r=>r.json()).catch(()=>({}))
+]).then(([nd,cd,sd])=>{
   const recs=nd.notices||[];
   const opp=recs.filter(r=>r.is_opportunity);
   const oldest=recs.map(r=>r.published).filter(Boolean).sort()[0]||"—";
@@ -393,6 +484,7 @@ Promise.all([
                         +opp.length+" 条 · 回溯至 "+oldest;
   renderCal(cd, recs);
   renderChk(cd.manual_sources);
+  renderCompanies(sd.companies||[]);
   const openAll=sortRecs(opp.filter(r=>r.status==="open"||(r.deadline&&r.deadline>=TODAY)));
   function paintOpen(){
     const only=el("relonly")&&el("relonly").checked;
@@ -414,7 +506,7 @@ Promise.all([
 
 document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===t));
-  ["cal","open","all","chk"].forEach(v=>el("v-"+v).hidden=(v!==t.dataset.v));
+  ["cal","open","all","co","chk"].forEach(v=>el("v-"+v).hidden=(v!==t.dataset.v));
 }));
 </script>
 </body>
