@@ -758,5 +758,251 @@
  "_profile": {
   "birth": "1991-12",
   "note": "年龄规则多按“提名/申报当年1月1日”或“当年度”计算，各家口径不一；下列 age_limit 仅用于排期提醒，务必以当年官方文件为准"
- }
+ },
+ "_companies_readme": [
+  "企业横向合作名录。与 anchors 不同：没有申报窗口，只有关系状态。",
+  "warmth: warm=已有联系可直接谈 · lead=有切入点需主动接触 · watch=暂观察",
+  "status 字段供手工维护（未接触/已联系/洽谈中/已签约），每次接触后自行更新。",
+  "evidence 标注信息来源与可信度；专利或融资只代表有投入，不等于有外部科研预算。",
+  "offer 是可对企业承诺的交付物——一律是失效分析与机理，不承诺效率记录或器件产线指标。"
+ ],
+ "companies": [
+  {
+   "name": "脉络能源",
+   "base": "广州",
+   "region": "广东",
+   "size": "初创",
+   "warmth": "warm",
+   "status": "已有联系（ITF 粤港轨拟邀产业伙伴）",
+   "segment": "钙钛矿组件",
+   "evidence": "暨南大学麦耀华团队背景；已在你的 ITF 粤港项目中作为拟邀产业方",
+   "offer": "子电池分辨的衰减归因；界面损失定位（QFLS/PLQY）",
+   "offer_note": "同城、学术出身、已有对话语境——最低成本的第一个横向",
+   "slices": [
+    "subcell-selective",
+    "stability-mechanism"
+   ],
+   "url": "",
+   "via": "ITF 项目既有联络"
+  },
+  {
+   "name": "仁烁光能",
+   "base": "无锡",
+   "region": "长三角",
+   "size": "成长",
+   "warmth": "warm",
+   "status": "未接触（但有直接引荐人）",
+   "segment": "全钙钛矿叠层",
+   "evidence": "谭海仁创办；全钙钛矿叠层方向，与你的主线完全重合",
+   "offer": "叠层稳定性归因；原位老化表征",
+   "offer_note": "谭海仁是你名录中的合作者——引荐路径最短，技术重合度最高",
+   "slices": [
+    "tandem-interface-limit",
+    "subcell-selective",
+    "operando"
+   ],
+   "url": "",
+   "via": "谭海仁"
+  },
+  {
+   "name": "京东方 BOE",
+   "base": "北京/广州",
+   "region": "全国",
+   "size": "大型",
+   "warmth": "warm",
+   "status": "推进中（2026 技术策源地开放课题）",
+   "segment": "显示面板 / 钙钛矿光伏",
+   "evidence": "已核实：2026年度课题推进中，方向为稳定性与原位老化分析（85°C MPPT）",
+   "offer": "已承诺方向：界面机理与老化分析",
+   "offer_note": "正在进行的样板案例——完成后即可作为对其他企业的信用凭证",
+   "slices": [
+    "app-reliability",
+    "operando",
+    "stability-mechanism"
+   ],
+   "url": "",
+   "via": "校内同事引荐"
+  },
+  {
+   "name": "光因科技 SolaEon",
+   "base": "深圳",
+   "region": "广东",
+   "size": "初创",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "钙钛矿组件 / 消费电子 / 空间光伏",
+   "evidence": "已核实：2025-12 完成亿元级 A+ 轮融资；成立不足四年；深圳产线",
+   "offer": "失效分析与机理；85°C MPPT 失效模式；界面损失定位",
+   "offer_note": "冷接触中最优者：新获融资、初创无内部失效分析能力、同省可当天往返",
+   "slices": [
+    "app-reliability",
+    "stability-mechanism",
+    "operando"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "爱旭股份 Aiko",
+   "base": "珠海",
+   "region": "广东",
+   "size": "大型",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "BC 电池 / 钙钛矿叠层探索",
+   "evidence": "已核实：2026-08 与上海叶烁开展喷墨打印钙钛矿薄膜均匀性联合攻关；2026-02 与 TCL中环 达成 16.5亿元 BC 专利许可",
+   "offer": "薄膜均匀性与组分不均匀性的表征与归因",
+   "offer_note": "喷墨均匀性问题正对应 A4 组分不均匀切片；但大型企业宜等你有已完成案例后再谈",
+   "slices": [
+    "wbg-heterogeneity",
+    "wbg-processing"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "捷佳伟创",
+   "base": "深圳",
+   "region": "广东",
+   "size": "大型",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "光伏设备（含钙钛矿产线设备）",
+   "evidence": "深圳本地光伏设备龙头，在钙钛矿设备产业链中被反复提及",
+   "offer": "工艺窗口与成膜质量的表征反馈；设备工艺的机理解释",
+   "offer_note": "设备商比器件商更需要“为什么这样镀膜更好”的解释，且不与你竞争器件指标",
+   "slices": [
+    "fundamental-formation",
+    "wbg-processing",
+    "app-scaleup"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "比亚迪 BYD",
+   "base": "深圳",
+   "region": "广东",
+   "size": "大型",
+   "warmth": "watch",
+   "status": "未接触",
+   "segment": "钙钛矿电池（专利布局）",
+   "evidence": "已核实：2025-08 公开钙钛矿电池效率与稳定性相关专利",
+   "offer": "（暂不主动接触）",
+   "offer_note": "专利布局只说明有兴趣，不等于有外部科研预算；需引荐，建议后置",
+   "slices": [
+    "stability-mechanism"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "TCL 中环 / TCL 科技",
+   "base": "惠州/天津",
+   "region": "广东",
+   "size": "大型",
+   "warmth": "watch",
+   "status": "未接触",
+   "segment": "硅片与组件 / 显示",
+   "evidence": "2024–25 年公开信息显示有钙钛矿方向布局；2026-02 BC 专利许可交易",
+   "offer": "（暂不主动接触）",
+   "offer_note": "显示侧与 SKLLM 既有产业关系可能更直接——先问袁老师/马院士校内是否已有通道",
+   "slices": [
+    "app-led",
+    "app-scaleup"
+   ],
+   "url": "",
+   "via": "或可经 SKLLM 既有显示产业关系"
+  },
+  {
+   "name": "协鑫光电 GCL",
+   "base": "昆山",
+   "region": "长三角",
+   "size": "成长",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "钙钛矿组件（GW 级产线）",
+   "evidence": "GW 级产线，产业化程度最高的一家",
+   "offer": "大面积组件的失效归因与可靠性分析",
+   "offer_note": "产线最成熟，对“为什么失效”的需求也最具体",
+   "slices": [
+    "app-scaleup",
+    "app-reliability"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "极电光能 UtmoLight",
+   "base": "无锡",
+   "region": "长三角",
+   "size": "成长",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "钙钛矿组件",
+   "evidence": "与天合系关联；在 GW 级产线企业盘点中出现",
+   "offer": "稳定性机理与界面分析",
+   "offer_note": "与「光伏科学与技术全国重点实验室」开放课题可能是同一关系网，可一并经营",
+   "slices": [
+    "app-reliability",
+    "tandem-interface-limit"
+   ],
+   "url": "",
+   "via": "或可经天合国重开放课题建立"
+  },
+  {
+   "name": "纤纳光电 Microquanta",
+   "base": "杭州",
+   "region": "长三角",
+   "size": "成长",
+   "warmth": "watch",
+   "status": "未接触",
+   "segment": "钙钛矿组件（最早商业化者之一）",
+   "evidence": "国内最早一批钙钛矿商业化企业",
+   "offer": "长期稳定性与户外失效分析",
+   "offer_note": "成立早、自有积累多，对外部分析的需求可能低于新进入者",
+   "slices": [
+    "app-reliability"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "黑晶光电",
+   "base": "嘉兴",
+   "region": "长三角",
+   "size": "成长",
+   "warmth": "lead",
+   "status": "未接触",
+   "segment": "钙钛矿 / 叠层",
+   "evidence": "在钙钛矿组件生产企业盘点中列出，含叠层方向",
+   "offer": "叠层器件的子电池分辨分析",
+   "offer_note": "叠层方向与你重合度高",
+   "slices": [
+    "tandem-interface-limit",
+    "subcell-selective"
+   ],
+   "url": "",
+   "via": ""
+  },
+  {
+   "name": "小型初创与新进入者（持续观察）",
+   "base": "全国",
+   "region": "全国",
+   "size": "初创",
+   "warmth": "watch",
+   "status": "持续观察",
+   "segment": "钙钛矿消费电子 / 空间光伏 / 新进入者",
+   "evidence": "已核实：2026 年内钙钛矿领域投融资逾 50 亿元；报道称超 10 家企业高调入场；初创公司正涌入消费电子赛道以避开光伏价格战；空间光伏成为 2026 催化主线",
+   "offer": "失效分析与机理（小企业最缺、最买得起的一项）",
+   "offer_note": "小企业是性价比最高的对象：决策链短、无内部表征团队、单个项目体量对你已足够。但也最脆弱——签约前确认其融资状态与付款能力，避免项目中途断供。关注渠道：索比光伏网、艾邦光伏网、投资界/PEdaily 融资快讯",
+   "slices": [
+    "app-reliability",
+    "app-indoor",
+    "integration"
+   ],
+   "url": "https://news.solarbe.com/",
+   "via": ""
+  }
+ ]
 }
