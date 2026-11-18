@@ -1,7 +1,26 @@
 {
- "generated": "2026-11-17 04:17 UTC",
- "count": 500,
+ "generated": "2026-11-18 03:16 UTC",
+ "count": 501,
  "notices": [
+  {
+   "id": "gz_portal:11106484",
+   "title": "广州市卫生健康委员会关于下达2027年度广州市卫生健康科技一般引导项目和两新项目的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11106484.html",
+   "department": "广州市卫生健康委员会",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-11-17",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": false,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "gz_portal:11100517",
    "title": "广州市科学技术局关于组织开展广州市科技保险保费补助申报工作的通知",
