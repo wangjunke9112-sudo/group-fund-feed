@@ -1,7 +1,26 @@
 {
- "generated": "2026-11-20 02:47 UTC",
- "count": 501,
+ "generated": "2026-11-21 02:57 UTC",
+ "count": 502,
  "notices": [
+  {
+   "id": "gz_portal:11114484",
+   "title": "广州市规划和自然资源局关于公开征集广州市工程系列地质勘查工程和自然资源工程海洋专业技术人才职称评审委员会评委专家的通知",
+   "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11114484.html",
+   "department": "广州市规划和自然资源局",
+   "source_id": "gz_portal",
+   "source_name": "广州市政府门户·通知公告",
+   "level": "市",
+   "published": "2026-11-20",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "is_opportunity": true,
+   "relevant": false,
+   "keywords": [],
+   "tags": [
+    "verify"
+   ],
+   "status": "unknown"
+  },
   {
    "id": "gz_portal:11106484",
    "title": "广州市卫生健康委员会关于下达2027年度广州市卫生健康科技一般引导项目和两新项目的通知",
